@@ -1,0 +1,17 @@
+---
+  title: Foodie Blog
+  layout: "base.njk"
+---
+
+<section class="chapter">
+  <h1>Foodie Blog</h1>
+
+  <ul>
+    {%- for post in collections.foodie | reverse -%}
+
+    {% include "blog-snippet.njk" %}
+
+    {%- endfor -%}
+  </ul>
+
+</section>
