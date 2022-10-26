@@ -1,0 +1,16 @@
+---
+  title: Tina's Mission
+  layout: "base.njk"
+  montra: Tina's Mission
+---
+
+<section class="chapter">
+  <ul>
+    {%- for post in collections.tinasmission | reverse -%}
+
+    {% include "blog-snippet.njk" %}
+
+    {%- endfor -%}
+  </ul>
+
+</section>

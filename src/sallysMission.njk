@@ -1,13 +1,12 @@
 ---
-  title: Foodie Blog
+  title: Sally's Mission
   layout: "base.njk"
+  montra: Sally's Mission
 ---
 
 <section class="chapter">
-  <h1>Foodie Blog</h1>
-
   <ul>
-    {%- for post in collections.foodie | reverse -%}
+    {%- for post in collections.sallysmission | reverse -%}
 
     {% include "blog-snippet.njk" %}
 

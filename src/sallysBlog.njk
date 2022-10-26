@@ -1,0 +1,24 @@
+---
+  title: Shopping Cart Sally
+  layout: "base.njk"
+  montra: Sally's Mission
+---
+<div class="missionLink navLink">
+  <a href="/sallysMission" title="Sally's Mission"><img src="/assets/icons8-parchment-ios-16-96.png" /></a>
+</div>
+
+{% include "returnLink.njk" %}
+
+<section class="welcome chapter">
+  <p>Hello my name is Sally</p>
+</section>
+
+<section class="chapter">
+  <ul>
+    {%- for post in collections.sallyspost | reverse -%}
+
+    {% include "blog-snippet.njk" %}
+
+    {%- endfor -%}
+  </ul>
+</section>
