@@ -7,6 +7,8 @@
  }
 
  body {
+  font-family: "Roboto";
+  font-weight: 900;
    background-image: url("./assets/Vintage Wrinkled.jpg");
    background-size: cover;
    background-repeat: no-repeat;
@@ -175,4 +177,17 @@
    background-color: burlywood;
    padding: 1em 0;
    text-align: center;
+ }
+
+ @media (min-width: 700px) {
+  .page-header {
+   margin: 3em auto;
+    font-size: 1.75em;
+  }
+ }
+ @media (min-width: 1000px) {
+  .page-header {
+   margin: 1.5em auto;
+    font-size: 2em;
+  }
  }
