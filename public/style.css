@@ -160,7 +160,9 @@
  }
 
  .returnLink {
-   padding-left: .5em;
+  position: fixed;
+  top: 1em;
+  left: 1em;
  }
 
  .hubLinks {
