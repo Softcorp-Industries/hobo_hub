@@ -11,5 +11,11 @@
 {% include "returnLink.njk" %}
 
 <section class="chapter">
-  
+  <ul>
+    {%- for post in collections.larryspost | reverse -%}
+
+    {% include "blog-snippet.njk" %}
+
+    {%- endfor -%}
+  </ul>
 </section>

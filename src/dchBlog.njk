@@ -1,5 +1,5 @@
 ---
-  title: Duey Cheatem and Howe
+  title: Duey Cheatem & Howe
   layout: "base.njk"
   montra: DCH's Mission
 ---
@@ -11,5 +11,11 @@
 {% include "returnLink.njk" %}
 
 <section class="chapter">
-  
+  <ul>
+    {%- for post in collections.dchspost | reverse -%}
+
+    {% include "blog-snippet.njk" %}
+
+    {%- endfor -%}
+  </ul>
 </section>
