@@ -167,7 +167,7 @@
 
  .snippet {
   margin: 2em auto;
-  max-width: 600px;
+  max-width: 450px;
    padding: .75em;
    display: flex;
    flex-direction: column;
@@ -181,22 +181,22 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: .5em;
  }
  .snippet__header article {
   width: 75%;
  }
  .snippet__title {
-  font-size: 1.5em;
+  font-size: 1.25em;
  }
  .snippet__meta {
-  font-size: .6em;
+  font-size: .7em;
  }
 
  .snippet img {
    display: block;
-   width: 75px;
-   height: 75px;
-   border-radius: 50%;
+   width: 65px;
+   height: 65px;
  }
  .snippet article {
   width: 100%;
