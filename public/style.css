@@ -9,19 +9,18 @@
  body {
    font-family: "Roboto";
    font-weight: 900;
-   background-image: url("./assets/Vintage Wrinkled.jpg");
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
+
  }
-.blogImage {
-  margin: auto;
-  width: 80%;
-  max-width: 750px;
-}
-.blogImage img {
-  width: 100%;
-}
+
+ .blogImage {
+   margin: auto;
+   width: 80%;
+   max-width: 750px;
+ }
+
+ .blogImage img {
+   width: 100%;
+ }
 
  .logoBrand {
    width: 100%;
@@ -38,13 +37,14 @@
  }
 
  .page-header {
-  margin-top: 5em;
    width: 100%;
    padding: 1em 0;
+   padding-top: 6em;
    text-align: center;
    letter-spacing: 1px;
    font-size: .8em;
-   text-shadow: 0 0 3px white;
+   background-color: rgb(230, 230, 230);
+   box-shadow: 0 0 4px 1px black;
  }
 
  .hubNav {
@@ -54,6 +54,7 @@
    position: relative;
    max-width: 500px;
    margin-bottom: 4.5em;
+
  }
 
  #sallysIcon {
@@ -89,12 +90,12 @@
  }
 
  .missionLink {
-   position: fixed;
-   top: 1em;
+   position: absolute;
+   top: .5em;
    padding: .5em;
    text-align: center;
-   background-color: burlywood;
    border-radius: 50%;
+  background-color: whitesmoke;
    box-shadow: 0 0 4px 1px black;
  }
 
@@ -109,13 +110,13 @@
  }
 
  .mailLink {
-   position: fixed;
-   top: 1em;
+   position: absolute;
+   top: .5em;
    left: 1em;
    padding: .5em;
    text-align: center;
-   background-color: burlywood;
    border-radius: 50%;
+   background-color: whitesmoke;
    box-shadow: 0 0 4px 1px black;
  }
 
@@ -127,9 +128,8 @@
    margin: .5em 0;
    width: 75px;
    height: 75px;
-   background-color: burlywood;
    border-radius: 50%;
-   box-shadow: 0 0 4px 1px black;
+  box-shadow: 0 0 4px 1px black;
  }
 
  .hubLink a {
@@ -137,6 +137,8 @@
    display: block;
    width: 50px;
    text-decoration: none;
+   border-radius: 50%;
+  
  }
 
  .hubLink a img {
@@ -154,15 +156,16 @@
    flex-direction: column;
  }
 
- .missionLink a img, .mailLink a img {
+ .missionLink a img,
+ .mailLink a img {
    width: 40px;
    height: 40px;
  }
 
  .returnLink {
-  position: fixed;
-  top: 1em;
-  left: 1em;
+   position: fixed;
+   top: 1.5em;
+   left: 1em;
  }
 
  .hubLinks {
@@ -175,6 +178,21 @@
    text-decoration: none;
  }
 
+ .welcome {
+   margin: auto;
+   padding: 1em;
+   max-width: 800px;
+   letter-spacing: 1px;
+   font-size: 1.2em;
+ }
+
+ .welcome .lead {
+   font-size: 1.3em;
+ }
+ .welcome p {
+  line-height: 1.3;
+  margin: .5em 0;
+ }
  .welcome span {
    color: red;
    font-family: "Titan One";
@@ -195,7 +213,7 @@
    display: flex;
    flex-direction: column;
    align-items: center;
-   background-color: burlywood;
+   background-color: rgb(230, 230, 230);
    border-radius: .5em;
    box-shadow: 0 0 4px 1px black;
  }
@@ -235,13 +253,12 @@
  }
 
  footer {
-
    width: 100%;
    box-shadow: 0 0 4px 1px black;
  }
 
  footer p {
-   background-color: burlywood;
+   background-color: rgb(230, 230, 230);
    padding: 1em 0;
    text-align: center;
  }
@@ -249,6 +266,9 @@
  @media (min-width: 400px) {
    body {
      font-size: 18px;
+   }
+   .page-header {
+    font-size: .9em;
    }
 
    .hubNav {
@@ -264,19 +284,26 @@
      width: 65px;
    }
  }
-@media (min-width: 600px) {
-  .page-header {
-    font-size: 1em;
-    margin-top: 1em;
-    }
-}
+
+ @media (min-width: 600px) {
+   .page-header {
+     font-size: 1em;
+     padding-top: 1em;
+   }
+ }
+
  @media (min-width: 700px) {
    .page-header {
-    margin-top: 0;
      width: 100%;
      font-size: 1.4em;
    }
-
+   .missionLink, .mailLink {
+    top: 1.5em;
+   }
+   
+    .returnLink {
+      top: 2.25em;
+    }
    .logoBrand {
      letter-spacing: 3px;
      font-size: 4em;
@@ -297,9 +324,17 @@
      padding-top: .5em;
      font-size: 2em;
    }
+   .returnLink {
+      top: 1.75em;
+      font-size: 1.25em;
+   }
+         .missionLink a img,
+         .mailLink a img {
+           width: 60px;
+           height: 60px;
+         }
 
    .hubNav {
-     margin-top: 2.5em;
      height: 400px;
    }
 
