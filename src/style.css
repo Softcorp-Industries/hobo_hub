@@ -31,53 +31,54 @@
  }
 
  .page-header {
+  margin-top: 5em;
    width: 100%;
    padding: 1em 0;
    text-align: center;
    letter-spacing: 1px;
-   font-size: 1em;
+   font-size: .8em;
    text-shadow: 0 0 3px white;
  }
 
  .hubNav {
    margin: auto;
-   margin-top: 6em;
+   margin-top: 3.25em;
    height: 300px;
    position: relative;
-   max-width: 550px;
+   max-width: 500px;
    margin-bottom: 4.5em;
  }
 
  #sallysIcon {
-   top: -4em;
+   top: -2em;
    left: 50%;
    transform: translateX(-50%);
  }
 
  #timsIcon {
-   top: 1em;
-   left: 5%;
+   top: 1.5em;
+   left: 1.5em;
  }
 
  #tinasIcon {
-   top: 1em;
-   right: 5%;
+   top: 1.5em;
+   right: 1.5em;
  }
 
  #feelgoodIcon {
-   bottom: -4em;
+   bottom: -2em;
    left: 50%;
    transform: translateX(-50%);
  }
 
  #lunchboxIcon {
-   bottom: 1em;
-   left: 5%;
+   bottom: 1.5em;
+   left: 1.5em;
  }
 
  #legalIcon {
-   bottom: 1em;
-   right: 5%;
+   bottom: 1.5em;
+   right: 1.5em;
  }
 
  .missionLink {
@@ -254,12 +255,17 @@
      width: 65px;
    }
  }
-
+@media (min-width: 600px) {
+  .page-header {
+    font-size: 1em;
+    margin-top: 1em;
+    }
+}
  @media (min-width: 700px) {
    .page-header {
-     padding-top: 2.25em;
+    margin-top: 0;
      width: 100%;
-     font-size: 1.75em;
+     font-size: 1.4em;
    }
 
    .logoBrand {
@@ -269,6 +275,7 @@
 
    .hubNav {
      margin-top: 4em;
+     height: 400px;
    }
 
    .chapter p {
