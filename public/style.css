@@ -7,71 +7,79 @@
  }
 
  body {
-  font-family: "Roboto";
-  font-weight: 900;
+   font-family: "Roboto";
+   font-weight: 900;
    background-image: url("./assets/Vintage Wrinkled.jpg");
    background-size: cover;
    background-repeat: no-repeat;
    background-attachment: fixed;
  }
- 
+
 
  .logoBrand {
-  width: 100%;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-  color: red;
-  letter-spacing: 1px;
-  font-size: 3em;
-  font-weight: 600;
-  font-family: "Titan One";
+   width: 100%;
+   position: absolute;
+   top: 40%;
+   left: 50%;
+   transform: translateX(-50%);
+   text-align: center;
+   color: red;
+   letter-spacing: 1px;
+   font-size: 3em;
+   font-weight: 600;
+   font-family: "Titan One";
  }
 
  .page-header {
-  width: 75%;
+   width: 75%;
    padding: 1em 0;
    text-align: center;
    letter-spacing: 1px;
    font-size: 1em;
    text-shadow: 0 0 3px white;
-  }
-  .hubNav {
-    margin: auto;
-    margin-top: 6em;
-    height: 300px;
-    position: relative;
-    max-width: 550px;
-    margin-bottom: 4.5em;
  }
+
+ .hubNav {
+   margin: auto;
+   margin-top: 6em;
+   height: 300px;
+   position: relative;
+   max-width: 550px;
+   margin-bottom: 4.5em;
+ }
+
  #sallysIcon {
-  top: -4em;
-  left: 50%;
-  transform: translateX(-50%);
+   top: -4em;
+   left: 50%;
+   transform: translateX(-50%);
  }
+
  #timsIcon {
-  top: 1em;
-  left: 5%;
+   top: 1em;
+   left: 5%;
  }
+
  #tinasIcon {
-  top: 1em;
-  right: 5%;
+   top: 1em;
+   right: 5%;
  }
+
  #feelgoodIcon {
-  bottom: -4em;
-  left: 50%;
-  transform: translateX(-50%);
+   bottom: -4em;
+   left: 50%;
+   transform: translateX(-50%);
  }
+
  #lunchboxIcon {
-  bottom: 1em;
-  left: 5%;
+   bottom: 1em;
+   left: 5%;
  }
+
  #legalIcon {
-  bottom: 1em;
-  right: 5%;
+   bottom: 1em;
+   right: 5%;
  }
+
  .missionLink {
    position: fixed;
    top: 1em;
@@ -93,10 +101,10 @@
  }
 
  .hubLink {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+   position: absolute;
+   display: flex;
+   align-items: center;
+   justify-content: center;
    margin: .5em 0;
    width: 75px;
    height: 75px;
@@ -111,20 +119,23 @@
    width: 50px;
    text-decoration: none;
  }
+
  .hubLink a img {
-  width: 100%;
-  display: block;
+   width: 100%;
+   display: block;
  }
 
  .missionLink {
    right: 1em;
-  }
-  .missionLink a {
-    display: flex;
-    flex-direction: column;
  }
+
+ .missionLink a {
+   display: flex;
+   flex-direction: column;
+ }
+
  .missionLink a img {
-  width: 40px;
+   width: 40px;
  }
 
  .returnLink {
@@ -142,14 +153,14 @@
  }
 
  .welcome span {
-  color: red;
-  font-family: "Titan One";
+   color: red;
+   font-family: "Titan One";
  }
 
  .chapter {
    margin: 1em auto;
-   padding: 1em;
-   max-width: 1000px;
+   padding: 1.5em;
+   max-width: 900px;
  }
 
  .chapter p {
@@ -160,6 +171,8 @@
  }
 
  .snippet {
+  margin: 2em auto;
+  max-width: 600px;
    padding: .75em;
    display: flex;
    flex-direction: row;
@@ -181,7 +194,7 @@
  }
 
  footer {
-  
+
    width: 100%;
    box-shadow: 0 0 4px 1px black;
  }
@@ -196,47 +209,58 @@
    body {
      font-size: 18px;
    }
+
    .hubNav {
-    height: 350px;
+     height: 350px;
    }
+
    .hubLink {
-    width: 90px;
-    height: 90px;
+     width: 90px;
+     height: 90px;
    }
+
    .hubLink a {
-    width: 65px;
+     width: 65px;
    }
  }
 
  @media (min-width: 700px) {
-  .page-header {
-    padding-top: 2.25em;
-    width: 100%;
-    font-size: 1.75em;
-  }
-  .logoBrand {
-    letter-spacing: 3px;
-    font-size: 4em;
-  }
-    .hubNav {
-      margin-top: 4em;
-    }
+   .page-header {
+     padding-top: 2.25em;
+     width: 100%;
+     font-size: 1.75em;
+   }
+
+   .logoBrand {
+     letter-spacing: 3px;
+     font-size: 4em;
+   }
+
+   .hubNav {
+     margin-top: 4em;
+   }
+   .chapter p {
+    font-size: 1.35em;
+   }
  }
+
  @media (min-width: 1000px) {
-.page-header {
-    padding-top: .5em;
-    font-size: 2em;
-  }
-  .hubNav {
-      margin-top: 2.5em;
-      height: 400px;
-  }
-    .hubLink {
-      width: 110px;
-      height: 110px;
-    }
-  
-    .hubLink a {
-      width: 80px;
-    }
+   .page-header {
+     padding-top: .5em;
+     font-size: 2em;
+   }
+
+   .hubNav {
+     margin-top: 2.5em;
+     height: 400px;
+   }
+
+   .hubLink {
+     width: 110px;
+     height: 110px;
+   }
+
+   .hubLink a {
+     width: 80px;
+   }
  }
