@@ -163,30 +163,43 @@
    max-width: 900px;
  }
 
- .chapter p {
-   margin: .5em auto;
-   line-height: 1.2;
-   letter-spacing: 1px;
-   font-size: 1.25em;
- }
+ 
 
  .snippet {
   margin: 2em auto;
   max-width: 600px;
    padding: .75em;
    display: flex;
-   flex-direction: row;
+   flex-direction: column;
    align-items: center;
    background-color: burlywood;
    border-radius: .5em;
    box-shadow: 0 0 4px 1px black;
  }
+ .snippet__header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+ .snippet__header article {
+  width: 75%;
+ }
+ .snippet__title {
+  font-size: 1.5em;
+ }
+ .snippet__meta {
+  font-size: .6em;
+ }
 
  .snippet img {
    display: block;
-   width: 125px;
-   height: 125px;
+   width: 75px;
+   height: 75px;
    border-radius: 50%;
+ }
+ .snippet article {
+  width: 100%;
  }
 
  .missionStatement p {

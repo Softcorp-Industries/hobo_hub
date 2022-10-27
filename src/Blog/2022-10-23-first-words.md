@@ -1,9 +1,9 @@
 ---
-title: The First Words
+title: Freddie's First Words
 author: Freight Train Freddie
-date: 2022-10-25
+date: 2022-10-23
 tags: ["post", "mission"]
-image1: /assets/blog/profile_img_2021.jpg
+image1: /assets/blogImages/profile_img_2021.jpg
 image1Alt: Mission
 description: This is the description part in the front matter to catch the reader's attention
 ---
