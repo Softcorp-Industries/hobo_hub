@@ -31,7 +31,7 @@
  }
 
  .page-header {
-   width: 75%;
+   width: 100%;
    padding: 1em 0;
    text-align: center;
    letter-spacing: 1px;
@@ -100,6 +100,17 @@
    font-family: "Titan One";
  }
 
+ .mailLink {
+   position: fixed;
+   top: 1em;
+   left: 1em;
+   padding: .5em;
+   text-align: center;
+   background-color: burlywood;
+   border-radius: 50%;
+   box-shadow: 0 0 4px 1px black;
+ }
+
  .hubLink {
    position: absolute;
    display: flex;
@@ -129,13 +140,15 @@
    right: 1em;
  }
 
- .missionLink a {
+ .missionLink a,
+ .mailLink a {
    display: flex;
    flex-direction: column;
  }
 
- .missionLink a img {
+ .missionLink a img, .mailLink a img {
    width: 40px;
+   height: 40px;
  }
 
  .returnLink {
@@ -163,11 +176,11 @@
    max-width: 900px;
  }
 
- 
+
 
  .snippet {
-  margin: 2em auto;
-  max-width: 450px;
+   margin: 2em auto;
+   max-width: 450px;
    padding: .75em;
    display: flex;
    flex-direction: column;
@@ -176,21 +189,25 @@
    border-radius: .5em;
    box-shadow: 0 0 4px 1px black;
  }
+
  .snippet__header {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: .5em;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: .5em;
  }
+
  .snippet__header article {
-  width: 75%;
+   width: 75%;
  }
+
  .snippet__title {
-  font-size: 1.25em;
+   font-size: 1.25em;
  }
+
  .snippet__meta {
-  font-size: .7em;
+   font-size: .7em;
  }
 
  .snippet img {
@@ -198,8 +215,9 @@
    width: 65px;
    height: 65px;
  }
+
  .snippet article {
-  width: 100%;
+   width: 100%;
  }
 
  .missionStatement p {
@@ -252,8 +270,9 @@
    .hubNav {
      margin-top: 4em;
    }
+
    .chapter p {
-    font-size: 1.35em;
+     font-size: 1.35em;
    }
  }
 
