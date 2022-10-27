@@ -256,6 +256,7 @@
  .hubSection {
   background-color: rgb(230, 230, 230);
   margin: 1em auto;
+  width: 90%;
   max-width: 900px;
   padding: .5em;
   box-shadow: 0 0 4px 1px black;
@@ -266,6 +267,10 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+ }
+ .hubSection__header h2 {
+  text-align: center;
+  padding: 0 .25em;
  }
  .hubSection__header img {
   width: 50px;
