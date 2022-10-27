@@ -14,7 +14,14 @@
    background-repeat: no-repeat;
    background-attachment: fixed;
  }
-
+.blogImage {
+  margin: auto;
+  width: 80%;
+  max-width: 750px;
+}
+.blogImage img {
+  width: 100%;
+}
 
  .logoBrand {
    width: 100%;
