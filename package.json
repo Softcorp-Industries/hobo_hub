@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "watch:sass": "npx sass sass:src/style.css --watch",
+    "watch:eleventy": "npx @11ty/eleventy --serve",
     "start": "eleventy --serve",
     "build": "eleventy"
   },
@@ -12,5 +14,8 @@
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2"
+  },
+  "dependencies": {
+    "sass": "^1.55.0"
   }
 }
