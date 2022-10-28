@@ -7,37 +7,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,900&family=Titan+One&display=swap" rel="stylesheet"> 
-  <title>Sally&#39;s Mission</title>
+  <title>{{ title }}</title>
   <link rel="stylesheet" href="/style.css">
 </head>
 <body>
 
-  <header class="hub-header">
-  <img src="/assets/icons/icons8-worldwide-64.png" alt="">
-  <h1>Sally&#39;s Mission</h1>
-  <img src="/assets/icons/icons8-worldwide-64.png" alt="">
-</header>
+  {% include "hub-header.njk" %}
   <main>
-    
-<article>
-
-  <figure class="blogImage">
-    <img src="/assets/blogImages/profile_img_2021.jpg">
-    <figcaption>
-      Sally Image
-    </figcaption>
-  </figure>
-
-  <p>Hello my name is &quot;Shopping Cart Sally&quot;</p>
-
-  
-</article>
+    {{ content | safe }}
   </main>
-  <footer>
-  <p>
-    &copy 2022 Freight Train Freddie's HOBO HUB
-  </p>
-</footer>
+  {% include "footer.njk" %}
 
 </body>
 </html>
