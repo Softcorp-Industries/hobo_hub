@@ -38,6 +38,23 @@ layout: 'base.njk'
     <h2>Shopping Cart Sally</h2>
     <img src="./assets/icons/icons8-worldwide-64.png" alt="">
   </header>
+  <div class="hubSection__body">
+    <p>
+      Hello, Im Sally
+    </p>
+    <div class="highlights">
+    <p>
+      Sally's HighLight Blogs
+    </p>
+      <ul>
+        {%- for post in collections.sallyshighlight | reverse -%}
+
+        {% include "blog-snippet.njk" %}
+
+        {%- endfor -%}
+      </ul>
+    </div>
+  </div>
 </section>
 
 <section class="hubSection">
@@ -46,6 +63,25 @@ layout: 'base.njk'
     <h2>Tin Can Tim</h2>
     <img src="./assets/icons/icons8-can-64.png" alt="">
   </header>
+  <div class="hubSection__body">
+    <p>
+      Take it from me Tim.
+    </p>
+    <div class="highlights">
+    <p>
+      Tim's HighLight Blogs
+    </p>
+      <div class="hightlightBlog">
+        <ul>
+          {%- for post in collections.timshighlight | reverse -%}
+
+          {% include "blog-snippet.njk" %}
+
+          {%- endfor -%}
+        </ul>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section class="hubSection">
@@ -54,6 +90,25 @@ layout: 'base.njk'
     <h2>Tent City Tina</h2>
     <img src="./assets/icons/icons8-tent-64.png" alt="">
   </header>
+  <div class="hubSection__body">
+    <p>
+      Hello, keep your smokes dry, I'm Tina here to help.
+    </p>
+    <div class="highlights">
+    <p>
+      Tina's HighLight Blogs
+    </p>
+      <div class="hightlightBlog">
+        <ul>
+          {%- for post in collections.tinashighlight | reverse -%}
+
+          {% include "blog-snippet.njk" %}
+
+          {%- endfor -%}
+        </ul>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section class="hubSection">
@@ -62,6 +117,25 @@ layout: 'base.njk'
     <h2>Lunch Box Larry</h2>
     <img src="./assets/icons/icons8-lunch-box-64.png" alt="">
   </header>
+  <div class="hubSection__body">
+    <p>
+      Hey does this smell bad??? Come and have a look at what you can find, that doesn't smell funky.
+    </p>
+    <div class="highlights">
+    <p>
+      Larry's HighLight Blogs
+    </p>
+      <div class="hightlightBlog">
+        <ul>
+          {%- for post in collections.larryshighlight | reverse -%}
+
+          {% include "blog-snippet.njk" %}
+
+          {%- endfor -%}
+        </ul>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section class="hubSection">
@@ -70,6 +144,25 @@ layout: 'base.njk'
     <h2>Dr. Feelgood</h2>
     <img src="./assets/icons/icons8-medical-64(1).png" alt="">
   </header>
+  <div class="hubSection__body">
+    <p>
+      Trust me I'm not a Dr.
+    </p>
+    <div class="highlights">
+    <p>
+      Dr. Feelgood's HighLight Blogs
+    </p>
+      <div class="hightlightBlog">
+        <ul>
+          {%- for post in collections.drshighlight | reverse -%}
+
+          {% include "blog-snippet.njk" %}
+
+          {%- endfor -%}
+        </ul>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section class="hubSection">
@@ -78,4 +171,23 @@ layout: 'base.njk'
     <h2>Duey Cheatem & Howe</h2>
     <img src="./assets/icons/icons8-scales-80.png" alt="">
   </header>
+  <div class="hubSection__body">
+    <p>
+      Saul has nothing on us!
+    </p>
+    <div class="highlights">
+    <p>
+      Duey Cheatem & Howe's's HighLight Blogs
+    </p>
+      <div class="hightlightBlog">
+        <ul>
+          {%- for post in collections.dchshighlight | reverse -%}
+
+          {% include "blog-snippet.njk" %}
+
+          {%- endfor -%}
+        </ul>
+      </div>
+    </div>
+  </div>
 </section>
