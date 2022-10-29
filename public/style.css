@@ -32,7 +32,7 @@
 
  .page-header {
    width: 100%;
-   padding-top: 4.25em;
+   padding-top: 4.5em;
    text-align: center;
    letter-spacing: 1px;
    color: steelblue;
@@ -53,7 +53,7 @@
  .hubNav {
    margin: auto;
    margin-top: 3em;
-   height: 300px;
+   height: 325px;
    position: relative;
    max-width: 500px;
    margin-bottom: 4em;
@@ -191,6 +191,7 @@
 
  .welcome .lead {
    font-size: 1.3em;
+   margin: .75em 0;
  }
 
  .welcome p {
