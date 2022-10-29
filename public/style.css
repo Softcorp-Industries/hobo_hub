@@ -265,8 +265,8 @@
    box-shadow: 0 0 4px 1px rgb(150, 150, 150);
    margin: 1em auto;
    width: 90%;
-   max-width: 900px;
-   padding: .5em;
+   max-width: 750px;
+   padding-top: 5px;
    color: white;
    border-radius: .5em;
  }
@@ -300,7 +300,8 @@
  }
 
  .hubSection__header {
-   margin: 1em auto;
+  margin: auto;
+   width: 80%;
    display: flex;
    flex-direction: row;
    align-items: center;
@@ -308,19 +309,44 @@
  }
 
  .hubSection__header h2 {
-   text-align: center;
    padding: 0 .25em;
+   letter-spacing: 1px;
+  font-family: "The Nautigal";
+  font-size: 2.5em;
+   text-align: center;
+   color: steelblue;
  }
 
  .hubSection__header img {
-   width: 50px;
+   width: 40px;
  }
 
  .hubSection__body {
-   padding: .5em;
+  margin: 1.5em auto;
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
    text-align: center;
-
  }
+.hubBtns {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.hubBtn {
+  margin: 10px auto;
+  background-color: whitesmoke;
+  padding: .5em 0;
+  width: 90%;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: white;
+  border-radius: .5em;
+  background-color: steelblue;
+}
+.hubBtn:hover {
+  background-color: blue;
+}
 
  footer {
    width: 100%;

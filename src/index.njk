@@ -18,13 +18,13 @@ layout: 'base.njk'
       Check the <span>The HUB</span>...
     </p>
     <p>
-      The <span>Hub</span> is a community for sharing information to the homeless, low-income and needy.
+      <span>The Hub</span> is a community for sharing information on services to the homeless, low-income and needy.
     </p>
     <p>
-      We have 6 NPC Guides to help narrow your search, we are here to help point you in a direction so you can get connected with the people or organizations's you need. We don't offer any services ourselves. We are but only humble guides in your journey.
+      We have 6 NPC Guides to help you find the resources you need, We don't offer any direct services ourselves, we are but only humble guides in your journey. You can connect to them directly by clicking on the assocciated icon within <span>THE HUB</span> above or continue to their bio section below for more information.
     </p>
     <p>
-      Let me introduce your Guide's.
+      Please allow me introduce you to your NPC Guide's and what areas they can help you with in your time of need. 
     </p>
 </section>
 
@@ -35,155 +35,110 @@ layout: 'base.njk'
     <img src="./assets/icons/icons8-wing-chair-48.png" alt="">
   </header>
   <div class="hubSection__body">
-    <p>
+    <div class="highlights">
+      <p>
       Hello, Im Sally
-    </p>
-    <div class="highlights">
-    <p>
-      Sally's HighLight Blogs
-    </p>
-      <ul>
-        {%- for post in collections.sallyshighlight | reverse -%}
-
-        {% include "blog-snippet.njk" %}
-
-        {%- endfor -%}
-      </ul>
+      </p>
+    </div>
+    <div class="hubBtns">
+      <a href="" class="missionBtn hubBtn">Sally's Mission</a>
+      <a href="" class="blogBtn hubBtn">Visit Sally</a>
     </div>
   </div>
 </section>
 
 <section class="hubSection">
   <header class="hubSection__header">
-    <img src="./assets/icons/icons8-can-64.png" alt="">
+    <img src="./assets/icons/icons8-can-64(1).png" alt="">
     <h2>Tin Can Tim</h2>
-    <img src="./assets/icons/icons8-can-64.png" alt="">
+    <img src="./assets/icons/icons8-can-64(1).png" alt="">
   </header>
   <div class="hubSection__body">
-    <p>
-      Take it from me Tim.
-    </p>
     <div class="highlights">
-    <p>
-      Tim's HighLight Blogs
-    </p>
-      <div class="hightlightBlog">
-        <ul>
-          {%- for post in collections.timshighlight | reverse -%}
-
-          {% include "blog-snippet.njk" %}
-
-          {%- endfor -%}
-        </ul>
-      </div>
+      <p>
+        Take it from Tim.
+      </p>
+    </div>
+    <div class="hubBtns">
+      <a href="" class="missionBtn hubBtn">Tim's Mission</a>
+      <a href="" class="blogBtn hubBtn">Visit Tim</a>
     </div>
   </div>
 </section>
 
 <section class="hubSection">
   <header class="hubSection__header">
-    <img src="./assets/icons/icons8-tent-64.png" alt="">
+    <img src="./assets/icons/icons8-tent-64(1).png" alt="">
     <h2>Tent City Tina</h2>
-    <img src="./assets/icons/icons8-tent-64.png" alt="">
+    <img src="./assets/icons/icons8-tent-64(1).png" alt="">
   </header>
   <div class="hubSection__body">
-    <p>
-      Hello, keep your smokes dry, I'm Tina here to help.
-    </p>
     <div class="highlights">
-    <p>
-      Tina's HighLight Blogs
-    </p>
-      <div class="hightlightBlog">
-        <ul>
-          {%- for post in collections.tinashighlight | reverse -%}
-
-          {% include "blog-snippet.njk" %}
-
-          {%- endfor -%}
-        </ul>
-      </div>
+      <p>
+        Keep your smokes dry...
+      </p>
+    </div>
+    <div class="hubBtns">
+      <a href="" class="missionBtn hubBtn">Tina's Mission</a>
+      <a href="" class="blogBtn hubBtn">Visit</a>
     </div>
   </div>
 </section>
 
 <section class="hubSection">
   <header class="hubSection__header">
-    <img src="./assets/icons/icons8-lunch-box-64.png" alt="">
+    <img src="./assets/icons/icons8-lunch-box-64(1).png" alt="">
     <h2>Lunch Box Larry</h2>
-    <img src="./assets/icons/icons8-lunch-box-64.png" alt="">
+    <img src="./assets/icons/icons8-lunch-box-64(1).png" alt="">
   </header>
   <div class="hubSection__body">
-    <p>
-      Hey does this smell bad??? Come and have a look at what you can find, that doesn't smell funky.
-    </p>
     <div class="highlights">
-    <p>
-      Larry's HighLight Blogs
-    </p>
-      <div class="hightlightBlog">
-        <ul>
-          {%- for post in collections.larryshighlight | reverse -%}
-
-          {% include "blog-snippet.njk" %}
-
-          {%- endfor -%}
-        </ul>
-      </div>
+      <p>
+      Hey does this smell bad???
+      </p>
+    </div>
+    <div class="hubBtns">
+      <a href="" class="missionBtn hubBtn">Larry's Mission</a>
+      <a href="" class="blogBtn hubBtn">Visit Larry</a>
     </div>
   </div>
+
 </section>
 
 <section class="hubSection">
   <header class="hubSection__header">
-    <img src="./assets/icons/icons8-medical-64(1).png" alt="">
+    <img src="./assets/icons/icons8-health-64.png" alt="">
     <h2>Dr. Feelgood</h2>
-    <img src="./assets/icons/icons8-medical-64(1).png" alt="">
+    <img src="./assets/icons/icons8-health-64.png" alt="">
   </header>
   <div class="hubSection__body">
-    <p>
-      Trust me I'm not a Dr.
-    </p>
     <div class="highlights">
-    <p>
-      Dr. Feelgood's HighLight Blogs
-    </p>
-      <div class="hightlightBlog">
-        <ul>
-          {%- for post in collections.drshighlight | reverse -%}
-
-          {% include "blog-snippet.njk" %}
-
-          {%- endfor -%}
-        </ul>
-      </div>
+      <p>
+        Trust me I'm not a Dr.
+      </p>
+    </div>
+    <div class="hubBtns">
+      <a href="" class="missionBtn hubBtn">The Dr's Mission</a>
+      <a href="" class="blogBtn hubBtn">See the Dr.</a>
     </div>
   </div>
 </section>
 
 <section class="hubSection">
   <header class="hubSection__header">
-    <img src="./assets/icons/icons8-scales-80.png" alt="">
+    <img src="./assets/icons/icons8-balance-scale-48.png" alt="">
     <h2>Duey Cheatem & Howe</h2>
-    <img src="./assets/icons/icons8-scales-80.png" alt="">
+    <img src="./assets/icons/icons8-balance-scale-48.png" alt="">
   </header>
   <div class="hubSection__body">
-    <p>
-      Saul has nothing on us!
-    </p>
     <div class="highlights">
-    <p>
-      Duey Cheatem & Howe's's HighLight Blogs
-    </p>
-      <div class="hightlightBlog">
-        <ul>
-          {%- for post in collections.dchshighlight | reverse -%}
-
-          {% include "blog-snippet.njk" %}
-
-          {%- endfor -%}
-        </ul>
-      </div>
+      <p>
+      Saul has nothing on us!
+      </p>
+    </div>
+    <div class="hubBtns">
+      <a href="" class="missionBtn hubBtn">DCH's Mission</a>
+      <a href="" class="blogBtn hubBtn">Retainer</a>
     </div>
   </div>
 </section>
