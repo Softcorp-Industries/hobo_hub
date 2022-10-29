@@ -10,7 +10,9 @@ layout: 'base.njk'
 </section>
 
 <div class="missionLink navLink">
-  <a href="/freddiesMission" title="Freddie's Mission"><img src="./assets/icons/icons8-document-60.png" /></a>
+  {%- for mission in collections.freddiesmission -%}
+    <a href="{{ mission.url }}" title="{{ title }}" class="missionBtn"><img src="./assets/icons/icons8-document-60.png" /></a>
+  {%- endfor -%}
 </div>
 
 <section class="welcome">
@@ -42,7 +44,7 @@ layout: 'base.njk'
     </div>
     <div class="hubBtns">
       <a href="" class="missionBtn hubBtn">Sally's Mission</a>
-      <a href="" class="blogBtn hubBtn">Visit Sally</a>
+      <a href="/sallysBlog" class="blogBtn hubBtn">Visit Sally</a>
     </div>
   </div>
 </section>
@@ -61,7 +63,7 @@ layout: 'base.njk'
     </div>
     <div class="hubBtns">
       <a href="" class="missionBtn hubBtn">Tim's Mission</a>
-      <a href="" class="blogBtn hubBtn">Visit Tim</a>
+      <a href="/timsBlog" class="blogBtn hubBtn">Visit Tim</a>
     </div>
   </div>
 </section>
@@ -80,7 +82,7 @@ layout: 'base.njk'
     </div>
     <div class="hubBtns">
       <a href="" class="missionBtn hubBtn">Tina's Mission</a>
-      <a href="" class="blogBtn hubBtn">Visit Tina</a>
+      <a href="/tinasBlog" class="blogBtn hubBtn">Visit Tina</a>
     </div>
   </div>
 </section>
@@ -99,7 +101,7 @@ layout: 'base.njk'
     </div>
     <div class="hubBtns">
       <a href="" class="missionBtn hubBtn">Larry's Mission</a>
-      <a href="" class="blogBtn hubBtn">Visit Larry</a>
+      <a href="/larrysBlog" class="blogBtn hubBtn">Visit Larry</a>
     </div>
   </div>
 
@@ -118,8 +120,10 @@ layout: 'base.njk'
       </p>
     </div>
     <div class="hubBtns">
-      <a href="" class="missionBtn hubBtn">The Dr's Mission</a>
-      <a href="" class="blogBtn hubBtn">See the Dr.</a>
+      {%- for mission in collections.drsmission -%}
+        <a href="{{ mission.url }}" class="missionBtn hubBtn">The Dr's Mission</a>
+        <a href="{{ mission.data.hubLink}}" class="blogBtn hubBtn">See the Dr.</a>
+      {%- endfor -%}
     </div>
   </div>
 </section>
@@ -127,7 +131,7 @@ layout: 'base.njk'
 <section class="hubSection">
   <header class="hubSection__header">
     <img src="./assets/icons/icons8-balance-scale-48.png" alt="">
-    <h2>Duey Cheatem & Howe</h2>
+    <h2>Duey, Cheatem & Howe</h2>
     <img src="./assets/icons/icons8-balance-scale-48.png" alt="">
   </header>
   <div class="hubSection__body">
@@ -138,7 +142,7 @@ layout: 'base.njk'
     </div>
     <div class="hubBtns">
       <a href="" class="missionBtn hubBtn">DCH's Mission</a>
-      <a href="" class="blogBtn hubBtn">Retainer</a>
+      <a href="/dchBlog" class="blogBtn hubBtn">Retainer</a>
     </div>
   </div>
 </section>

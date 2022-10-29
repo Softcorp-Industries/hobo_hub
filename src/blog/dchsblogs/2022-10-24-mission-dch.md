@@ -1,10 +1,11 @@
 ---
-title: Duey Cheatem & Howe's Mission
-author: Duey Cheatem & Howe
+title: Duey, Cheatem & Howe's Mission
+author: Duey, Cheatem & Howe
 date: 2022-10-25
-tags: ["post", "dchspost", "mission"]
+tags: ["post", "dchspost", "dchsmission"]
 image: /assets/blogImages/profile_img_2021.jpg
 imageAlt: DCH's Image
+montra: Saul has nothing on us!!!
 snippeticon: /assets/icons/icons8-balance-scale-48.png
 description: I hope to be as helpful as possible connecting people to the right resources.
 ---

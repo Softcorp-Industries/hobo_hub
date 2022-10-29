@@ -2,13 +2,16 @@
 title: Freddie's Mission
 author: Freight Train Freddie
 date: 2022-10-25
-tags: ["post", "mission"]
+tags: ["post", "freddiesmission"]
 image: /assets/blogImages/profile_img_2021.jpg
-imageAlt: Avatar
-snippeticon: /assets/icons/icons8-train-64.png
+imageAlt: Freight Train Freddie Image
+figcaption: Freight Train Freddie 
+montra: Shinny side up...
+hubLink: /
+hubDescription: No Hub Here
+snippeticon: /assets/icons/icons8-locomotive-48.png
 description: This is my Mission Statement
 ---
 
 # Freight Train Freddie
 
-Last Last Last

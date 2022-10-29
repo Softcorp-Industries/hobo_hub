@@ -1,12 +1,13 @@
 ---
-title: Does this smell Bad???
+title: St. Mary's Church Sunday Lunch
 author: Lunch Box Larry
 date: 2022-10-24
 tags: ["post", "larryspost"]
 image: /assets/blogImages/profile_img_2021.jpg
-imageAlt: Larry's Image
-snippeticon: /assets/icons/icons8-lunch-box-64.png
-description: Sally-Ann Bread
+imageAlt: St. Mary's Catholic Church
+snippeticon: /assets/icons/icons8-lunch-box-64(1).png
+description: 11am to 4:30pm Every Sunday
+address: calgary
 ---
 
-# The Salvation Army
+Hello, I'm Lunch Box Larry
