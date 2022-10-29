@@ -4,8 +4,8 @@ author: Duey Cheatem & Howe
 date: 2022-10-28
 tags: ["post", "dchspost"]
 image: /assets/dchsPics/20221028_DCH_Law_Library.jpg
-imageAlt: Mustard Seed 102 Building Street Level
-snippeticon: /assets/icons/icons8-worldwide-64.png
+imageAlt: 
+snippeticon: /assets/icons/icons8-balance-scale-48.png
 description: Alberta Law Libraries provide legal documentation online
 ---
 ## Alberta Law Libraries
