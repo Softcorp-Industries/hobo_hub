@@ -252,7 +252,9 @@
 
  .snippet article {
    width: 75%;
-
+ }
+ .snippet__body {
+  margin-bottom: 1em;
  }
 
  .missionStatement p {
@@ -275,8 +277,9 @@
    padding: 1em 0;
    display: flex;
    align-items: center;
+   color: white;
    justify-content: space-evenly;
-   background-color: rgb(230, 230, 230);
+  background-color: rgba(30, 30, 30);
    box-shadow: 0 0 4px 1px black;
    margin-bottom: 1.5em;
  }
@@ -329,14 +332,14 @@
    text-align: center;
  }
 .hubBtns {
-  width: 30%;
+  width: 35%;
   display: flex;
   flex-direction: column;
 }
 .hubBtn {
   margin: 10px auto;
   background-color: whitesmoke;
-  padding: .5em 0;
+  padding: .5em;
   width: 90%;
   text-decoration: none;
   letter-spacing: 1px;
