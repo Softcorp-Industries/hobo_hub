@@ -6,6 +6,7 @@ tags: ["post", "freddiesmission"]
 image: /assets/blogImages/profile_img_2021.jpg
 imageAlt: Freight Train Freddie Image
 figcaption: Freight Train Freddie 
+visit: Freddies Mission
 montra: Shinny side up...
 hubLink: /
 hubDescription: No Hub Here

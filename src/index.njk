@@ -1,12 +1,11 @@
 ---
 title: Freight Train Freddie's
-montra: Freddie's Mission
 layout: 'base.njk'
 ---
 
 <section class="hubNav">
   <h2 class="logoBrand">HOBO HUB</h2>
-{% include "hubLinks.njk" %}
+  {% include "hubLinks.njk" %}
 </section>
 
 <div class="missionLink navLink">
@@ -30,119 +29,8 @@ layout: 'base.njk'
     </p>
 </section>
 
-<section class="hubSection">
-  <header class="hubSection__header">
-    <img src="./assets/icons/icons8-wing-chair-48.png" alt="">
-    <h2>Shopping Cart Sally</h2>
-    <img src="./assets/icons/icons8-wing-chair-48.png" alt="">
-  </header>
-  <div class="hubSection__body">
-    <div class="highlights">
-      <p>
-      Hello, Im Sally
-      </p>
-    </div>
-    <div class="hubBtns">
-      <a href="" class="missionBtn hubBtn">Sally's Mission</a>
-      <a href="/sallysBlog" class="blogBtn hubBtn">Visit Sally</a>
-    </div>
-  </div>
-</section>
-
-<section class="hubSection">
-  <header class="hubSection__header">
-    <img src="./assets/icons/icons8-can-64(1).png" alt="">
-    <h2>Tin Can Tim</h2>
-    <img src="./assets/icons/icons8-can-64(1).png" alt="">
-  </header>
-  <div class="hubSection__body">
-    <div class="highlights">
-      <p>
-        Take it from Tim.
-      </p>
-    </div>
-    <div class="hubBtns">
-      <a href="" class="missionBtn hubBtn">Tim's Mission</a>
-      <a href="/timsBlog" class="blogBtn hubBtn">Visit Tim</a>
-    </div>
-  </div>
-</section>
-
-<section class="hubSection">
-  <header class="hubSection__header">
-    <img src="./assets/icons/icons8-tent-64(1).png" alt="">
-    <h2>Tent City Tina</h2>
-    <img src="./assets/icons/icons8-tent-64(1).png" alt="">
-  </header>
-  <div class="hubSection__body">
-    <div class="highlights">
-      <p>
-        Keep your smokes dry...
-      </p>
-    </div>
-    <div class="hubBtns">
-      <a href="" class="missionBtn hubBtn">Tina's Mission</a>
-      <a href="/tinasBlog" class="blogBtn hubBtn">Visit Tina</a>
-    </div>
-  </div>
-</section>
-
-<section class="hubSection">
-  <header class="hubSection__header">
-    <img src="./assets/icons/icons8-lunch-box-64(1).png" alt="">
-    <h2>Lunch Box Larry</h2>
-    <img src="./assets/icons/icons8-lunch-box-64(1).png" alt="">
-  </header>
-  <div class="hubSection__body">
-    <div class="highlights">
-      <p>
-      Hey does this smell bad???
-      </p>
-    </div>
-    <div class="hubBtns">
-      <a href="" class="missionBtn hubBtn">Larry's Mission</a>
-      <a href="/larrysBlog" class="blogBtn hubBtn">Visit Larry</a>
-    </div>
-  </div>
-
-</section>
-
-<section class="hubSection">
-  <header class="hubSection__header">
-    <img src="./assets/icons/icons8-health-64.png" alt="">
-    <h2>Dr. Feelgood</h2>
-    <img src="./assets/icons/icons8-health-64.png" alt="">
-  </header>
-  <div class="hubSection__body">
-    <div class="highlights">
-      <p>
-        Trust me I'm not a Dr.
-      </p>
-    </div>
-    <div class="hubBtns">
-      {%- for mission in collections.drsmission -%}
-        <a href="{{ mission.url }}" class="missionBtn hubBtn">The Dr's Mission</a>
-        <a href="{{ mission.data.hubLink}}" class="blogBtn hubBtn">See the Dr.</a>
-      {%- endfor -%}
-    </div>
-  </div>
-</section>
-
-<section class="hubSection">
-  <header class="hubSection__header">
-    <img src="./assets/icons/icons8-balance-scale-48.png" alt="">
-    <h2>Duey, Cheatem & Howe</h2>
-    <img src="./assets/icons/icons8-balance-scale-48.png" alt="">
-  </header>
-  <div class="hubSection__body">
-    <div class="highlights">
-      <p>
-      Saul has nothing on us!
-      </p>
-    </div>
-    <div class="hubBtns">
-      <a href="" class="missionBtn hubBtn">DCH's Mission</a>
-      <a href="/dchBlog" class="blogBtn hubBtn">Retainer</a>
-    </div>
-  </div>
+<section class="hubSections">
+  {%- for mission in collections.mission | reverse -%}
+    {% include "hub-snippet.njk" %}
+  {%- endfor -%}
 </section>

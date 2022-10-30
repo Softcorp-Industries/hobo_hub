@@ -2,9 +2,11 @@
 title: Sally's Mission
 author: Shopping Cart Sally
 date: 2022-10-25
-tags: ["post", "sallysmission", "highlight"]
+tags: ["post", "sallysmission", "highlight", "mission"]
 image: /assets/blogImages/profile_img_2021.jpg
 imageAlt: Sally Image
+figcaption:
+visit: Visit Sally
 montra: Hello, Sweetie
 hubLink: /sallysBlog
 hubDescription: I got ya Babe!!!
