@@ -13,8 +13,10 @@
  }
 
  main {
-   margin: 1em;
+   margin: 1em auto;
+   padding: 1em;
    min-height: 100vh;
+   max-width: 1000px;
    color: whitesmoke;
  }
 
@@ -285,8 +287,8 @@
 
  .hub-header h1 {
   margin: .5em 0;
- width: 80%;
- font-size: .9em;
+ width: 70%;
+ font-size: 1em;
   text-align: center;
    letter-spacing: 2px;
  }
@@ -302,7 +304,6 @@
  }
 
  .hubSection__header {
-
   padding: .75em;
    display: flex;
    flex-direction: row;
@@ -371,6 +372,12 @@ font-size: .9em;
  .articleLead {
    font-size: 1.15em;
  }
+ .articleHeaderLink {
+  display: block;
+  text-align: center;
+  font-size: 1.25em;
+  text-decoration: none;
+ }
 
  footer {
    width: 100%;
@@ -392,6 +399,9 @@ font-size: .9em;
    .page-header h1 {
      font-size: 3em;
    }
+     .hub-header h1 {
+       font-size: 1.2em;
+     }
 
    .hubNav {
      height: 375px;
@@ -443,24 +453,23 @@ font-size: .9em;
      width: 100%;
      padding-top: 4em;
    }
-
    .page-header h1 {
      font-size: 3em;
-
    }
-
+     .hub-header h1 {
+       font-size: 1.35em;
+     }
+     .hub-header img {
+      width: 50px;
+     }
    .mailLink a img {
      width: 60px;
      height: 60px;
    }
-
    .missionLink a img {
      width: 65px;
      height: 65px;
    }
-
-
-
    .logoBrand {
      letter-spacing: 3px;
      font-size: 4em;
@@ -470,7 +479,7 @@ font-size: .9em;
      margin-top: 4em;
      height: 400px;
    }
-
+   
  }
 
  @media (min-width: 1000px) {
@@ -478,6 +487,9 @@ font-size: .9em;
      padding-top: 3.25em;
      font-size: 2em;
    }
+     .hub-header h1 {
+       font-size: 2em;
+     }
 
    #feelgoodIcon {
      bottom: -3em;

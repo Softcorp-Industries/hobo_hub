@@ -1,15 +1,27 @@
 ---
-title: Mustard Seed Street Level
+title: Sheldon Chumir Emergency Dental
 author: Dr Feelgood
 date: 2022-10-24
 tags: ["post", "drspost"]
-image: /assets/blogImages/Raspberry-stabbing.jpg
-imageAlt: Mustard Seed Image
+image: /assets/blogImages/Sheldon Chumir 1.jpeg
+imageAlt: 1213 4st SW, Calgary, AB T2R 0X7
 snippeticon: /assets/icons/icons8-health-64.png
-description: Street Level Lunches 102 11 Ave SE, Calgary,AB T2G 0X8
+description: Emergency Dental Extractions, Must go through Emergency First to aquire a Health ticket. 
 ---
 
-# Mustard Seed 102 Building
+# <a class="articleHeaderLink" href="https://www.albertahealthservices.ca/findhealth/facility.aspx?id=1018406" target="_blank">Sheldon M. Chumir Health Center</a>
 
-102 11 Ave SE,
-Calgary,AB T2G 0X8
+<br>
+<pre class="articlePhone">
+Phone:   403-955-6200
+</pre>
+<pre class="articlePhone">
+Address: 1213 4st SW,
+         Calgary, AB
+         T2R 0X7
+
+</pre>
+<br>
+
+
+
