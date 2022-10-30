@@ -1,0 +1,141 @@
+.snippet {
+   margin: 2em auto;
+   max-width: 450px;
+   padding: .75em;
+   display: flex;
+   flex-direction: column;
+   color: white;
+   background-color: rgb(0, 0, 0);
+   box-shadow: 0 0 4px 1px rgb(150, 150, 150);
+   border-radius: .5em;
+ }
+
+ .snippet__header {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: .5em;
+ }
+.snippet__header article {
+   width: 75%;
+ }
+
+
+ .snippet__meta {
+   font-size: .7em;
+ }
+
+ .snippet img {
+   display: block;
+   width: 35px;
+   height: 35px;
+ }
+.snippet article a{
+  display: block;
+}
+
+ .snippet__body {
+   margin: .5em 0;
+   font-size: .9em;
+ }
+
+ .missionStatement p {
+   color: red;
+ }
+
+ .hubSection {
+   background-color: rgb(230, 230, 230);
+   background-color: rgba(30, 30, 30);
+   box-shadow: 0 0 4px 1px rgb(150, 150, 150);
+   margin: 2em auto;
+   width: 90%;
+   max-width: 750px;
+   color: white;
+   border-radius: .5em;
+ }
+ .hub-header {
+  padding: .5em;
+   display: flex;
+   align-items: center;
+   color: white;
+   justify-content: space-evenly;
+   background-color: rgba(30, 30, 30);
+   box-shadow: 0 0 4px 1px black;
+   margin-bottom: 1.5em;
+ }
+
+ .hub-header h1 {
+  margin: .5em 0;
+ width: 70%;
+ font-size: 1em;
+  text-align: center;
+   letter-spacing: 2px;
+ }
+ .hub-header img {
+  width: 30px;
+ }
+
+ .blogImage {
+   margin: auto;
+   width: 80%;
+   max-width: 750px;
+   margin-bottom: 1.5em;
+ }
+
+ .hubSection__header {
+  padding: .75em;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+ }
+
+ .hubSection__header h2 {
+  padding: 0 .25em;
+   letter-spacing: 1px;
+   font-family: "The Nautigal";
+   font-size: 2.25em;
+   color: steelblue;
+ }
+
+ .hubSection__header img {
+   width: 40px;
+ }
+ .hubSection__header img:first-of-type {
+   display: none;
+ }
+
+ .hubSection__body {
+   margin: 1.5em auto;
+   display: flex;
+   flex-direction: column;
+   align-items: top;
+   justify-content: space-between;
+   text-align: center;
+ }
+
+ .hubBtns {
+  margin: auto;
+   display: flex;
+   flex-direction: column;
+ }
+
+ .hubBtn {
+   margin: 10px 0;
+   background-color: whitesmoke;
+   padding: .5em;
+   width: 50%;
+   min-width: 200px;
+   text-align: center;
+   text-decoration: none;
+   letter-spacing: 1px;
+   font-size: .85em;
+   color: white;
+   border-radius: .5em;
+   background-color: steelblue;
+ }
+
+ .hubBtn:hover {
+   background-color: blue;
+ }

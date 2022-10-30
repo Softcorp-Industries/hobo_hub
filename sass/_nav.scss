@@ -1,0 +1,126 @@
+.hubNav {
+   margin: auto;
+   margin-top: 3em;
+   height: 325px;
+   position: relative;
+   max-width: 500px;
+   margin-bottom: 3.75em;
+
+ }
+
+ #sallysIcon {
+   top: -2em;
+   left: 50%;
+   transform: translateX(-50%);
+ }
+
+ #timsIcon {
+   top: 1.5em;
+   left: 1.5em;
+ }
+
+ #tinasIcon {
+   top: 1.5em;
+   right: 1.5em;
+ }
+
+ #feelgoodIcon {
+   bottom: -2em;
+   left: 50%;
+   transform: translateX(-50%);
+ }
+
+ #lunchboxIcon {
+   bottom: 1.5em;
+   left: 1.5em;
+ }
+
+ #legalIcon {
+   bottom: 1.5em;
+   right: 1.5em;
+ }
+
+ .missionLink {
+   position: absolute;
+   top: .5em;
+   padding: .5em;
+   text-align: center;
+   border-radius: 50%;
+
+ }
+
+ .navLink a {
+   cursor: pointer;
+   display: block;
+   text-decoration: none;
+   color: red;
+   letter-spacing: 1px;
+   font-size: 1.5em;
+   font-family: "Titan One";
+ }
+
+ .mailLink {
+   position: absolute;
+   top: .5em;
+   left: 1em;
+   padding: .5em;
+   text-align: center;
+   border-radius: 50%;
+
+ }
+
+ .hubLink {
+   position: absolute;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: .5em 0;
+   width: 75px;
+   height: 75px;
+   border-radius: 50%;
+
+ }
+
+ .hubLink a {
+   cursor: pointer;
+   display: block;
+   width: 65px;
+   text-decoration: none;
+   border-radius: 50%;
+ }
+ .hubLink a img {
+   width: 100%;
+   display: block;
+ }
+
+ .missionLink {
+   right: 1em;
+ }
+
+ .missionLink a,
+ .mailLink a {
+   display: flex;
+   flex-direction: column;
+ }
+
+ .missionLink a img,
+ .mailLink a img {
+   width: 40px;
+   height: 40px;
+ }
+.returnLink {
+   position: absolute;
+   top: 1.5em;
+   left: 50%;
+   transform: translateX(-50%);
+ }
+
+ .hubLinks {
+   list-style: none;
+ }
+ .hubLinks li a {
+   display: block;
+   padding: .25em;
+   text-decoration: none;
+ }
+ 
