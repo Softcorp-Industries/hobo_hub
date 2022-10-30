@@ -372,6 +372,7 @@
   margin: 0.5em 0;
 }
 .post__body__subHeader {
+  padding-top: 1em;
   font-weight: 700;
   font-size: 1.25em;
   color: steelblue;

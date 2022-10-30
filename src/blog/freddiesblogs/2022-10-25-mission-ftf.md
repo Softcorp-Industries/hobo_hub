@@ -3,9 +3,9 @@ title: Freddie's Mission
 author: Freight Train Freddie
 date: 2022-10-25
 tags: ["post", "freddiesmission"]
-image: /assets/profilePics/profile-freddie_1.jpg
+image: /assets/blogImages/Restored-Steam-Engine-750px.webp
 imageAlt: Freight Train Freddie Image
-figcaption: Vancouver 2021 
+figcaption: 1910 Steam Locomotive | Heritage Association of Frisco, Inc
 visit: Freddies Mission
 montra: Shinny side up...
 hubLink: /
@@ -22,12 +22,13 @@ Freddie is the guy you see with the backpack and hoodie pulled up over his face 
 <p>
 Freddie has 6 associates that he's meet while on the streets. They all played a huge role in Freddie's survival. His associates are very kind and helpful, even to a person like Freddie. The are more than happy to help you too.
 </p>
+<p>Let me introduce you to Freddies Associates.
 <br>
 <p class="post__body__subHeader">
 Shopping Cart Sally
 </p>
 <p>
-Sally is one of most generous people you will ever meet. Sally can help you find Clothing, Furniture, Household items, transportation
+Sally is one of most generous people you will ever meet. Sally can help you find Clothing, Furniture, Household items, Transportation or finding the latest thrift items.
 </p>
 <br>
 <p class="post__body__subHeader">
@@ -58,7 +59,7 @@ Dr. Feelgood
 The Dr. is in...
 </p>
 <p>
-Dealing with a homeless situation or low-income has a lot of challenges with receiving the appropriate care. The Dr. Knows a lot of service's that will help the needy.
+Dealing with a homeless situation or low-income has a lot of challenges, receiving the appropriate health care is one of the lost important challenges. The Dr. Knows a lot of service's that will help the needy.
 </p>
 <br>
 <p class="post__body__subHeader">
