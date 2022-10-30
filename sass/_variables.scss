@@ -1,0 +1,490 @@
+.logoBrand {
+   width: 100%;
+   position: absolute;
+   top: 40%;
+   left: 50%;
+   transform: translateX(-50%);
+   text-align: center;
+   color: red;
+   letter-spacing: 1px;
+   font-size: 3em;
+   font-weight: 600;
+   font-family: "Titan One";
+ }
+
+ .page-header {
+   width: 100%;
+   padding-top: 4.5em;
+   text-align: center;
+   letter-spacing: 1px;
+   color: steelblue;
+   text-shadow: 0 0 1px black;
+   font-weight: 700;
+   font-family: "the Nautigal";
+   background-color: rgba(30, 30, 30);
+   box-shadow: 0 0 4px 1px black;
+ }
+
+ .page-header h1 {
+   padding: .25em 0;
+   font-size: 2.5em;
+   letter-spacing: 1px;
+   background-color: black;
+ }
+
+ .hubNav {
+   margin: auto;
+   margin-top: 3em;
+   height: 325px;
+   position: relative;
+   max-width: 500px;
+   margin-bottom: 3.75em;
+
+ }
+
+ #sallysIcon {
+   top: -2em;
+   left: 50%;
+   transform: translateX(-50%);
+ }
+
+ #timsIcon {
+   top: 1.5em;
+   left: 1.5em;
+ }
+
+ #tinasIcon {
+   top: 1.5em;
+   right: 1.5em;
+ }
+
+ #feelgoodIcon {
+   bottom: -2em;
+   left: 50%;
+   transform: translateX(-50%);
+ }
+
+ #lunchboxIcon {
+   bottom: 1.5em;
+   left: 1.5em;
+ }
+
+ #legalIcon {
+   bottom: 1.5em;
+   right: 1.5em;
+ }
+
+ .missionLink {
+   position: absolute;
+   top: .5em;
+   padding: .5em;
+   text-align: center;
+   border-radius: 50%;
+
+ }
+
+ .navLink a {
+   cursor: pointer;
+   display: block;
+   text-decoration: none;
+   color: red;
+   letter-spacing: 1px;
+   font-size: 1.5em;
+   font-family: "Titan One";
+ }
+
+ .mailLink {
+   position: absolute;
+   top: .5em;
+   left: 1em;
+   padding: .5em;
+   text-align: center;
+   border-radius: 50%;
+
+ }
+
+ .hubLink {
+   position: absolute;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: .5em 0;
+   width: 75px;
+   height: 75px;
+   border-radius: 50%;
+
+ }
+
+ .hubLink a {
+   cursor: pointer;
+   display: block;
+   width: 65px;
+   text-decoration: none;
+   border-radius: 50%;
+ }
+ .hubLink a img {
+   width: 100%;
+   display: block;
+ }
+
+ .missionLink {
+   right: 1em;
+ }
+
+ .missionLink a,
+ .mailLink a {
+   display: flex;
+   flex-direction: column;
+ }
+
+ .missionLink a img,
+ .mailLink a img {
+   width: 40px;
+   height: 40px;
+ }
+
+ .returnLink {
+   position: absolute;
+   top: 1.5em;
+   left: 50%;
+   transform: translateX(-50%);
+ }
+
+ .hubLinks {
+   list-style: none;
+ }
+
+ .hubLinks li a {
+   display: block;
+   padding: .25em;
+   text-decoration: none;
+ }
+
+ .welcome {
+   margin: auto;
+   padding: 1em;
+   max-width: 800px;
+   letter-spacing: 1px;
+   font-size: 1.2em;
+   color: white;
+ }
+
+ .welcome .lead {
+   font-size: 1.3em;
+   margin: .75em 0;
+ }
+
+ .welcome p {
+   line-height: 1.3;
+   margin-bottom: .5em;
+ }
+
+ .welcome span {
+   color: red;
+   font-family: "Titan One";
+ }
+
+ .chapter {
+   margin: 1em auto;
+   padding: 1.5em;
+   max-width: 900px;
+ }
+
+
+
+ .snippet {
+   margin: 2em auto;
+   max-width: 450px;
+   padding: .75em;
+   display: flex;
+   flex-direction: column;
+   color: white;
+   background-color: rgb(0, 0, 0);
+   box-shadow: 0 0 4px 1px rgb(150, 150, 150);
+   border-radius: .5em;
+ }
+
+ .snippet__header {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: .5em;
+ }
+
+ .snippet__header article {
+   width: 75%;
+ }
+
+
+ .snippet__meta {
+   font-size: .7em;
+ }
+
+ .snippet img {
+   display: block;
+   width: 35px;
+   height: 35px;
+ }
+.snippet article a{
+  display: block;
+}
+
+ .snippet__body {
+   margin: .5em 0;
+   font-size: .9em;
+ }
+
+ .missionStatement p {
+   color: red;
+ }
+
+ .hubSection {
+   background-color: rgb(230, 230, 230);
+   background-color: rgba(30, 30, 30);
+   box-shadow: 0 0 4px 1px rgb(150, 150, 150);
+   margin: 2em auto;
+   width: 90%;
+   max-width: 750px;
+   color: white;
+   border-radius: .5em;
+ }
+
+ .hub-header {
+  padding: .5em;
+   display: flex;
+   align-items: center;
+   color: white;
+   justify-content: space-evenly;
+   background-color: rgba(30, 30, 30);
+   box-shadow: 0 0 4px 1px black;
+   margin-bottom: 1.5em;
+ }
+
+ .hub-header h1 {
+  margin: .5em 0;
+ width: 70%;
+ font-size: 1em;
+  text-align: center;
+   letter-spacing: 2px;
+ }
+ .hub-header img {
+  width: 30px;
+ }
+
+ .blogImage {
+   margin: auto;
+   width: 80%;
+   max-width: 750px;
+   margin-bottom: 1.5em;
+ }
+
+ .hubSection__header {
+  padding: .75em;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+ }
+
+ .hubSection__header h2 {
+  padding: 0 .25em;
+   letter-spacing: 1px;
+   font-family: "The Nautigal";
+   font-size: 2.25em;
+   color: steelblue;
+ }
+
+ .hubSection__header img {
+   width: 40px;
+ }
+ .hubSection__header img:first-of-type {
+   display: none;
+ }
+
+ .hubSection__body {
+   margin: 1.5em auto;
+   display: flex;
+   flex-direction: column;
+   align-items: top;
+   justify-content: space-between;
+   text-align: center;
+ }
+
+ .hubBtns {
+  margin: auto;
+   display: flex;
+   flex-direction: column;
+ }
+
+ .hubBtn {
+   margin: 10px 0;
+   background-color: whitesmoke;
+   padding: .5em;
+   width: 50%;
+   min-width: 200px;
+   text-align: center;
+   text-decoration: none;
+   letter-spacing: 1px;
+   font-size: .85em;
+   color: white;
+   border-radius: .5em;
+   background-color: steelblue;
+ }
+
+ .hubBtn:hover {
+   background-color: blue;
+ }
+
+ .blogImage img {
+   width: 100%;
+   box-shadow: 0 0 3px 1px black;
+   border-radius: .25em;
+   margin-bottom: .5em;
+ }
+.articleFigcaption {
+font-size: .9em;
+}
+ .articleLead {
+   font-size: 1.15em;
+ }
+ .articleHeaderLink {
+  display: block;
+  text-align: center;
+  font-size: 1.25em;
+  text-decoration: none;
+ }
+
+ footer {
+   width: 100%;
+   background-color: rgba(30, 30, 30);
+   box-shadow: 0 0 4px 1px black;
+ }
+
+ footer p {
+   padding: 1em 0;
+   text-align: center;
+   color: white;
+ }
+
+ @media (min-width: 400px) {
+   body {
+     font-size: 18px;
+   }
+
+   .page-header h1 {
+     font-size: 3em;
+   }
+     .hub-header h1 {
+       font-size: 1.2em;
+     }
+
+   .hubNav {
+     height: 375px;
+   }
+
+   .hubLink {
+     width: 90px;
+     height: 90px;
+   }
+
+   .hubLink a {
+     width: 75px;
+   }
+ }
+
+ @media (min-width: 600px) {
+   .page-header {
+     font-size: 1.4em;
+     padding-top: 3.25em;
+   }
+     .hubBtns {
+      width: 100%;
+       flex-direction: row;
+       justify-content: space-evenly;
+     }
+     .hubBtn{
+      max-width: 40%;
+     }
+     .hubSection__header {
+      justify-content: space-evenly;
+     }
+     .hubSection__header img:first-of-type {
+       display: block;
+     }
+
+   .returnLink {
+     top: 1em;
+   }
+
+   .missionLink a img {
+     width: 47px;
+     height: 47px;
+   }
+
+ }
+
+ @media (min-width: 700px) {
+   .page-header {
+     width: 100%;
+     padding-top: 4em;
+   }
+   .page-header h1 {
+     font-size: 3em;
+   }
+     .hub-header h1 {
+       font-size: 1.35em;
+     }
+     .hub-header img {
+      width: 50px;
+     }
+   .mailLink a img {
+     width: 60px;
+     height: 60px;
+   }
+   .missionLink a img {
+     width: 65px;
+     height: 65px;
+   }
+   .logoBrand {
+     letter-spacing: 3px;
+     font-size: 4em;
+   }
+
+   .hubNav {
+     margin-top: 4em;
+     height: 400px;
+   }
+   
+ }
+
+ @media (min-width: 1000px) {
+   .page-header {
+     padding-top: 3.25em;
+     font-size: 2em;
+   }
+     .hub-header h1 {
+       font-size: 2em;
+     }
+
+   #feelgoodIcon {
+     bottom: -3em;
+   }
+
+   #sallysIcon {
+     top: -3em;
+   }
+
+   .hubNav {
+     height: 425px;
+   }
+
+   .hubLink {
+     width: 110px;
+     height: 110px;
+   }
+
+   .hubLink a {
+    width: 100px;
+   }
+ }

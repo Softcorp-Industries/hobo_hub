@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch:sass": "npx sass sass:src/style.css --watch",
+    "watch:sass": "npx sass sass:_site/style.css --watch",
     "watch:eleventy": "npx @11ty/eleventy --serve",
-    "start": "eleventy --serve",
-    "build": "eleventy"
+    "build": "eleventy",
+    "start": "npm run watch:eleventy & npm run watch:sass"
   },
   "keywords": [],
   "author": "",
