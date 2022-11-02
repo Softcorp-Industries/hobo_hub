@@ -60,6 +60,7 @@ Weekend Returning to Shelter from Mustard Seed 102 Building Downtown.
 <p>
 5:00 pm, 6:00 pm
 </p>
+</div>
 <br>
 <p class="post__lead">
 Transitional Program Avialable
@@ -67,3 +68,6 @@ Transitional Program Avialable
 <p>
 Contact Shelter Staff
 </p>
+<br>
+
+<a class="post__link" href="https://theseed.ca" target="_blank">Mustard Seed Home Page</a>
