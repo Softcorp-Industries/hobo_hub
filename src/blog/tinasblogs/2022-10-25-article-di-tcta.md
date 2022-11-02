@@ -2,12 +2,12 @@
 title: Drop-in Center
 author: Tent City Tina
 date: 2022-10-25
-tags: ["post", "tinaspost"]
+tags: ["post", "tinaspost", "sallyspost"]
 image: /assets/TinasPics/Drop-in.jpg
 imageAlt: Drop-in center
 figcaption: 1 Dermot Baldwin Way SE Calgary, AB T2G 0P8
 snippeticon: /assets/icons/icons8-tent-64(1).png
-description: 1 Dermot Baldwin Way SE Calgary, AB T2G 0P8
+description: Emergency Shelter & Clothing Room
 ---
 
 <p class="subHeader">
