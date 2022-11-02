@@ -21,8 +21,9 @@
   &__body {
     letter-spacing: 1px;
     margin-bottom: 2em;
-    p {
+    p, pre {
       margin: 0.5em 0;
+      word-wrap: normal;
     }
     &__subHeader {
       padding-top: 1em;

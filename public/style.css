@@ -368,8 +368,9 @@
   letter-spacing: 1px;
   margin-bottom: 2em;
 }
-.post__body p {
+.post__body p, .post__body pre {
   margin: 0.5em 0;
+  word-wrap: normal;
 }
 .post__body__subHeader {
   padding-top: 1em;
