@@ -1,147 +1,240 @@
 .snippet {
-   margin: 2em auto;
-   max-width: 450px;
-   padding: .75em;
-   display: flex;
-   flex-direction: column;
-   color: white;
-   background-color: rgb(0, 0, 0);
-   box-shadow: 0 0 4px 1px rgb(150, 150, 150);
-   border-radius: .5em;
- }
+  margin: 2em auto;
+  max-width: 450px;
+  padding: 0.75em;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0 0 4px 1px rgb(150, 150, 150);
+  border-radius: 0.5em;
+}
 
- .snippet__header {
-   width: 100%;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   margin-bottom: .5em;
- }
+.snippet__header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5em;
+}
 .snippet__header article {
-   width: 75%;
- }
+  width: 75%;
+}
 
+.snippet__meta {
+  font-size: 0.7em;
+}
 
- .snippet__meta {
-   font-size: .7em;
- }
-
- .snippet img {
-   display: block;
-   width: 35px;
-   height: 35px;
- }
-.snippet article a{
+.snippet img {
+  display: block;
+  width: 35px;
+  height: 35px;
+}
+.snippet article a {
   display: block;
 }
 
- .snippet__body {
-   margin: .5em 0;
-   font-size: .9em;
- }
+.snippet__body {
+  margin: 0.5em 0;
+  font-size: 0.9em;
+}
 
- .missionStatement p {
-   color: red;
- }
+.missionStatement p {
+  color: red;
+}
 
- .hubSection {
-   background-color: rgb(230, 230, 230);
-   background-color: rgba(30, 30, 30);
-   box-shadow: 0 0 4px 1px rgb(150, 150, 150);
-   margin: 2em auto;
-   width: 90%;
-   max-width: 750px;
-   color: white;
-   border-radius: .5em;
-   &__header {
-  padding: .75em;
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   justify-content: space-between;
-   
- }
+.hubSection {
+  background-color: rgb(230, 230, 230);
+  background-color: rgba(30, 30, 30);
+  box-shadow: 0 0 4px 1px rgb(150, 150, 150);
+  margin: 2em auto;
+  width: 90%;
+  max-width: 750px;
+  color: white;
+  border-radius: 0.5em;
+  &__header {
+    padding: 0.75em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.hub-header {
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: space-evenly;
+  background-color: rgba(30, 30, 30);
+  box-shadow: 0 0 4px 1px black;
+  margin-bottom: 1.5em;
+}
 
- }
- .hub-header {
-  padding: .5em;
-   display: flex;
-   align-items: center;
-   color: white;
-   justify-content: space-evenly;
-   background-color: rgba(30, 30, 30);
-   box-shadow: 0 0 4px 1px black;
-   margin-bottom: 1.5em;
- }
-
- .hub-header h1 {
-  margin: .5em 0;
- width: 70%;
- font-size: 1em;
+.hub-header h1 {
+  margin: 0.5em 0;
+  width: 70%;
+  font-size: 1em;
   text-align: center;
-   letter-spacing: 2px;
- }
- .hub-header img {
+  letter-spacing: 2px;
+}
+.hub-header img {
   width: 30px;
- }
+}
 
- .blogImage {
-   margin: auto;
-   width: 80%;
-   max-width: 750px;
-   margin-bottom: 1.5em;
- }
-
- 
- .hubSection__header h2 {
-  padding: 0 .25em;
-   letter-spacing: 1px;
-   font-family: "The Nautigal";
-   font-size: 2.25em;
-   color: steelblue;
- }
-
- .hubSection__header img {
-   width: 40px;
- }
- .hubSection__header img:first-of-type {
-   display: none;
- }
-
- .hubSection__body {
-   margin: auto;
-   display: flex;
-   flex-direction: column;
-   align-items: top;
-   justify-content: space-between;
-   text-align: center;
-   .lead {
-    margin: .25em 0;
-    font-size: 1.25em;
-   }
- }
-
- .hubBtns {
+.blogImage {
   margin: auto;
-   display: flex;
-   flex-direction: column;
- }
+  width: 80%;
+  max-width: 750px;
+  margin-bottom: 1.5em;
+}
 
- .hubBtn {
-   margin: 10px 0;
-   background-color: whitesmoke;
-   padding: .5em;
-   width: 50%;
-   min-width: 200px;
-   text-align: center;
-   text-decoration: none;
-   letter-spacing: 1px;
-   font-size: .85em;
-   color: white;
-   border-radius: .5em;
-   background-color: steelblue;
- }
+.hubSection__header h2 {
+  padding: 0 0.25em;
+  letter-spacing: 1px;
+  font-family: "The Nautigal";
+  font-size: 2.25em;
+  color: steelblue;
+}
 
- .hubBtn:hover {
-   background-color: blue;
- }
+.hubSection__header img {
+  width: 40px;
+}
+.hubSection__header img:first-of-type {
+  display: none;
+}
+
+.hubSection__body {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: top;
+  justify-content: space-between;
+  text-align: center;
+  .lead {
+    margin: 0.25em 0;
+    font-size: 1.25em;
+  }
+}
+
+.hubBtns {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.hubBtn {
+  margin: 10px 0;
+  background-color: whitesmoke;
+  padding: 0.5em;
+  width: 50%;
+  min-width: 200px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 0.85em;
+  color: white;
+  border-radius: 0.5em;
+  background-color: steelblue;
+}
+
+.hubBtn:hover {
+  background-color: blue;
+}
+@media (min-width: 400px) {
+  body {
+    font-size: 18px;
+  }
+
+  .page-header h1 {
+    font-size: 3em;
+  }
+  .hub-header h1 {
+    font-size: 1.2em;
+  }
+
+  .hubNav {
+    height: 375px;
+  }
+
+  .hubLink {
+    width: 90px;
+    height: 90px;
+  }
+
+  .hubLink a {
+    width: 75px;
+  }
+}
+
+@media (min-width: 600px) {
+  .hubBtns {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .hubBtn {
+    max-width: 40%;
+  }
+  .hub-header {
+    padding: .25em;
+    font-size: 1.35em;
+  }
+  .hub-header h1 {
+    margin: 0.25em auto;
+  }
+  .hub-header img {
+    width: 50px;
+  }
+  .hubSection__header {
+    justify-content: space-evenly;
+  }
+  .hubSection__header img:first-of-type {
+    display: block;
+  }
+}
+
+@media (min-width: 700px) {
+  .hub-header {
+    font-size: 1.5em;
+  }
+  .hub-header img {
+    width: 60px;
+  }
+
+  .hubNav {
+    margin-top: 4em;
+    height: 400px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .page-header {
+    padding-top: 3.25em;
+    font-size: 2em;
+  }
+  .hub-header h1 {
+    font-size: 2em;
+  }
+
+  #feelgoodIcon {
+    bottom: -3em;
+  }
+
+  #sallysIcon {
+    top: -3em;
+  }
+
+  .hubNav {
+    height: 425px;
+  }
+
+  .hubLink {
+    width: 110px;
+    height: 110px;
+  }
+
+  .hubLink a {
+    width: 100px;
+  }
+}

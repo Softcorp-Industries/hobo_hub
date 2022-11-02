@@ -147,6 +147,90 @@
   background-color: blue;
 }
 
+@media (min-width: 400px) {
+  body {
+    font-size: 18px;
+  }
+  .page-header h1 {
+    font-size: 3em;
+  }
+  .hub-header h1 {
+    font-size: 1.2em;
+  }
+  .hubNav {
+    height: 375px;
+  }
+  .hubLink {
+    width: 90px;
+    height: 90px;
+  }
+  .hubLink a {
+    width: 75px;
+  }
+}
+@media (min-width: 600px) {
+  .hubBtns {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .hubBtn {
+    max-width: 40%;
+  }
+  .hub-header {
+    padding: 0.25em;
+    font-size: 1.35em;
+  }
+  .hub-header h1 {
+    margin: 0.25em auto;
+  }
+  .hub-header img {
+    width: 50px;
+  }
+  .hubSection__header {
+    justify-content: space-evenly;
+  }
+  .hubSection__header img:first-of-type {
+    display: block;
+  }
+}
+@media (min-width: 700px) {
+  .hub-header {
+    font-size: 1.5em;
+  }
+  .hub-header img {
+    width: 60px;
+  }
+  .hubNav {
+    margin-top: 4em;
+    height: 400px;
+  }
+}
+@media (min-width: 1000px) {
+  .page-header {
+    padding-top: 3.25em;
+    font-size: 2em;
+  }
+  .hub-header h1 {
+    font-size: 2em;
+  }
+  #feelgoodIcon {
+    bottom: -3em;
+  }
+  #sallysIcon {
+    top: -3em;
+  }
+  .hubNav {
+    height: 425px;
+  }
+  .hubLink {
+    width: 110px;
+    height: 110px;
+  }
+  .hubLink a {
+    width: 100px;
+  }
+}
 :root {
   --primaryClr: steelblue;
 }
@@ -368,7 +452,8 @@
   letter-spacing: 1px;
   margin-bottom: 2em;
 }
-.post__body p, .post__body pre {
+.post__body p,
+.post__body pre {
   margin: 0.5em 0;
   word-wrap: normal;
 }
@@ -379,31 +464,25 @@
   color: steelblue;
 }
 .post__link {
-  display: block;
-  text-decoration: none;
-  font-size: 1.5em;
-  letter-spacing: 1px;
   text-align: center;
   color: white;
 }
-.post__profileLink {
-  text-align: center;
-  color: white;
-}
-.post__profileLink img {
-  margin: auto;
+.post__link img {
+  margin: 1em auto;
   display: block;
   width: 200px;
   height: 200px;
-  border-radius: 50%;
 }
-.post__profileLink p {
+.post__link p {
   font-size: 0.9em;
 }
-.post__profileLink a {
+.post__link a {
+  display: block;
   text-decoration: none;
   font-size: 1.5em;
   letter-spacing: 1px;
+  text-align: center;
+  color: white;
 }
 
 body {

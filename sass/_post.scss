@@ -21,7 +21,8 @@
   &__body {
     letter-spacing: 1px;
     margin-bottom: 2em;
-    p, pre {
+    p,
+    pre {
       margin: 0.5em 0;
       word-wrap: normal;
     }
@@ -32,32 +33,26 @@
       color: steelblue;
     }
   }
-  &__link {
-    display: block;
-    text-decoration: none;
-    font-size: 1.5em;
-    letter-spacing: 1px;
-    text-align: center;
-    color: white;
-  }
 
-  &__profileLink {
+  &__link {
     text-align: center;
     color: white;
     img {
-      margin: auto;
+      margin: 1em auto;
       display: block;
       width: 200px;
       height: 200px;
-      border-radius: 50%;
     }
     p {
       font-size: 0.9em;
     }
     a {
+      display: block;
       text-decoration: none;
       font-size: 1.5em;
       letter-spacing: 1px;
+      text-align: center;
+      color: white;
     }
   }
 }

@@ -78,7 +78,7 @@ I walked away from society many years ago, so why I'm writing a blog now is just
 These are my actions now...
 </p>
 </div>
-<div class="post__profileLink">
+<div class="post__link">
   <img src="/assets/profilePics/profile-freddie_3.jpg" />
   <p>Visit me at</p>
   <a href="https://softcorpindustries.tech" target="_blank">Softcorp Industries</a>
