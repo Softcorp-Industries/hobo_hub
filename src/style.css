@@ -448,16 +448,11 @@
   font-size: 1.5em;
   color: steelblue;
 }
-.post__body {
-  letter-spacing: 1px;
-  margin-bottom: 2em;
-}
-.post__body p,
-.post__body pre {
+.post p {
   margin: 0.5em 0;
-  word-wrap: normal;
+  font-size: 0.9em;
 }
-.post__body__subHeader {
+.post .subHeader {
   padding-top: 1em;
   font-weight: 700;
   font-size: 1.25em;

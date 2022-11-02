@@ -18,20 +18,15 @@
     font-size: 1.5em;
     color: steelblue;
   }
-  &__body {
-    letter-spacing: 1px;
-    margin-bottom: 2em;
-    p,
-    pre {
-      margin: 0.5em 0;
-      word-wrap: normal;
-    }
-    &__subHeader {
-      padding-top: 1em;
-      font-weight: 700;
-      font-size: 1.25em;
-      color: steelblue;
-    }
+  p {
+    margin: 0.5em 0;
+    font-size: .9em;
+  }
+  .subHeader {
+    padding-top: 1em;
+    font-weight: 700;
+    font-size: 1.25em;
+    color: steelblue;
   }
 
   &__link {
