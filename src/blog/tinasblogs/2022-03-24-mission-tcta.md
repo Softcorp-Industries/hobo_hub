@@ -1,7 +1,7 @@
 ---
 title: Tina's Mission
 author: Tent City Tina
-date: 2022-10-24
+date: 2022-03-24
 tags: ["post", "tinasmission", "mission"]
 image: /assets/blog/profile_img_2021.jpg
 imageAlt: Tina's Image

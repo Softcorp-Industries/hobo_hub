@@ -4,13 +4,15 @@
   montra: Tim's Mission
 ---
 
-<div class="missionLink  navLink">
-  <a href="/timsBlog" title="Tim's Mission"><img src="/assets/icons/icons8-document-60.png" /></a>
+<div class="missionLink navLink">
+  {%- for mission in collections.timssmission -%}
+    {% include "missionLink.njk" %}
+  {%- endfor -%}
 </div>
 
 <section class="welcome">
   <p class="lead">
-    Hello welcome to my Blog Page, I'm Tim.
+    Hello, I'm Tim.
   </p>
   <p>
     We have a few sections here to choose from. We can offer you some suggestions on Temp Employment, Resume's, Clothing for Interviews and Training Center's.

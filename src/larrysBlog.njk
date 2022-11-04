@@ -1,11 +1,13 @@
 ---
-  title: Lunch Box Larry
+  title: Larry's Mission
   layout: "base.njk"
   montra: Larry's Missionn
 ---
 
 <div class="missionLink navLink">
-  <a href="/larrysMission" title="Larry's Mission"><img src="/assets/icons/icons8-document-60.png" /></a>
+  {%- for mission in collections.larrysmission -%}
+    {% include "missionLink.njk" %}
+  {%- endfor -%}
 </div>
 
 

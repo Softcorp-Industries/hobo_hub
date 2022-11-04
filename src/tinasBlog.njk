@@ -5,7 +5,9 @@
 ---
 
 <div class="missionLink navLink">
-  <a href="/tinasBlog" title="Tina's Mission"><img src="/assets/icons/icons8-document-60.png" /></a>
+  {%- for mission in collections.tinasmission -%}
+    {% include "missionLink.njk" %}
+  {%- endfor -%}
 </div>
 
 <section class="chapter">

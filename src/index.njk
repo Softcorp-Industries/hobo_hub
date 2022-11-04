@@ -10,7 +10,7 @@ layout: 'base.njk'
 
 <div class="missionLink navLink">
   {%- for mission in collections.freddiesmission -%}
-    <a href="{{ mission.url }}" title="{{ title }}" class="missionBtn"><img src="./assets/icons/icons8-document-60.png" /></a>
+    {% include "missionLink.njk" %}
   {%- endfor -%}
 </div>
 
@@ -24,13 +24,10 @@ layout: 'base.njk'
     <p>
       We have 6 NPC Guides to help you find the resources you need, We don't offer any direct services ourselves, we are but only humble guides in your journey. You can connect to them directly by clicking on the assocciated icon within <span>THE HUB</span> above or continue to their bio section below for more information.
     </p>
-    <p>
-      Please allow me introduce you to your NPC Guide's and what areas they can help you with in your time of need. 
-    </p>
 </section>
 
 <section class="hubSections">
-  {%- for mission in collections.mission | reverse -%}
+  {%- for mission in collections.mission -%}
     {% include "hub-snippet.njk" %}
   {%- endfor -%}
 </section>
