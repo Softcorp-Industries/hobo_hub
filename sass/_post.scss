@@ -14,12 +14,14 @@
     margin-bottom: 2em;
     img {
       display: block;
-      width: 100%;
+      margin: auto;
+      width: 70%;
       box-shadow: 0 0 3px 1px black;
       border-radius: 0.25em;
       margin-bottom: 0.5em;
     }
     &__caption {
+      text-align: center;
       font-size: 0.9em;
     }
   }

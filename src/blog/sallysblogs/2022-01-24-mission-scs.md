@@ -9,7 +9,7 @@ figcaption:
 visit: Visit Sally
 montra: Hello, Sweetie
 hubLink: /sallysBlog
-hubDescription: I got ya Babe!!!
+hubDescription: Are you looking for something to keep you warm, I got ya Babe!!! I know a few people that can help you out. Do you need any furniture or a ride somewhere Honey? 
 snippeticon: /assets/icons/icons8-wing-chair-48.png
 description: I hope to be as helpful as possible connecting people to the right resources.
 ---

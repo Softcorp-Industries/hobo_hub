@@ -9,10 +9,13 @@ figcaption:
 montra: Saul has nothing on us!!!
 hubLink: /dchBlog
 visit: Retainer
-hubDescription: I hope to be as helpful as possible connecting people to the right resources.
+hubDescription: I hope to be as helpful as possible connecting people to the right resources. We don't offer any legal advice, we can hopefully open a few doors for you.
 snippeticon: /assets/icons/icons8-balance-scale-48.png
 description: I hope to be as helpful as possible connecting people to the right resources.
 ---
 <p class="articleLead">
 Hello, we are "Duey Cheatem & Howe"...
+</p>
+<p>
+... and do we ever.
 </p>

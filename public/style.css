@@ -121,6 +121,13 @@
   margin: 0.25em 0;
   font-size: 1.25em;
 }
+.hubSection__body .highlights {
+  margin: 1em auto;
+  width: 90%;
+  text-align: left;
+  letter-spacing: 1px;
+  font-size: 0.9em;
+}
 
 .hubBtns {
   margin: auto;
@@ -444,12 +451,14 @@
 }
 .post__image img {
   display: block;
-  width: 100%;
+  margin: auto;
+  width: 70%;
   box-shadow: 0 0 3px 1px black;
   border-radius: 0.25em;
   margin-bottom: 0.5em;
 }
 .post__image__caption {
+  text-align: center;
   font-size: 0.9em;
 }
 .post__lead {
