@@ -1,6 +1,5 @@
 .welcome {
-  margin: auto;
-  padding: 1em;
+  margin: 2em auto;
   max-width: 800px;
   letter-spacing: 1px;
   font-size: 1.2em;
@@ -20,9 +19,14 @@
 }
 .chapter {
    margin: 1em auto;
-   padding: 1.5em;
-   max-width: 900px;
+
+   max-width: 800px;
+   h2 {
+font-size: 2.25em;
+text-align: center;
+   }
  }
+
  .logoBrand {
    width: 100%;
    position: absolute;

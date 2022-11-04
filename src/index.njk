@@ -25,9 +25,11 @@ layout: 'base.njk'
       We have 6 NPC Guides to help you find the resources you need, We don't offer any direct services ourselves, we are but only humble guides in your journey. You can connect to them directly by clicking on the assocciated icon within <span>THE HUB</span> above or continue to their bio section below for more information.
     </p>
 </section>
+<section class="chapter">
 <h2>NPC Guides</h2>
 <section class="hubSections">
   {%- for mission in collections.mission -%}
     {% include "hub-snippet.njk" %}
   {%- endfor -%}
+</section>
 </section>
