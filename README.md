@@ -22,4 +22,4 @@ Thank you for your interest in the HOBO HUB.
 
 ## <a href="https://softcorpindustries.tech" target="_blank" title="Softcorp Industries Web Site">Softcorp Industries Web Site</a>
 
-## <a href="mailto:softcorpindustries@gmail.com" title="Email Softcorp Industries">Email Softcorp Industries</a>
+## <a href="mailto:freighttrainfreddie@gmail.com?subject=HOBO HUB Read Me" title="Email Softcorp Industries">Email Softcorp Industries</a>
