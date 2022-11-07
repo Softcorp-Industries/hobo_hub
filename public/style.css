@@ -259,7 +259,7 @@
   height: 325px;
   position: relative;
   max-width: 500px;
-  margin-bottom: 3.75em;
+  margin-bottom: 5em;
 }
 
 #lunchboxIcon {
@@ -296,7 +296,7 @@
 
 .missionLink {
   position: absolute;
-  top: 0.5em;
+  top: 0.75em;
   padding: 0.5em;
   text-align: center;
   border-radius: 50%;
@@ -425,8 +425,8 @@
     height: 60px;
   }
   .missionLink a img {
-    width: 65px;
-    height: 65px;
+    width: 60px;
+    height: 60px;
   }
   .logoBrand {
     letter-spacing: 3px;
@@ -434,12 +434,16 @@
   }
   .hubNav {
     height: 400px;
+    margin-bottom: 7em;
   }
   .hubLink {
     font-size: 0.9em;
   }
 }
 @media (min-width: 1000px) {
+  .missionLink {
+    top: 1em;
+  }
   .hub-header h1 {
     font-size: 2em;
   }
@@ -481,7 +485,7 @@
 }
 
 .chapter {
-  margin: 1em auto;
+  margin: 5em auto;
   max-width: 800px;
 }
 
@@ -507,7 +511,6 @@
 
 .page-header {
   width: 100%;
-  padding-top: 4.5em;
   text-align: center;
   letter-spacing: 1px;
   color: steelblue;
