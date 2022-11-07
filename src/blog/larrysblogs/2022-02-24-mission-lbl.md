@@ -6,7 +6,7 @@ tags: ["post", "larrysmission", "mission"]
 image: /assets/blog/profile_img_2021
 imageAlt: Larry's Image
 figcaption: Lunch Box Larry 
-montra: Does This Smell Bad???
+montra: Food
 visit: Visit Larry
 hubLink: /larrysBlog
 hubDescription: Have you eaten today? Need a lunch? Do you need to fill the cupboards a bit? Let's hook you up, I love to eat so do my friends.

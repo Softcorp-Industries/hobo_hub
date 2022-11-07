@@ -7,7 +7,7 @@ image: /assets/blogImages/profile_img_2021.jpg
 imageAlt: Sally Image
 figcaption:
 visit: Visit Sally
-montra: Hello, Sweetie
+montra: Clothing, Furniture & Transportation
 hubLink: /sallysBlog
 hubDescription: Are you looking for something to keep you warm, I got ya Babe!!! I know a few people that can help you out. Do you need any furniture or a ride somewhere Honey? 
 snippeticon: /assets/icons/icons8-wing-chair-48.png

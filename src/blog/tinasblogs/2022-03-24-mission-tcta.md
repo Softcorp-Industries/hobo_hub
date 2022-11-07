@@ -7,7 +7,7 @@ image: /assets/blog/profile_img_2021.jpg
 imageAlt: Tina's Image
 figcaption:
 visit: Visit Tina
-montra: Keep Your Smokes Dry
+montra: Shelter
 hubLink: /tinasBlog
 hubDescription: Keep you feet dry, your head warm and body safe. Please be take care of yourself, it's getting cold out there. If you need a roof and somewhere warm to sleep, my friends can cuddle with you or help point you to an appropriate shelter.
 snippeticon: /assets/icons/icons8-tent-64(1).png

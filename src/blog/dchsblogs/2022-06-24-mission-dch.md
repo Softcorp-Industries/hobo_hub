@@ -6,7 +6,7 @@ tags: ["post", "dchspost", "dchsmission", "mission"]
 image: /assets/blogImages/profile_img_2021.jpg
 imageAlt: DCH's Image
 figcaption:
-montra: Saul has nothing on us!!!
+montra: Legal Issues
 hubLink: /dchBlog
 visit: Retainer
 hubDescription: I hope to be as helpful as possible connecting people to the right resources. We don't offer any legal advice, we can hopefully open a few doors for you.

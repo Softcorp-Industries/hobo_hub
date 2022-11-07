@@ -5,8 +5,7 @@
   display: flex;
   flex-direction: column;
   color: white;
-  background-color: rgb(0, 0, 0);
-  box-shadow: 0 0 4px 1px rgb(150, 150, 150);
+  background-color: rgb(30, 30, 30);
   border-radius: 0.5em;
 }
 
@@ -46,9 +45,7 @@
 }
 
 .hubSection {
-  background-color: rgb(230, 230, 230);
   background-color: rgb(30, 30, 30);
-  box-shadow: 0 0 4px 1px rgb(150, 150, 150);
   margin: 2em auto;
   width: 100%;
   max-width: 750px;
@@ -198,6 +195,12 @@
   .hubSection__header {
     justify-content: space-evenly;
   }
+  .hubSection__header h2 {
+    font-size: 3em;
+  }
+  .hubSection__header img {
+    width: 55px;
+  }
   .hubSection__header img:first-of-type {
     display: block;
   }
@@ -259,6 +262,11 @@
   margin-bottom: 3.75em;
 }
 
+#lunchboxIcon {
+  top: 1.5em;
+  left: 1.5em;
+}
+
 #sallysIcon {
   top: -2em;
   left: 50%;
@@ -266,7 +274,7 @@
 }
 
 #timsIcon {
-  top: 1.5em;
+  bottom: 1.5em;
   left: 1.5em;
 }
 
@@ -279,11 +287,6 @@
   bottom: -2em;
   left: 50%;
   transform: translateX(-50%);
-}
-
-#lunchboxIcon {
-  bottom: 1.5em;
-  left: 1.5em;
 }
 
 #legalIcon {
@@ -321,12 +324,15 @@
 .hubLink {
   position: absolute;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 0.5em 0;
   width: 75px;
   height: 75px;
   border-radius: 50%;
+  color: rgb(30, 30, 30);
+  font-size: 0.85em;
 }
 
 .hubLink a {
@@ -375,6 +381,85 @@
   text-decoration: none;
 }
 
+@media (min-width: 400px) {
+  .hub-header h1 {
+    font-size: 1.2em;
+  }
+  .hubNav {
+    height: 375px;
+  }
+  .hubLink {
+    width: 90px;
+    height: 90px;
+  }
+  .hubLink a {
+    width: 75px;
+  }
+}
+@media (min-width: 600px) {
+  .hubBtns {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .hubBtn {
+    max-width: 40%;
+  }
+  .returnLink {
+    top: 1em;
+  }
+  .missionLink a img {
+    width: 47px;
+    height: 47px;
+  }
+}
+@media (min-width: 700px) {
+  .hub-header h1 {
+    font-size: 1.35em;
+  }
+  .hub-header img {
+    width: 50px;
+  }
+  .mailLink a img {
+    width: 60px;
+    height: 60px;
+  }
+  .missionLink a img {
+    width: 65px;
+    height: 65px;
+  }
+  .logoBrand {
+    letter-spacing: 3px;
+    font-size: 4em;
+  }
+  .hubNav {
+    height: 400px;
+  }
+  .hubLink {
+    font-size: 0.9em;
+  }
+}
+@media (min-width: 1000px) {
+  .hub-header h1 {
+    font-size: 2em;
+  }
+  #feelgoodIcon {
+    bottom: -3em;
+  }
+  #sallysIcon {
+    top: -3em;
+  }
+  .hubNav {
+    height: 425px;
+  }
+  .hubLink {
+    width: 110px;
+    height: 110px;
+  }
+  .hubLink a {
+    width: 100px;
+  }
+}
 .welcome {
   margin: 2em auto;
   max-width: 800px;
@@ -399,7 +484,9 @@
   margin: 1em auto;
   max-width: 800px;
 }
-.chapter h2 {
+
+.chapterHeader {
+  color: steelblue;
   font-size: 2.25em;
   text-align: center;
 }
@@ -533,45 +620,11 @@ footer p {
   .page-header h1 {
     font-size: 3em;
   }
-  .hub-header h1 {
-    font-size: 1.2em;
-  }
-  .hubNav {
-    height: 375px;
-  }
-  .hubLink {
-    width: 90px;
-    height: 90px;
-  }
-  .hubLink a {
-    width: 75px;
-  }
 }
 @media (min-width: 600px) {
   .page-header {
     font-size: 1.4em;
     padding-top: 3.25em;
-  }
-  .hubBtns {
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
-  .hubBtn {
-    max-width: 40%;
-  }
-  .hubSection__header {
-    justify-content: space-evenly;
-  }
-  .hubSection__header img:first-of-type {
-    display: block;
-  }
-  .returnLink {
-    top: 1em;
-  }
-  .missionLink a img {
-    width: 47px;
-    height: 47px;
   }
 }
 @media (min-width: 700px) {
@@ -582,50 +635,10 @@ footer p {
   .page-header h1 {
     font-size: 3em;
   }
-  .hub-header h1 {
-    font-size: 1.35em;
-  }
-  .hub-header img {
-    width: 50px;
-  }
-  .mailLink a img {
-    width: 60px;
-    height: 60px;
-  }
-  .missionLink a img {
-    width: 65px;
-    height: 65px;
-  }
-  .logoBrand {
-    letter-spacing: 3px;
-    font-size: 4em;
-  }
-  .hubNav {
-    height: 400px;
-  }
 }
 @media (min-width: 1000px) {
   .page-header {
     padding-top: 3.25em;
     font-size: 2em;
-  }
-  .hub-header h1 {
-    font-size: 2em;
-  }
-  #feelgoodIcon {
-    bottom: -3em;
-  }
-  #sallysIcon {
-    top: -3em;
-  }
-  .hubNav {
-    height: 425px;
-  }
-  .hubLink {
-    width: 110px;
-    height: 110px;
-  }
-  .hubLink a {
-    width: 100px;
   }
 }

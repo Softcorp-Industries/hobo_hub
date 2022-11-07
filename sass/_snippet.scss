@@ -5,8 +5,7 @@
   display: flex;
   flex-direction: column;
   color: white;
-  background-color: rgb(0, 0, 0);
-  box-shadow: 0 0 4px 1px rgb(150, 150, 150);
+   background-color: rgba(30, 30, 30);
   border-radius: 0.5em;
 }
 
@@ -44,9 +43,7 @@
 }
 
 .hubSection {
-  background-color: rgb(230, 230, 230);
   background-color: rgba(30, 30, 30);
-  box-shadow: 0 0 4px 1px rgb(150, 150, 150);
   margin: 2em auto;
   width: 100%;
   max-width: 750px;
@@ -67,7 +64,7 @@
   align-items: center;
   color: white;
   justify-content: space-evenly;
-  background-color: rgba(30, 30, 30);
+  background-color: rgb(30, 30, 30);
   box-shadow: 0 0 4px 1px black;
   margin-bottom: 1.5em;
 }
@@ -196,6 +193,13 @@
   }
   .hubSection__header {
     justify-content: space-evenly;
+  }
+  .hubSection__header h2 {
+  font-size: 3em;
+  }
+  .hubSection__header img {
+  width: 55px;
+
   }
   .hubSection__header img:first-of-type {
     display: block;
