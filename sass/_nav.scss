@@ -39,15 +39,20 @@
   text-align: center;
   border-radius: 50%;
 }
-
-.navLink a {
-  cursor: pointer;
-  display: block;
-  text-decoration: none;
-  color: red;
-  letter-spacing: 1px;
-  font-size: 1.5em;
-  font-family: "Titan One";
+.homeLink {
+  position: absolute;
+  top: 1.5em;
+  left: 50%;
+  transform: translateX(-50%);
+  a {
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    color: red;
+    letter-spacing: 1px;
+    font-size: 1.5em;
+    font-family: "Titan One";
+  }
 }
 
 .mailLink {
@@ -95,19 +100,11 @@
   display: flex;
   flex-direction: column;
 }
-
 .missionLink a img,
 .mailLink a img {
   width: 40px;
   height: 40px;
 }
-.returnLink {
-  position: absolute;
-  top: 1.5em;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
 .hubLinks {
   list-style: none;
 }
@@ -139,7 +136,7 @@
   .hubBtn {
     max-width: 40%;
   }
-  .returnLink {
+  .homeLink {
     top: 1em;
   }
   .missionLink a img {
@@ -149,17 +146,13 @@
 }
 
 @media (min-width: 700px) {
-  .hub-header h1 {
-    font-size: 1.35em;
-  }
-  .hub-header img {
-    width: 50px;
+  .homeLink a {
+    font-size: 2em;
   }
   .mailLink a img {
     width: 60px;
     height: 60px;
   }
-
   .missionLink a img {
     width: 60px;
     height: 60px;
@@ -180,9 +173,6 @@
 @media (min-width: 1000px) {
   .missionLink {
     top: 1em;
-  }
-  .hub-header h1 {
-    font-size: 2em;
   }
   #feelgoodIcon {
     bottom: -3em;
