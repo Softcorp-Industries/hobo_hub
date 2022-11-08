@@ -29,7 +29,6 @@
     width: 35px;
     height: 35px;
   }
-
   article a {
     display: block;
     width: 50%;
@@ -105,20 +104,16 @@
   color: white;
   border-radius: 0.5em;
   background-color: steelblue;
-
 }
 .hubBtn:hover {
   background-color: blue;
 }
 
 @media (min-width: 400px) {
-  .hub-header h1 {
-    font-size: 1.2em;
-  }
+  
 }
 @media (min-width: 600px) {
   .hubBtn {
-    
     font-size: 1em;
     letter-spacing: 2px;
   }

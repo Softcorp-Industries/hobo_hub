@@ -114,11 +114,6 @@
   background-color: blue;
 }
 
-@media (min-width: 400px) {
-  .hub-header h1 {
-    font-size: 1.2em;
-  }
-}
 @media (min-width: 600px) {
   .hubBtn {
     font-size: 1em;
