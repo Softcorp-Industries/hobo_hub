@@ -42,7 +42,8 @@
   color: red;
 }
 
-.hubSection {
+
+.hub-snippet {
   background-color: rgba(30, 30, 30);
   margin: 2em auto;
   width: 100%;
@@ -58,51 +59,20 @@
     justify-content: space-between;
   }
 }
-.hub-header {
-  padding: 0.5em;
-  display: flex;
-  align-items: center;
-  color: white;
-  justify-content: space-evenly;
-  background-color: rgb(30, 30, 30);
-  box-shadow: 0 0 4px 1px black;
-  margin-bottom: 1.5em;
-}
-
-.hub-header h1 {
-  margin: 0.5em 0;
-  width: 70%;
-  font-size: 1em;
-  text-align: center;
-  letter-spacing: 2px;
-}
-.hub-header img {
-  width: 30px;
-}
-
-.blogImage {
-  margin: auto;
-  width: 80%;
-  max-width: 750px;
-  margin-bottom: 1.5em;
-}
-
-.hubSection__header h2 {
+.hub-snippet__header h2 {
   padding: 0 0.25em;
   letter-spacing: 1px;
   font-family: "The Nautigal";
   font-size: 2.25em;
   color: steelblue;
 }
-
-.hubSection__header img {
+.hub-snippet__header img {
   width: 40px;
 }
-.hubSection__header img:first-of-type {
+.hub-snippet__header img:first-of-type {
   display: none;
 }
-
-.hubSection__body {
+.hub-snippet__body {
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -121,13 +91,11 @@
     font-size: .9em;
   }
 }
-
 .hubBtns {
   margin: auto;
   display: flex;
   flex-direction: column;
 }
-
 .hubBtn {
   margin: 10px 0;
   background-color: whitesmoke;
@@ -142,33 +110,12 @@
   border-radius: 0.5em;
   background-color: steelblue;
 }
-
 .hubBtn:hover {
   background-color: blue;
 }
 @media (min-width: 400px) {
-  body {
-    font-size: 18px;
-  }
-
-  .page-header h1 {
-    font-size: 3em;
-  }
   .hub-header h1 {
     font-size: 1.2em;
-  }
-
-  .hubNav {
-    height: 375px;
-  }
-
-  .hubLink {
-    width: 90px;
-    height: 90px;
-  }
-
-  .hubLink a {
-    width: 75px;
   }
 }
 
@@ -181,39 +128,23 @@
   .hubBtn {
     max-width: 40%;
   }
-  .hub-header {
-    padding: .25em;
-    font-size: 1.35em;
-  }
-  .hub-header h1 {
-    margin: 0.25em auto;
-  }
-  .hub-header img {
-    width: 50px;
-  }
-  .hubSection__header {
+  
+  .hub-snippet__header {
     justify-content: space-evenly;
   }
-  .hubSection__header h2 {
+  .hub-snippet__header h2 {
   font-size: 3em;
   }
-  .hubSection__header img {
+  .hub-snippet__header img {
   width: 55px;
 
   }
-  .hubSection__header img:first-of-type {
+  .hub-snippet__header img:first-of-type {
     display: block;
   }
 }
 
 @media (min-width: 700px) {
-  .hub-header {
-    font-size: 1.5em;
-  }
-  .hub-header img {
-    width: 60px;
-  }
-
   .hubNav {
     margin-top: 4em;
     height: 400px;
@@ -221,31 +152,19 @@
 }
 
 @media (min-width: 1000px) {
-  .page-header {
-    padding-top: 3.25em;
-    font-size: 2em;
-  }
-  .hub-header h1 {
-    font-size: 2em;
-  }
-
   #feelgoodIcon {
     bottom: -3em;
   }
-
   #sallysIcon {
     top: -3em;
   }
-
   .hubNav {
     height: 425px;
   }
-
   .hubLink {
     width: 110px;
     height: 110px;
   }
-
   .hubLink a {
     width: 100px;
   }
