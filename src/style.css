@@ -13,7 +13,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
 }
 .snippet__header article {
   width: 75%;
@@ -22,7 +22,7 @@
   font-size: 0.7em;
 }
 .snippet__body {
-  margin: 0.5em 0;
+  margin-bottom: 1.25em;
   font-size: 0.9em;
 }
 .snippet img {
@@ -32,6 +32,7 @@
 }
 .snippet article a {
   display: block;
+  width: 50%;
 }
 
 .missionStatement p {
@@ -88,9 +89,11 @@
 }
 
 .hubBtns {
+  width: 100%;
   margin: auto;
   display: flex;
   flex-direction: column;
+  margin-bottom: 2em;
 }
 
 .hubBtn {
@@ -105,7 +108,6 @@
   color: white;
   border-radius: 0.5em;
   background-color: steelblue;
-  margin-bottom: 2em;
 }
 
 .hubBtn:hover {
@@ -118,13 +120,7 @@
   }
 }
 @media (min-width: 600px) {
-  .hubBtns {
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
   .hubBtn {
-    max-width: 40%;
     font-size: 1em;
     letter-spacing: 2px;
   }
@@ -305,14 +301,6 @@
   }
 }
 @media (min-width: 600px) {
-  .hubBtns {
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
-  .hubBtn {
-    max-width: 40%;
-  }
   .homeLink {
     top: 1em;
   }
