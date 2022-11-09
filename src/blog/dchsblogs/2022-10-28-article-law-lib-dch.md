@@ -8,18 +8,28 @@ imageAlt:
 snippeticon: /assets/icons/icons8-balance-scale-48.png
 description: Alberta Law Libraries provide legal documentation online
 ---
-## Alberta Law Libraries
+<p class="subHeader">Alberta Law Libraries Online</p>
 
-Calgary Contact
-Phone: 403-297-6148
-(toll free) 866-448-6148
+Alberta Law Libraries promote informed engagement with the law, encouraging broad access to justice.
+
+<p class="subHeader">
+Contact:
+</p>
+
+Email: <a href="mailto:lawlibrary@just.gov.ab.ca" target="_blank">lawlibrary@just.gov.ab.ca</a>
+
+Website: <a href="https://lawlibrary.ab.ca">Alberta Law Libraries</a>
+
+<p class="subHeader">
+Calgary:
+</p>
+Phone: <a href="tel:403-297-6148">403-297-6148</a>
+(toll free) <a href="tel:866-448-6148">866-448-6148</a>
+
+<p class="subHeader">
+Edmonton:
+</p>
+Phone: <a href="tel:780-422-2342">780-422-2342</a>
+(toll free) <a href="tel:866-230-8068">866-230-8068</a>
 
 
-
-Edmonton Contact:
-Phone: 780-422-2342
-(toll free) 866-230-8068
-
-Email: lawlibrary@just.gov.ab.ca
-
-Website: www.lawlibrary.ab.ca

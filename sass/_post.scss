@@ -7,16 +7,16 @@
   background-color: rgb(30, 30, 30);
   box-shadow: 0 0 4px 1px black;
   margin-bottom: 1.5em;
-}
-.post-header h1 {
-  margin: 0.5em 0;
-  width: 70%;
-  font-size: 1em;
-  text-align: center;
-  letter-spacing: 2px;
-}
-.post-header img {
-  width: 30px;
+  h1 {
+    margin: 0.5em 0;
+    width: 70%;
+    font-size: 1em;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+  img {
+    width: 30px;
+  }
 }
 .post {
   blockquote {
@@ -24,8 +24,8 @@
     margin: auto;
     width: 95%;
     padding: 1em;
-  background-color: rgba(30, 30, 30);
-    border-radius: .5em;
+    background-color: rgba(30, 30, 30);
+    border-radius: 0.5em;
     border: 1px solid white;
   }
   &__image {
@@ -45,23 +45,25 @@
       font-size: 0.9em;
     }
   }
-  &__lead {
-    font-size: 1.5em;
-    color: steelblue;
-  }
   p {
     margin: 0.5em 0;
-    font-size: .9em;
+  }
+  &__lead {
+    font-size: 1.25em;
   }
   .subHeader {
     padding-top: 1em;
     font-weight: 700;
-    font-size: 1.25em;
+    font-size: 1.5em;
     color: steelblue;
   }
   &__link {
+    margin: 2em auto;
+    padding: 1em;
+    max-width: 550px;
     text-align: center;
-    color: white;
+    background-color: rgb(30, 30, 30);
+    border-radius: .5em;
     img {
       margin: 1em auto;
       display: block;
@@ -73,44 +75,46 @@
     }
     a {
       display: block;
-      text-decoration: none;
       font-size: 1.5em;
       letter-spacing: 1px;
       text-align: center;
-      color: white;
+      color: steelblue;
     }
   }
 }
 @media (min-width: 400px) {
-  .post-header h1 {
-    font-size: 1.2em;
+  .post-header {
+    h1 {
+      font-size: 1.2em;
+    }
   }
 }
 @media (min-width: 600px) {
   .post-header {
-    padding: .25em;
+    padding: 0.25em;
     font-size: 1.35em;
-  }
-  .post-header h1 {
-    margin: 0.25em auto;
-  }
-  .post-header img {
-    width: 50px;
+    h1 {
+      margin: 0.25em auto;
+    }
+    img {
+      width: 50px;
+    }
   }
 }
 
 @media (min-width: 700px) {
   .post-header {
     font-size: 1.5em;
+    img {
+      width: 60px;
+    }
   }
-  .post-header img {
-    width: 60px;
-  }
-  
 }
 
 @media (min-width: 1000px) {
-  .post-header h1 {
-    font-size: 2em;
+  .post-header {
+    h1 {
+      font-size: 2em;
+    }
   }
 }
