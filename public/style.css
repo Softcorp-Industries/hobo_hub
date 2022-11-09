@@ -471,8 +471,7 @@
 }
 
 .post blockquote {
-  cursor: pointer;
-  margin: auto;
+  margin: 2em auto;
   width: 95%;
   padding: 1em;
   background-color: rgb(30, 30, 30);
@@ -520,7 +519,6 @@
   margin: 1em auto;
   display: block;
   width: 200px;
-  height: 200px;
 }
 .post__link p {
   font-size: 0.9em;
