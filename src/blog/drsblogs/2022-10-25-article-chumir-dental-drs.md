@@ -9,7 +9,7 @@ snippeticon: /assets/icons/icons8-health-64.png
 description: Emergency Dental Extractions, Must go through Emergency First to aquire a Health ticket. 
 ---
 
-# <a class="post__link" href="https://www.albertahealthservices.ca/findhealth/facility.aspx?id=1018406" target="_blank">Sheldon M. Chumir Health Center</a>
+<a class="post__link" href="https://www.albertahealthservices.ca/findhealth/facility.aspx?id=1018406" target="_blank">Sheldon M. Chumir Health Center</a>
 
 <br>
 <pre class="articlePhone">
