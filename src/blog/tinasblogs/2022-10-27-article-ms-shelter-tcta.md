@@ -1,5 +1,5 @@
 ---
-title: Mustard Seed Shelter
+title: Mustard Seed Emergency Shelter
 author: Tent City Tina
 date: 2022-10-27
 tags: ["post", "tinaspost"]
@@ -7,7 +7,7 @@ image: /assets/TinasPics/Mustard-Seed-Shelter-front-750px.jpg
 imageAlt: Mustard Seed Shelter
 figcaption: 7025 44 ave SE Calgary, AB | Mustard Seed Shelter 
 snippeticon: /assets/icons/icons8-tent-64(1).png
-description: Mustard Seed Shelter 7025 44 ave SE Calgary, AB T2C 4E8
+description: The Mustard Seed Shelter  is a sober facility located at 7025 44 ave SE Calgary, AB T2C 4E8
 ---
 <p class="subHeader">
 Open 24 hours

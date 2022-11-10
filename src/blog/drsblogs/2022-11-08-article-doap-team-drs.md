@@ -1,5 +1,5 @@
 ---
-title: DOAP Team | Alpha House Society
+title: DOAP Team 403-998-7388
 author: Dr. Feelgood
 date: 2022-11-08
 tags: ["post", "Drspost", "sallyspost"]
@@ -7,7 +7,7 @@ image: /assets/TinasPics/dosndonts.png
 imageAlt:
 figcaption: When to use the DOAP Team.
 snippeticon: /assets/icons/icons8-health-64.png
-description: 403-998-7388. The DOAP Team offers transportation and crisis support for those dealing with addiction issues. 
+description: The DOAP Team offers transportation and crisis support for those dealing with addiction issues. 
 ---
 
 <p class="subHeader">
