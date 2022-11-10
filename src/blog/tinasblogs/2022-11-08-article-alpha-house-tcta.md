@@ -22,9 +22,9 @@ Alpha House Society is a non-profit, charitable agency providing safe and caring
 
 Calgary, Alberta T2G 1G4
 
-Main Phone: 403-234-7388
+Main Phone: <a href="tel:403-234-7388">403-234-7388</a>
 
-Email: info@alphahousecalgary.com
+Email: <a href="mailto:info@alphahousecalgary.com">info@alphahousecalgary.com</a>
 
 <p class="subHeader">Lethbridge Site:</p>
 
@@ -32,9 +32,9 @@ Email: info@alphahousecalgary.com
 
 Lethbridge, Alberta T1H 2V9
 
-Main Phone: 403-942-8281 or 403-593-9376
+Main Phone: <a href="tel:403-942-8281">403-942-8281</a> or <a href="tel:403-593-9376">403-593-9376</a>
 
-Email: alphashelter@alphahouselethbridge.com
+Email: <a href="mailto:alphashelter@alphahouselethbridge.com">alphashelter@alphahouselethbridge.com</a>
 
 <p class="subHeader">Our Services:</p>
 
