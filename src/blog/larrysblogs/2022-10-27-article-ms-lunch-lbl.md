@@ -1,13 +1,13 @@
 ---
-title: Mustard Seed 102 Building
+title: Mustard Seed | Downtown Neighbour Center
 author: Lunch Box Larry
 date: 2022-10-27
 tags: ["post", "larryspost", "highlight"]
 image: /assets/LarrysPics/Mustard Seed 102.jpeg
 imageAlt:
-figcaption: 102 11 Ave SE, Calgary,AB T2G 0X8 | Downtown Calgary Neighbour Center
+figcaption: 102 11 Ave SE, Calgary,AB T2G 0X8 | Downtown Neighbour Center
 snippeticon: /assets/icons/icons8-lunch-box-64(1).png
-description: Bag Lunches, Hot Breakfast | 102 11 Ave SE, Calgary,AB T2G 0X5
+description: Bag Lunches, Hot Breakfast & Lunches | 102 11 Ave SE, Calgary,AB T2G 0X5
 ---
 
 <p class="subHeader">Downtown Calgary Neighbour Center</p>
