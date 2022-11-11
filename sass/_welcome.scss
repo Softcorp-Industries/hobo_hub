@@ -1,3 +1,10 @@
+#google_translate_element {
+  position: absolute;
+  top: 3em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .welcome {
   margin: 1em auto;
   max-width: 800px;
@@ -41,16 +48,14 @@
   font-family: "Titan One";
 }
 .page-header {
-  padding-top: 4.75em;
+  padding-top: 6em;
   width: 100%;
   text-align: center;
   letter-spacing: 1px;
   color: steelblue;
-  text-shadow: 0 0 1px black;
   font-weight: 700;
   font-family: "the Nautigal";
   background-color: rgba(30, 30, 30);
-  box-shadow: 0 0 4px 1px black;
 }
 .page-header h1 {
   padding: 0.25em 0;
@@ -66,7 +71,7 @@
 @media (min-width: 600px) {
   .page-header {
     font-size: 1.4em;
-    padding-top: 3.25em;
+    padding-top: 4em;
   }
   .welcome {
     .lead {
@@ -78,9 +83,12 @@
   }
 }
 @media (min-width: 700px) {
+  #google_translate_element {
+    top: 4em;
+  }
   .page-header {
     width: 100%;
-    padding-top: 4em;
+    padding-top: 4.75em;
   }
   .page-header h1 {
     font-size: 3em;

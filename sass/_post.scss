@@ -1,21 +1,30 @@
 .post-header {
-  padding: 0.5em;
-  display: flex;
-  align-items: center;
+  height: 4.25em;
   color: white;
-  justify-content: space-evenly;
   background-color: rgb(30, 30, 30);
   box-shadow: 0 0 4px 1px black;
   margin-bottom: 1.5em;
   h1 {
-    margin: 0.5em 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
     width: 70%;
     font-size: 1em;
     text-align: center;
     letter-spacing: 2px;
   }
-  img {
+  #righticon,#lefticon {
+    position: absolute;
     width: 30px;
+    top: 1em;
+  }
+  #lefticon {
+    left: 1em;
+
+  }
+  #righticon {
+    right: 1em;
   }
 }
 .post {
@@ -95,7 +104,7 @@
     h1 {
       margin: 0.25em auto;
     }
-    img {
+    #righticon,#lefticon {
       width: 50px;
     }
   }
@@ -104,7 +113,7 @@
 @media (min-width: 700px) {
   .post-header {
     font-size: 1.5em;
-    img {
+    #righticon,#lefticon {
       width: 60px;
     }
   }

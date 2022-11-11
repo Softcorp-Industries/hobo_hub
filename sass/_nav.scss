@@ -1,5 +1,5 @@
 .hubNav {
-  margin: auto;
+  margin: 1em auto;
   height: 325px;
   position: relative;
   max-width: 500px;
@@ -41,7 +41,7 @@
 }
 .homeLink {
   position: absolute;
-  top: 1.5em;
+  top: .5em;
   left: 50%;
   transform: translateX(-50%);
   a {
@@ -130,7 +130,7 @@
 
 @media (min-width: 600px) {
   .homeLink {
-    top: 1em;
+    top: .25em;
   }
   .missionLink a img {
     width: 47px;

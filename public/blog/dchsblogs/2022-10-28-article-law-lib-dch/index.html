@@ -11,11 +11,11 @@
   <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-
+<div id="google_translate_element"></div>
   <header class="post-header">
-  <img src="/assets/icons/icons8-balance-scale-48.png" alt="">
+  <img id="lefticon" src="/assets/icons/icons8-balance-scale-48.png" alt="">
   <h1>Alberta Law Libraries</h1>
-  <img src="/assets/icons/icons8-balance-scale-48.png" alt="">
+  <img id="righticon" src="/assets/icons/icons8-balance-scale-48.png" alt="">
 </header>
   <main>
     
@@ -54,6 +54,13 @@ Phone: <a href="tel:780-422-2342">780-422-2342</a>
     &copy 2022 Freight Train Freddie's HOBO HUB
   </p>
 </footer>
+
+  <script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 </body>
 </html>
