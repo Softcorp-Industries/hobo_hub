@@ -355,6 +355,13 @@
   top: 3em;
   left: 50%;
   transform: translateX(-50%);
+  color: white;
+}
+#google_translate_element select {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 0.25em;
 }
 
 .welcome {

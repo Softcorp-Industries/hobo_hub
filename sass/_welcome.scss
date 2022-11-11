@@ -3,6 +3,13 @@
   top: 3em;
   left: 50%;
   transform: translateX(-50%);
+  color: white;
+  select {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: .25em;
+  }
 }
 
 .welcome {
