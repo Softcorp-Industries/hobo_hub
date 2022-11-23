@@ -366,7 +366,7 @@
 
 .welcome {
   margin: 1em auto;
-  max-width: 800px;
+  max-width: 750px;
   letter-spacing: 1px;
   font-size: 1.2em;
   color: white;
@@ -383,6 +383,35 @@
 .welcome span {
   color: red;
   font-family: "Titan One";
+}
+
+.quickLinks {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.quickLinks .quickLink {
+  margin: 1em auto;
+  padding: 0 0.5em;
+  width: 90%;
+  max-width: 250px;
+  text-align: center;
+  border-radius: 0.5em;
+}
+.quickLinks .quickLink__header {
+  margin: 0.5em 0;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  text-align: center;
+  color: steelblue;
+}
+.quickLinks .quickLink ul {
+  margin: 1em 0;
+  list-style: none;
+}
+.quickLinks .quickLink ul li a {
+  text-decoration: none;
 }
 
 .chapter {
@@ -444,6 +473,9 @@
   .welcome p {
     font-size: 0.9em;
   }
+  .quickLinks {
+    flex-direction: row;
+  }
 }
 @media (min-width: 700px) {
   #google_translate_element {
@@ -463,6 +495,17 @@
 @media (min-width: 1000px) {
   .page-header h1 {
     font-size: 4em;
+  }
+  .quickLink {
+    position: fixed;
+    top: 7em;
+    height: 400px;
+  }
+  .quickLeft {
+    left: 1em;
+  }
+  .quickRight {
+    right: 1em;
   }
 }
 .post-header {
