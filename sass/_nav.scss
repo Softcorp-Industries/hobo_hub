@@ -154,33 +154,10 @@
     letter-spacing: 3px;
     font-size: 4em;
   }
-  .hubNav {
-    height: 400px;
-    margin-bottom: 7em;
-  }
-  .hubLink {
-    font-size: 0.9em;
-  }
 }
 
 @media (min-width: 1000px) {
   .missionLink {
     top: 1em;
-  }
-  #feelgoodIcon {
-    bottom: -3em;
-  }
-  #sallysIcon {
-    top: -3em;
-  }
-  .hubNav {
-    height: 425px;
-  }
-  .hubLink {
-    width: 110px;
-    height: 110px;
-  }
-  .hubLink a {
-    width: 100px;
   }
 }
