@@ -2,7 +2,7 @@
 title: DCH's Mission
 author: Duey, Cheatem & Howe
 date: 2022-06-25
-tags: ["post", "dchspost", "dchsmission", "mission"]
+tags: ["post", "dchsmission", "mission"]
 image: /assets/blogImages/profile_img_2021.jpg
 imageAlt: DCH's Image
 figcaption:

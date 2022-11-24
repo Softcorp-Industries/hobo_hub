@@ -2,7 +2,7 @@
 title: PACT Team 403-955-6380
 author: Dr. Feelgood
 date: 2022-11-10
-tags: ["post", "Drspost", "sallyspost"]
+tags: ["post", "Drspost", "emergencyLink"]
 image: /assets/DrsPics/ahs-logo.png
 imageAlt:
 figcaption: 
