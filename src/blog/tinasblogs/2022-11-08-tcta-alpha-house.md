@@ -36,7 +36,7 @@ Main Phone: <a href="tel:403-942-8281">403-942-8281</a> or <a href="tel:403-593-
 
 Email: <a href="mailto:alphashelter@alphahouselethbridge.com">alphashelter@alphahouselethbridge.com</a>
 
-<p class="subHeader">Our Services:</p>
+<p class="subHeader">Services:</p>
 
 Detox & Transitional Program
 
