@@ -514,6 +514,12 @@
   right: 1em;
 }
 
+.post {
+  letter-spacing: 1px;
+}
+.post a {
+  color: steelblue;
+}
 .post blockquote {
   margin: 2em auto;
   width: 95%;
