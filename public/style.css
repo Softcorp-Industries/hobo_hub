@@ -363,7 +363,7 @@
 }
 
 .quickLinks {
-  display: none;
+  display: flex;
   flex-direction: column;
   align-items: top;
   justify-content: space-evenly;
@@ -377,18 +377,25 @@
   border-radius: 0.5em;
 }
 .quickLinks .quickLink__header {
-  margin: 0.5em 0;
-  font-size: 1.1em;
+  font-family: "the nautigal";
+  font-size: 2.25em;
   letter-spacing: 1px;
-  text-align: center;
   color: steelblue;
+  text-align: center;
 }
 .quickLinks .quickLink ul {
   margin: 1em 0;
   list-style: none;
 }
 .quickLinks .quickLink ul li a {
+  cursor: pointer;
+  display: block;
+  margin-bottom: 0.5em;
+  color: white;
   text-decoration: none;
+}
+.quickLinks .quickLink ul li a:hover {
+  color: steelblue;
 }
 
 .chapter {

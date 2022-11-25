@@ -2,7 +2,7 @@
 title: DOAP Team 403-998-7388
 author: Dr. Feelgood
 date: 2022-11-08
-tags: ["post", "Drspost", "sallyspost"]
+tags: ["post", "Drspost"]
 image: /assets/TinasPics/dosndonts.png
 imageAlt:
 figcaption: When to use the DOAP Team.
