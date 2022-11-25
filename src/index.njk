@@ -18,7 +18,7 @@ layout: 'base.njk'
   <div class="quickLink quickLeft dailyLink">
     <h3 class="quickLink__header">Daily Meals</h3>
     <ul>
-      {%- for DailyMeals in collections.DailyMeals -%}
+      {%- for DailyMeals in collections.DailyMeals | reverse  -%}
         {% include "meal-snippet.njk" %}
       {%- endfor -%}
     </ul>
@@ -26,12 +26,10 @@ layout: 'base.njk'
   <div class="quickLink quickRight emergencyLink">
     <h3 class="quickLink__header">Emergency Links</h3>
     <ul>
-      <li><a href="">Distress Line 24 hrs</a></li>
-      <li><a href="">Elder Abuse Resource Line</a></li>
-      <li><a href="">Youth Crisis Hotline</a></li>
-      <li><a href="">YWCA Crisis line 24 hrs</a></li>
-      <li><a href="">DOAP Team</a></li>
-      <li><a href="">PACT Team</a></li>
+      <li><a href="tel:403-266-4357">Distress Line 24 hrs</a></li>
+      <li><a href="tel:403-705-3250">Elder Abuse Resource Line</a></li>
+      <li><a href="tel:403-266-0707">YWCA Crisis line 24 hrs</a></li>
+      <li><a href="tel:403-998-7388">DOAP Team</a></li>
     </ul>
   </div>
 </section>
