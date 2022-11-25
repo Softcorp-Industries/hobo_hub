@@ -18,15 +18,11 @@ Phone: <a href="tel:403-410-1111">(403) 410-1111</a>
 
 Email: <a href="mailto:CSCalgary.Info@salvationarmy.ca">CSCalgary.Info@salvationarmy.ca</a>
 
-<p class="subHeader">Meals</p>
-Center of Hope | 420 9th Ave SE
-
-
-Breakfast:
-
-Lunch:
-
-Supper:
+<br>
+<p>
+ Meal service is currently limited to those registered at the shelter. If you are in need of a meal, please call the Calgary Food Bank at <a href="tel:403-253-2055">403-253-2055</a> or the Salvation Army Outreach <a href="tel:403">(403)</a>
+to book a food hamper.
+</p>  
 
 <p class="subHeader">Bread Window</p>
 Center of Hope | 420 9th Ave SE

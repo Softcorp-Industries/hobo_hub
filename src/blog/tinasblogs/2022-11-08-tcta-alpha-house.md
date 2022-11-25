@@ -50,12 +50,11 @@ Lethbridge Stabilization Centre and Shelter
 
 
 <div class="post__link">
-<p>Please Visit the Alpha House web site for further information.
-<img src="/assets/TinasPics/alpha-logo.png" />
-<a href="https://alphahousecalgary.com/" target="_blank">Alpha House Society</a>
+<p>Visit the Alpha House Society website.
+
+<a href="https://alphahousecalgary.com/" target="_blank"><img src="/assets/TinasPics/alpha-logo.png" /></a>
 </div>
 
 <div class="post__link">
-<p>Please visit their web site for further information on The Alpha House Society & The DOAP Team</p>
-<img src="/assets/TinasPics/DOAP-Team.jpeg" />
-<a href="https://alphahousecalgary.com/category/doap-team/" target="_blank">The DOAP Team</a>
+<p>Visit the DOAP Team website </p>
+<a href="https://alphahousecalgary.com/category/doap-team/" target="_blank"><img src="/assets/TinasPics/DOAP-Team.jpeg" /></a>

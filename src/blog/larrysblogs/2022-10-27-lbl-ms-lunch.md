@@ -53,7 +53,6 @@ Housing and shelter referral and busing available
 
 
 <div class="post__link">
-<p>visit the Downtown Calgary Neighbour Center web site</p>
-<img src="/assets/TinasPics/Mustard Seed Logo.jpg" />
-<a href="https://theseed.ca/services/hubs/calgary-neighbour-centre" target="_blank">Mustard Seed Neighbour Center</a>
+<p>Visit the Downtown Calgary Neighbour Center website</p>
+<a href="https://theseed.ca/services/hubs/calgary-neighbour-centre" target="_blank"><img src="/assets/TinasPics/Mustard Seed Logo.jpg" /></a>
 </div>
