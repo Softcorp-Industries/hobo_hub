@@ -1,6 +1,7 @@
 ---
 title: Monday Meals
 tags: ["DailyMeals"]
+snippeticon: /assets/icons/icons8-hamper-48.png
 description: 
 ---
 
@@ -8,7 +9,7 @@ description:
 
 <br>
 
-The Salvation Army
+### The Salvation Army
 
 Center of Hope | 420 9th Ave SE | Calgary, AB
 
@@ -17,11 +18,15 @@ Bread Window:
 Monday 1:30pm to 3:30pm | Bread for everyone
 
 <br>
+<hr>
+<br>
 
-Mustard Seed
+### Mustard Seed
 
 Downtown Calgary Neighbour Center | 102 11 Ave SE | Calgary, AB
 
 Street Level:
 
-Bag Lunches | While supplies lastCenter of Hope | 420 9th Ave SE
+Hot Lunches | 12:00pm time subject to change
+
+Bag Lunches | While Supplies Last 
