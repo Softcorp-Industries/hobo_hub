@@ -6,7 +6,7 @@ tags: ["id"]
 image: /assets/blogImages/Sheldon Chumir 1.jpeg
 imageAlt:
 figcaption: 1213 4st SW, Calgary, AB T2R 0X7
-snippeticon: /assets/icons/icons8-wing-chair-48.png
+snippeticon: /assets/icons/icons8-jacket-48.png
 description: The Sheldon Chumir ID clinic can help people needing Birth Certificates, Government Identification, Alberta Health Card
 ---
 

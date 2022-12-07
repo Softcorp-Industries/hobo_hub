@@ -24,7 +24,7 @@ Shelter Bussing:
 </p>
 
 <p>
-Mon - Fri except Holiday | Leaving the Shelter: 
+Mon - Sun including Holiday | Leaving the Shelter: 
 </p>
 <p>
 7:20am, 8:40am
@@ -34,30 +34,14 @@ Stops at 39 ave C-Train Station and the Mustard Seed 102 Building Downtown.
 </p>
 <br>
 <p>
-Mon - Fri except Holiday | Returning to Shelter from 102 11 Ave SE Downtown Calgary Neighbour Center:
+Mon - Sun including Holiday | Returning to Shelter from 102 11 Ave SE Downtown Calgary Neighbour Center:
 </p>
 <p>
 4:30pm, 5:30pm, 6:30pm
 </p>
-<br>
-<p>
-Sat Sun Holiday | Leaving the Shelter:
-</p>
-<p>
-7:30 am, 8:30 am
-</p>
-<p>
-Stops at 39 ave C-Train Station and the Musard Seed 102 Building Downtown.
-</p>
-<br>
-<p>
-Sat Sun Holiday | Returning to Shelter from 102 11 Ave SE Downtown Calgary Neighbour Center:
-</p>
-<p>
-5:00 pm, 6:00 pm
-</p>
 
 <br>
+
 <p class="subHeader">
 Transitional Program Avialable
 </p>

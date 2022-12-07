@@ -329,7 +329,7 @@
 }
 #google_translate_element {
   position: absolute;
-  top: 3em;
+  top: 2.75em;
   left: 50%;
   transform: translateX(-50%);
   color: white;
@@ -447,6 +447,9 @@
   }
 }
 @media (min-width: 600px) {
+  #google_translate_element {
+    top: 4.5em;
+  }
   .page-header {
     font-size: 1.4em;
     padding-top: 4em;
@@ -462,9 +465,6 @@
   }
 }
 @media (min-width: 700px) {
-  #google_translate_element {
-    top: 4em;
-  }
   .page-header {
     width: 100%;
     padding-top: 4.75em;
@@ -493,7 +493,7 @@
   }
 }
 .post-header {
-  height: 4.25em;
+  height: 6em;
   color: white;
   background-color: rgb(30, 30, 30);
   box-shadow: 0 0 4px 1px black;
@@ -501,7 +501,7 @@
 }
 .post-header h1 {
   position: absolute;
-  top: 0;
+  top: 0.5em;
   left: 50%;
   transform: translateX(-50%);
   width: 70%;
@@ -509,10 +509,11 @@
   text-align: center;
   letter-spacing: 2px;
 }
-.post-header #righticon, .post-header #lefticon {
+.post-header #righticon,
+.post-header #lefticon {
   position: absolute;
-  width: 30px;
-  top: 1em;
+  width: 40px;
+  top: 1.5em;
 }
 .post-header #lefticon {
   left: 1em;
@@ -595,27 +596,38 @@
 }
 @media (min-width: 600px) {
   .post-header {
-    padding: 0.25em;
-    font-size: 1.35em;
+    height: 7.5em;
   }
   .post-header h1 {
-    margin: 0.25em auto;
+    font-size: 2em;
   }
-  .post-header #righticon, .post-header #lefticon {
+  .post-header #righticon,
+.post-header #lefticon {
     width: 50px;
   }
 }
 @media (min-width: 700px) {
-  .post-header {
-    font-size: 1.5em;
-  }
-  .post-header #righticon, .post-header #lefticon {
+  .post-header #righticon,
+.post-header #lefticon {
+    top: 2em;
     width: 60px;
+  }
+  .post-header #lefticon {
+    left: 2em;
+  }
+  .post-header #righticon {
+    right: 2em;
   }
 }
 @media (min-width: 1000px) {
   .post-header h1 {
     font-size: 2em;
+  }
+  .post-header #lefticon {
+    left: 5em;
+  }
+  .post-header #righticon {
+    right: 5em;
   }
 }
 body {

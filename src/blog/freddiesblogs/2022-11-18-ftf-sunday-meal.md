@@ -15,3 +15,7 @@ St. Mary's Hall | 221 18 ave SW | Calgary, AB
 Hot Lunch/Supper:
 
 Sunday 1:30 pm to 4:00 pm | Hot Meal and Take Away Lunch
+
+<br>
+<hr>
+<br>
