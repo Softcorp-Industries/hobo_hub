@@ -117,7 +117,7 @@
 }
   .page-header {
     font-size: 1.4em;
-    padding-top: 4em;
+    padding-top: 6em;
   }
   .welcome {
     .lead {
@@ -132,11 +132,6 @@
   }
 }
 @media (min-width: 700px) {
-
-  .page-header {
-    width: 100%;
-    padding-top: 4.75em;
-  }
   .page-header h1 {
     font-size: 3em;
   }
@@ -150,15 +145,18 @@
   .page-header h1 {
     font-size: 4em;
   }
-  .quickLink {
-    position: fixed;
-    top: 7em;
-    height: 400px;
-  }
+  
   .quickLeft {
     left: 1em;
   }
   .quickRight {
     right: 1em;
+  }
+}
+@media (min-width: 1200px) {
+.quickLink {
+    position: fixed;
+    top: 12em;
+    height: 400px;
   }
 }

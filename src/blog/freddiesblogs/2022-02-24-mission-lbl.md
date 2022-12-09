@@ -10,7 +10,7 @@ montra: Food
 visit: Visit Larry
 hubLink: /larrysBlog
 hubDescription: Have you eaten today? Need a lunch? Do you need to fill the cupboards a bit? Let's hook you up, I love to eat so do my friends.
-snippeticon: /assets/icons/icons8-lunch-box-64(1).png
+snippeticon: /assets/icons/icons8-hamper-48.png
 description: I hope to be as helpful as possible connecting people to the right resources.
 ---
 

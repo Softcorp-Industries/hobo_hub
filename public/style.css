@@ -205,6 +205,7 @@
 }
 
 .homeLink {
+  width: 60%;
   position: absolute;
   top: 0.5em;
   left: 50%;
@@ -213,6 +214,7 @@
 .homeLink a {
   cursor: pointer;
   display: block;
+  width: 100%;
   text-decoration: none;
   color: red;
   letter-spacing: 1px;
@@ -295,27 +297,32 @@
   .hubLink a {
     width: 75px;
   }
+  .mailLink {
+    top: 1em;
+  }
 }
 @media (min-width: 600px) {
   .homeLink {
-    top: 0.25em;
+    top: 0.5em;
+  }
+  .missionLink {
+    top: 1.5em;
   }
   .missionLink a img {
-    width: 47px;
-    height: 47px;
-  }
-}
-@media (min-width: 700px) {
-  .homeLink a {
-    font-size: 2em;
+    width: 60px;
+    height: 60px;
   }
   .mailLink a img {
     width: 60px;
     height: 60px;
   }
-  .missionLink a img {
-    width: 60px;
-    height: 60px;
+}
+@media (min-width: 700px) {
+  .homeLink {
+    width: 60%;
+  }
+  .homeLink a {
+    font-size: 2em;
   }
   .logoBrand {
     letter-spacing: 3px;
@@ -324,7 +331,10 @@
 }
 @media (min-width: 1000px) {
   .missionLink {
-    top: 1em;
+    right: 4.5em;
+  }
+  .mailLink {
+    left: 4em;
   }
 }
 #google_translate_element {
@@ -452,7 +462,7 @@
   }
   .page-header {
     font-size: 1.4em;
-    padding-top: 4em;
+    padding-top: 6em;
   }
   .welcome .lead {
     font-size: 1.25em;
@@ -465,10 +475,6 @@
   }
 }
 @media (min-width: 700px) {
-  .page-header {
-    width: 100%;
-    padding-top: 4.75em;
-  }
   .page-header h1 {
     font-size: 3em;
   }
@@ -480,16 +486,18 @@
   .page-header h1 {
     font-size: 4em;
   }
-  .quickLink {
-    position: fixed;
-    top: 7em;
-    height: 400px;
-  }
   .quickLeft {
     left: 1em;
   }
   .quickRight {
     right: 1em;
+  }
+}
+@media (min-width: 1200px) {
+  .quickLink {
+    position: fixed;
+    top: 12em;
+    height: 400px;
   }
 }
 .post-header {

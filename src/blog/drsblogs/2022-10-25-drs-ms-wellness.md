@@ -13,7 +13,7 @@ description: The Wellness Centre assists clients in identifying health needs, re
 # Mustard Seed Wellness Center
 <br>
 <blockquote cite="https://theseed.ca/services/wellness-centre" target="_blank" title="Wellness Center Web Site">
-The Wellness Centre assists clients in identifying health needs, removing barriers, and supporting clients in achieving and maintaining health.
+The Mustard Seed Wellness Centre provides hope and wellbeing to adults experiencing homelessness or poverty by providing an easily accessible, client-centered program with the goal of improving health. The Wellness Centre assists clients in identifying health needs, removing barriers, and supporting clients in achieving and maintaining health.
 </blockquote>
 <br>
 <p>
@@ -27,15 +27,52 @@ Phone:
 Email: 
 <a href="mailto:WellnessCGY@theseed.ca">WellnessCGY@theseed.ca</a>
 </p>
+
+
+<p class="subHeader">Services</p>
+
+<p>
+Advocacy
+
+Mental health counselling
+
+Medical clinic
+
+Occupational therapy
+
+Psychoeducational testing
+
+Nursing
+
+FASD assessment clinic
+
+Tax clinics
+
+ID services
+
+Massage therapy
+
+Addictions Mobile Outreach
+
+</p>
+
 <p class="subHeader">
 Hours
 </p>
 <p>
-Mon – Fri: 9 a.m. – 12 p.m. Lunch Hour 1p.m. – 4 p.m.
+Mon – Fri:
+
+9 a.m. – 12 p.m. | 1p.m. – 4 p.m.
+
+Please contact the Mustard Seed to arrange an appointment or visit them during their drop in hours.
 </p>
-<br>
+
+<pre>
+
+
+</pre>
 
 <div class="post__link">
-<img src="/assets/TinasPics/Mustard Seed Logo.jpg">
-<a href="https://theseed.ca/services/wellness-centre" target="_blank">Wellness Center Web Site</a>
+<p>Please Visit the Mustard Seed website
+<a href="https://theseed.ca/services/wellness-centre" target="_blank"><img src="/assets/TinasPics/Mustard Seed Logo.jpg"></a>
 </div>
