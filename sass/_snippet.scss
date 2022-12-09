@@ -1,6 +1,6 @@
 .snippet {
   margin: 2em auto;
-  max-width: 450px;
+  max-width: 700px;
   padding: 0.75em;
   display: flex;
   flex-direction: column;
@@ -110,9 +110,14 @@
 }
 
 @media (min-width: 400px) {
-  
+  .snippet {
+    padding: 1em;
+  }
 }
 @media (min-width: 600px) {
+  .snippet {
+    width: 90%;
+  }
   .hubBtn {
     font-size: 1em;
     letter-spacing: 2px;
@@ -141,11 +146,28 @@
   }
 }
 @media (min-width: 700px) {
-  .hubNav {
-    margin-top: 4em;
-    height: 400px;
+  .snippet {
+    padding: 1.25em;
+    &__header {
+      margin-bottom: 1.5em;
+    }
+    &__title {
+      font-size: 1.5em;
+      margin-bottom: 0.25em;
+    }
+    &__meta {
+      font-size: 0.8em;
+    }
+    &__body {
+      margin-bottom: 2em;
+      font-size: 1em;
+      line-height: 1.4;
+    }
+    img {
+      width: 50px;
+      height: 50px;
+    }
   }
 }
 @media (min-width: 1000px) {
-  
 }

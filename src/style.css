@@ -1,6 +1,6 @@
 .snippet {
   margin: 2em auto;
-  max-width: 450px;
+  max-width: 700px;
   padding: 0.75em;
   display: flex;
   flex-direction: column;
@@ -114,7 +114,15 @@
   background-color: blue;
 }
 
+@media (min-width: 400px) {
+  .snippet {
+    padding: 1em;
+  }
+}
 @media (min-width: 600px) {
+  .snippet {
+    width: 90%;
+  }
   .hubBtn {
     font-size: 1em;
     letter-spacing: 2px;
@@ -139,9 +147,27 @@
   }
 }
 @media (min-width: 700px) {
-  .hubNav {
-    margin-top: 4em;
-    height: 400px;
+  .snippet {
+    padding: 1.25em;
+  }
+  .snippet__header {
+    margin-bottom: 1.5em;
+  }
+  .snippet__title {
+    font-size: 1.5em;
+    margin-bottom: 0.25em;
+  }
+  .snippet__meta {
+    font-size: 0.8em;
+  }
+  .snippet__body {
+    margin-bottom: 2em;
+    font-size: 1em;
+    line-height: 1.4;
+  }
+  .snippet img {
+    width: 50px;
+    height: 50px;
   }
 }
 :root {
@@ -318,6 +344,10 @@
   }
 }
 @media (min-width: 700px) {
+  .hubNav {
+    margin-top: 4em;
+    height: 400px;
+  }
   .homeLink {
     width: 60%;
   }
