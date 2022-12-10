@@ -2,7 +2,7 @@
 title: Woods Homes
 author: Dr Feelgood
 date: 2022-11-07
-tags: ["post", "sallyspost", "tinaspost"]
+tags: ["post", "tinaspost"]
 image: /assets/DrsPics/Wood's Homes-2.png
 imageAlt: 
 figcaption: Wood's Homes

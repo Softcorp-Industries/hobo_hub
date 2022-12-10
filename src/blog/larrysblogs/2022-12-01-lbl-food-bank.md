@@ -1,12 +1,12 @@
 ---
 title: Calgary Food Bank
 author: Lunch Box Larry
-date: 2022-11-08
+date: 2022-12-01
 tags: ["post", "larryspost"]
 image: /assets/LarrysPics/CFB-warehouse.jpeg
 imageAlt:
 figcaption: 5000 11 Street SE Calgary, AB T2H 2Y5
-snippeticon: /assets/icons/icons8-lunch-box-64(1).png
+snippeticon: /assets/icons/icons8-hamper-48.png
 description: The Calgary Food Bank is the first line of emergency food support for families and individuals facing crisis. As the city’s main charitable food hub and the most accessible food bank we have the capacity to serve families, individuals and organizations to fight hunger.
 ---
 
@@ -45,6 +45,6 @@ If you need support beyond food, we can offer guidance and make connections to s
 
 <div class="post__link">
 <p>visit the Calgary Food Bank web site</p>
-<img src="/assets/LarrysPics/CFB-logo.jpg" />
-<a href="https://www.calgaryfoodbank.com/" target="_blank">Calgary Food Bank</a>
+
+<a href="https://www.calgaryfoodbank.com/" target="_blank"><img src="/assets/LarrysPics/CFB-logo.jpg" /></a>
 </div>
