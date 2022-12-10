@@ -1,6 +1,6 @@
 ---
 title: Drop-in Center
-author: Sopping Cart Sally
+author: Shopping Cart Sally
 date: 2022-11-22
 tags: ["sallyspost"]
 image: /assets/TinasPics/Drop-in.jpg
