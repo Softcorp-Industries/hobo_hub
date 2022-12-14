@@ -41,7 +41,7 @@
   background-color: rgba(30, 30, 30);
   margin: 2em auto;
   width: 100%;
-  max-width: 700px;
+  max-width: 750px;
   color: white;
   border-radius: 0.5em;
   margin-bottom: 4em;
@@ -167,4 +167,12 @@
   }
 }
 @media (min-width: 1000px) {
+  .hub-snippet {
+    max-width: 500px;
+  }
+}
+@media (min-width: 1200px) {
+  .hub-snippet {
+    max-width: 700px;
+  }
 }

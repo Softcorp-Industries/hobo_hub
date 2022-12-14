@@ -1,9 +1,8 @@
 #google_translate_element {
-  position: absolute;
-  top: 2.75em;
-  left: 50%;
-  transform: translateX(-50%);
+  margin: auto;
+  width: 200px;
   color: white;
+  text-align: center;
   select {
     background-color: black;
     border: none;
@@ -38,11 +37,11 @@
   justify-content: space-evenly;
   .quickLink {
     margin: 1em auto;
-    padding: 0 .5em;
+    padding: 0 0.5em;
     width: 90%;
     max-width: 250px;
     text-align: center;
-    border-radius: .5em;
+    border-radius: 0.5em;
     &__header {
       font-family: "the nautigal";
       font-size: 2.25em;
@@ -57,7 +56,7 @@
         a {
           cursor: pointer;
           display: block;
-          margin-bottom: .5em;
+          margin-bottom: 0.5em;
           color: white;
           text-decoration: none;
         }
@@ -91,8 +90,8 @@
   font-family: "Titan One";
 }
 .page-header {
-  padding-top: 6em;
   width: 100%;
+  padding: 0.5em 0;
   text-align: center;
   letter-spacing: 1px;
   color: steelblue;
@@ -101,23 +100,17 @@
   background-color: rgba(30, 30, 30);
 }
 .page-header h1 {
-  padding: 0.25em 0;
-  font-size: 2.5em;
+  font-size: 2.25em;
   letter-spacing: 1px;
-  background-color: black;
 }
 @media (min-width: 400px) {
   .page-header h1 {
-    font-size: 3em;
+    font-size: 2.25em;
   }
 }
 @media (min-width: 600px) {
-  #google_translate_element {
-  top: 4.5em;
-}
-  .page-header {
-    font-size: 1.4em;
-    padding-top: 6em;
+  .page-header h1 {
+    font-size: 3.5em;
   }
   .welcome {
     .lead {
@@ -133,7 +126,7 @@
 }
 @media (min-width: 700px) {
   .page-header h1 {
-    font-size: 3em;
+    font-size: 4.25em;
   }
   .welcome {
     p {
@@ -142,21 +135,30 @@
   }
 }
 @media (min-width: 1000px) {
-  .page-header h1 {
-    font-size: 4em;
+  .quickLink {
+    position: fixed;
+    top: 9em;
+    height: 400px;
   }
-  
   .quickLeft {
-    left: 1em;
+    left: 0.5em;
   }
   .quickRight {
-    right: 1em;
+    right: 0.5em;
   }
+  .welcome {
+    max-width: 525px;
+  }
+
 }
 @media (min-width: 1200px) {
-.quickLink {
-    position: fixed;
-    top: 12em;
-    height: 400px;
+  .page-header h1 {
+    font-size: 5em;
+  }
+  .quickLink {
+    top: 10em;
+  }
+  .welcome {
+    max-width: 700px;
   }
 }

@@ -43,7 +43,7 @@
   background-color: rgb(30, 30, 30);
   margin: 2em auto;
   width: 100%;
-  max-width: 700px;
+  max-width: 750px;
   color: white;
   border-radius: 0.5em;
   margin-bottom: 4em;
@@ -167,6 +167,16 @@
     height: 50px;
   }
 }
+@media (min-width: 1000px) {
+  .hub-snippet {
+    max-width: 500px;
+  }
+}
+@media (min-width: 1200px) {
+  .hub-snippet {
+    max-width: 700px;
+  }
+}
 :root {
   --primaryClr: steelblue;
 }
@@ -179,8 +189,84 @@
   box-sizing: border-box;
 }
 
+.navMenu {
+  z-index: 5;
+  position: fixed;
+  cursor: pointer;
+  content: "";
+  width: 50px;
+  height: 50px;
+  top: 2.5em;
+  left: 0.5em;
+  display: flex;
+  place-content: center;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+}
+.navMenu__btn {
+  content: "";
+  height: 4px;
+  width: 30px;
+  border-radius: 25%;
+  background-color: steelblue;
+}
+.navMenu__btn-top, .navMenu__btn-bottom {
+  content: "";
+  height: 4px;
+  width: 30px;
+  border-radius: 25%;
+  background-color: steelblue;
+}
+.navMenu__btn-top {
+  margin-bottom: 3px;
+}
+.navMenu__btn-bottom {
+  margin-top: 3px;
+}
+.navMenu__btn:before, .navMenu__btn:after {
+  position: absolute;
+  transition: all 0.5s ease-in-out;
+}
+
+.navList {
+  display: block;
+  z-index: 1;
+  position: fixed;
+  top: 6em;
+  left: -250px;
+  transition: all 0.5s ease-in-out;
+}
+.navList ul {
+  padding: 0.5em 1em;
+  list-style: none;
+  text-align: left;
+  background-color: rgb(30, 30, 30);
+}
+.navList ul li {
+  margin-bottom: 0.75em;
+}
+.navList ul li a {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  font-family: "Roboto";
+  padding: 0.5em 0.25em;
+  text-decoration: none;
+  color: white;
+}
+.navList ul li a span {
+  font-family: "Titan One";
+  font-weight: 700;
+  color: red;
+}
+.navList ul li a:hover {
+  color: steelblue;
+  transform: scale(1.1);
+}
+
 .hubNav {
-  margin: 1em auto;
+  margin: 2.5em auto;
   height: 325px;
   position: relative;
   max-width: 500px;
@@ -219,41 +305,6 @@
   right: 1.5em;
 }
 
-.missionLink {
-  position: absolute;
-  top: 0.75em;
-  padding: 0.5em;
-  text-align: center;
-  border-radius: 50%;
-}
-
-.homeLink {
-  width: 60%;
-  position: absolute;
-  top: 0.5em;
-  left: 50%;
-  transform: translateX(-50%);
-}
-.homeLink a {
-  cursor: pointer;
-  display: block;
-  width: 100%;
-  text-decoration: none;
-  color: red;
-  letter-spacing: 1px;
-  font-size: 1.5em;
-  font-family: "Titan One";
-}
-
-.mailLink {
-  position: absolute;
-  top: 0.5em;
-  left: 1em;
-  padding: 0.5em;
-  text-align: center;
-  border-radius: 50%;
-}
-
 .hubLink {
   position: absolute;
   display: flex;
@@ -283,22 +334,6 @@
   display: block;
 }
 
-.missionLink {
-  right: 1em;
-}
-
-.missionLink a,
-.mailLink a {
-  display: flex;
-  flex-direction: column;
-}
-
-.missionLink a img,
-.mailLink a img {
-  width: 40px;
-  height: 40px;
-}
-
 .hubLinks {
   list-style: none;
 }
@@ -307,6 +342,37 @@
   display: block;
   padding: 0.25em;
   text-decoration: none;
+}
+
+.navMenu.navOpen .navMenu__btn,
+.navMenu.navOpen .navMenu__btn-top,
+.navMenu.navOpen .navMenu__btn-bottom {
+  background: transparent;
+  box-shadow: none;
+}
+
+.navMenu.navOpen .navMenu__btn::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 5px;
+  background-color: red;
+  transform: rotate(-45deg);
+  border-radius: 25%;
+}
+
+.navMenu.navOpen .navMenu__btn::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 5px;
+  background-color: red;
+  transform: rotate(45deg);
+  border-radius: 25%;
+}
+
+.navList.navOpen {
+  left: 0;
 }
 
 @media (min-width: 400px) {
@@ -320,36 +386,144 @@
   .hubLink a {
     width: 75px;
   }
-  .mailLink {
+  .navMenu {
     top: 1em;
+  }
+  .navMenu__btn {
+    height: 5px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navMenu__btn-top {
+    height: 4px;
+    width: 30px;
+  }
+  .navMenu__btn-bottom {
+    width: 40px;
+    height: 6px;
+  }
+  .navMenu__btn::before {
+    content: "";
+    display: block;
+    margin-top: 5px;
+    margin-right: 22px;
+    height: 2px;
+    min-width: 27px;
+    background-color: rgb(58, 9, 9);
+    transform: rotate(-70deg);
+    z-index: 5;
+  }
+  .navMenu__btn::after {
+    content: "";
+    display: block;
+    margin-top: 5px;
+    margin-left: 22px;
+    height: 2px;
+    min-width: 27px;
+    background-color: rgb(58, 9, 9);
+    transform: rotate(70deg);
+    z-index: 5;
+  }
+  .navMenu.navOpen .navMenu__btn::before {
+    margin-right: 0;
+  }
+  .navMenu.navOpen .navMenu__btn::after {
+    margin-left: 0;
   }
 }
 @media (min-width: 600px) {
-  .homeLink {
-    top: 0.5em;
-  }
-  .missionLink {
-    top: 1.5em;
-  }
-  .missionLink a img {
+  .navMenu {
     width: 60px;
     height: 60px;
+    top: 1.25em;
+    left: 1em;
   }
-  .mailLink a img {
-    width: 60px;
-    height: 60px;
+  .navMenu__btn {
+    height: 5px;
+    width: 45px;
+  }
+  .navMenu__btn-top {
+    margin-bottom: 4px;
+    height: 4px;
+    width: 35px;
+  }
+  .navMenu__btn-bottom {
+    margin-top: 5px;
+    width: 55px;
+    height: 6px;
+  }
+  .navMenu__btn::before {
+    content: "";
+    display: block;
+    margin-top: 5px;
+    margin-right: 30px;
+    height: 3px;
+    min-width: 37px;
+    transform: rotate(-70deg);
+    z-index: 5;
+  }
+  .navMenu__btn::after {
+    content: "";
+    display: block;
+    margin-top: 5px;
+    margin-left: 30px;
+    height: 3px;
+    min-width: 37px;
+    transform: rotate(70deg);
+    z-index: 5;
+  }
+  .navMenu.navOpen .navMenu__btn::before {
+    width: 50px;
+    height: 6px;
+    margin-right: 0;
+  }
+  .navMenu.navOpen .navMenu__btn::after {
+    width: 50px;
+    height: 6px;
+    margin-left: 0;
+  }
+  .navList {
+    top: 7em;
+  }
+  .hubNav {
+    margin: 3em auto;
   }
 }
 @media (min-width: 700px) {
-  .hubNav {
-    margin-top: 2em;
-    height: 400px;
+  .navMenu {
+    top: 1.5em;
+    left: 1.25em;
   }
-  .homeLink {
-    width: 60%;
+  .navMenu__btn {
+    height: 6px;
+    width: 50px;
   }
-  .homeLink a {
-    font-size: 2em;
+  .navMenu__btn-top {
+    margin-bottom: 5px;
+    height: 5px;
+    width: 40px;
+  }
+  .navMenu__btn-bottom {
+    margin-top: 6px;
+    width: 60px;
+    height: 7px;
+  }
+  .navMenu__btn::after, .navMenu__btn:before {
+    min-width: 40px;
+    height: 4px;
+  }
+  .navMenu__btn:before {
+    transform: rotate(-75deg);
+    margin-right: 35px;
+  }
+  .navMenu__btn:after {
+    transform: rotate(75deg);
+    margin-left: 35px;
+  }
+  .navList {
+    top: 8em;
   }
   .logoBrand {
     letter-spacing: 3px;
@@ -357,19 +531,24 @@
   }
 }
 @media (min-width: 1000px) {
-  .missionLink {
-    right: 4.5em;
+  .navMenu {
+    top: 2em;
+    left: 2em;
   }
-  .mailLink {
-    left: 4em;
+  .navList {
+    top: 8.5em;
+  }
+}
+@media (min-width: 1200px) {
+  .navList {
+    top: 9em;
   }
 }
 #google_translate_element {
-  position: absolute;
-  top: 2.75em;
-  left: 50%;
-  transform: translateX(-50%);
+  margin: auto;
+  width: 200px;
   color: white;
+  text-align: center;
 }
 #google_translate_element select {
   background-color: black;
@@ -461,8 +640,8 @@
 }
 
 .page-header {
-  padding-top: 6em;
   width: 100%;
+  padding: 0.5em 0;
   text-align: center;
   letter-spacing: 1px;
   color: steelblue;
@@ -472,24 +651,18 @@
 }
 
 .page-header h1 {
-  padding: 0.25em 0;
-  font-size: 2.5em;
+  font-size: 2.25em;
   letter-spacing: 1px;
-  background-color: black;
 }
 
 @media (min-width: 400px) {
   .page-header h1 {
-    font-size: 3em;
+    font-size: 2.25em;
   }
 }
 @media (min-width: 600px) {
-  #google_translate_element {
-    top: 4.5em;
-  }
-  .page-header {
-    font-size: 1.4em;
-    padding-top: 6em;
+  .page-header h1 {
+    font-size: 3.5em;
   }
   .welcome .lead {
     font-size: 1.25em;
@@ -503,43 +676,49 @@
 }
 @media (min-width: 700px) {
   .page-header h1 {
-    font-size: 3em;
+    font-size: 4.25em;
   }
   .welcome p {
     font-size: 1em;
   }
 }
 @media (min-width: 1000px) {
-  .page-header h1 {
-    font-size: 4em;
+  .quickLink {
+    position: fixed;
+    top: 9em;
+    height: 400px;
   }
   .quickLeft {
-    left: 1em;
+    left: 0.5em;
   }
   .quickRight {
-    right: 1em;
+    right: 0.5em;
+  }
+  .welcome {
+    max-width: 525px;
   }
 }
 @media (min-width: 1200px) {
+  .page-header h1 {
+    font-size: 5em;
+  }
   .quickLink {
-    position: fixed;
-    top: 12em;
-    height: 400px;
+    top: 10em;
+  }
+  .welcome {
+    max-width: 700px;
   }
 }
 .post-header {
-  height: 6em;
+  padding: 0.5em 0;
   color: white;
   background-color: rgb(30, 30, 30);
   box-shadow: 0 0 4px 1px black;
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
 }
 .post-header h1 {
-  position: absolute;
-  top: 0.5em;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 70%;
+  width: 75%;
+  margin: auto;
   font-size: 1em;
   text-align: center;
   letter-spacing: 2px;
@@ -630,9 +809,6 @@
   }
 }
 @media (min-width: 600px) {
-  .post-header {
-    height: 7.5em;
-  }
   .post-header h1 {
     font-size: 2em;
   }
@@ -644,7 +820,6 @@
 @media (min-width: 700px) {
   .post-header #righticon,
 .post-header #lefticon {
-    top: 2em;
     width: 60px;
   }
   .post-header #lefticon {
@@ -666,6 +841,9 @@
   }
 }
 body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Roboto";
   font-weight: 900;
   background-color: black;

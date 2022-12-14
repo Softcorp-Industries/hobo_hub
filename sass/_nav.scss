@@ -1,5 +1,82 @@
+.navMenu {
+  z-index: 5;
+  position: fixed;
+  cursor: pointer;
+  content: "";
+  width: 50px;
+  height: 50px;
+  top: 2.5em;
+  left: 0.5em;
+  display: flex;
+  place-content: center;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+  &__btn {
+    content: "";
+    height: 4px;
+    width: 30px;
+    border-radius: 25%;
+    background-color: steelblue;
+  }
+  &__btn-top,
+  &__btn-bottom {
+    content: "";
+    height: 4px;
+    width: 30px;
+    border-radius: 25%;
+    background-color: steelblue;
+  }
+  &__btn-top {
+    margin-bottom: 3px;
+  }
+  &__btn-bottom {
+    margin-top: 3px;
+  }
+  &__btn:before,
+  &__btn:after {
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+  }
+}
+.navList {
+  display: block;
+  z-index: 1;
+  position: fixed;
+  top: 6em;
+  left: -250px;
+  transition: all 0.5s ease-in-out;
+  ul {
+    padding: 0.5em 1em;
+    list-style: none;
+    text-align: left;
+    background-color: rgba(30, 30, 30);
+    li {
+      margin-bottom: 0.75em;
+      a {
+        cursor: pointer;
+        display: block;
+        width: 100%;
+        font-family: "Roboto";
+        padding: 0.5em 0.25em;
+        text-decoration: none;
+        color: white;
+        span {
+          font-family: "Titan One";
+          font-weight: 700;
+          color: red;
+        }
+      }
+      a:hover {
+        color: steelblue;
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+
 .hubNav {
-  margin: 1em auto;
+  margin: 2.5em auto;
   height: 325px;
   position: relative;
   max-width: 500px;
@@ -31,41 +108,6 @@
   bottom: 1.5em;
   right: 1.5em;
 }
-
-.missionLink {
-  position: absolute;
-  top: 0.75em;
-  padding: 0.5em;
-  text-align: center;
-  border-radius: 50%;
-}
-.homeLink {
-    width: 60%;
-  position: absolute;
-  top: .5em;
-  left: 50%;
-  transform: translateX(-50%);
-  a {
-    cursor: pointer;
-    display: block;
-    width: 100%;
-    text-decoration: none;
-    color: red;
-    letter-spacing: 1px;
-    font-size: 1.5em;
-    font-family: "Titan One";
-  }
-}
-
-.mailLink {
-  position: absolute;
-  top: 0.5em;
-  left: 1em;
-  padding: 0.5em;
-  text-align: center;
-  border-radius: 50%;
-}
-
 .hubLink {
   position: absolute;
   display: flex;
@@ -81,7 +123,6 @@
   font-size: 0.85em;
   text-align: center;
 }
-
 .hubLink a {
   cursor: pointer;
   display: block;
@@ -93,21 +134,6 @@
   width: 100%;
   display: block;
 }
-
-.missionLink {
-  right: 1em;
-}
-
-.missionLink a,
-.mailLink a {
-  display: flex;
-  flex-direction: column;
-}
-.missionLink a img,
-.mailLink a img {
-  width: 40px;
-  height: 40px;
-}
 .hubLinks {
   list-style: none;
 }
@@ -115,6 +141,36 @@
   display: block;
   padding: 0.25em;
   text-decoration: none;
+}
+
+//  This makes the middle line dissapear
+.navMenu.navOpen .navMenu__btn,
+.navMenu.navOpen .navMenu__btn-top,
+.navMenu.navOpen .navMenu__btn-bottom {
+  background: transparent;
+  box-shadow: none;
+}
+.navMenu.navOpen .navMenu__btn::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 5px;
+  background-color: red;
+  transform: rotate(-45deg);
+  border-radius: 25%;
+}
+//  This rotates the bottom line and changes the color
+.navMenu.navOpen .navMenu__btn::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 5px;
+  background-color: red;
+  transform: rotate(45deg);
+  border-radius: 25%;
+}
+.navList.navOpen {
+  left: 0;
 }
 
 @media (min-width: 400px) {
@@ -128,40 +184,150 @@
   .hubLink a {
     width: 75px;
   }
-  .mailLink {
+
+  .navMenu {
     top: 1em;
+    &__btn {
+      height: 5px;
+      width: 35px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &__btn-top {
+      height: 4px;
+      width: 30px;
+    }
+    &__btn-bottom {
+      width: 40px;
+      height: 6px;
+    }
+    &__btn::before {
+      content: "";
+      display: block;
+      margin-top: 5px;
+      margin-right: 22px;
+      height: 2px;
+      min-width: 27px;
+      background-color: rgb(58, 9, 9);
+      transform: rotate(-70deg);
+      z-index: 5;
+    }
+    &__btn::after {
+      content: "";
+      display: block;
+      margin-top: 5px;
+      margin-left: 22px;
+      height: 2px;
+      min-width: 27px;
+      background-color: rgb(58, 9, 9);
+      transform: rotate(70deg);
+      z-index: 5;
+    }
+  }
+  .navMenu.navOpen .navMenu__btn::before {
+    
+    margin-right: 0;
+  }
+  .navMenu.navOpen .navMenu__btn::after {
+    
+    margin-left: 0;
   }
 }
 
 @media (min-width: 600px) {
-  .homeLink {
-    top: .5em;
-  }
-  .missionLink {
-    top: 1.5em;
-  }
-  
-  .missionLink a img {
+  .navMenu {
     width: 60px;
     height: 60px;
+    top: 1.25em;
+    left: 1em;
+    &__btn {
+      height: 5px;
+      width: 45px;
+    }
+    &__btn-top {
+      margin-bottom: 4px;
+      height: 4px;
+      width: 35px;
+    }
+    &__btn-bottom {
+      margin-top: 5px;
+      width: 55px;
+      height: 6px;
+    }
+    &__btn::before {
+      content: "";
+      display: block;
+      margin-top: 5px;
+      margin-right: 30px;
+      height: 3px;
+      min-width: 37px;
+      transform: rotate(-70deg);
+      z-index: 5;
+    }
+    &__btn::after {
+      content: "";
+      display: block;
+      margin-top: 5px;
+      margin-left: 30px;
+      height: 3px;
+      min-width: 37px;
+      transform: rotate(70deg);
+      z-index: 5;
+    }
   }
-  
-  .mailLink a img {
-    width: 60px;
-    height: 60px;
+  .navMenu.navOpen .navMenu__btn::before {
+    width: 50px;
+    height: 6px;
+    margin-right: 0;
+  }
+  .navMenu.navOpen .navMenu__btn::after {
+    width: 50px;
+    height: 6px;
+    margin-left: 0;
+  }
+  .navList {
+    top: 7em;
+  }
+  .hubNav {
+    margin: 3em auto;
   }
 }
 
 @media (min-width: 700px) {
-  .hubNav {
-    margin-top: 2em;
-    height: 400px;
+  .navMenu {
+    top: 1.5em;
+    left: 1.25em;
+    &__btn {
+      height: 6px;
+      width: 50px;
+    }
+    &__btn-top {
+      margin-bottom: 5px;
+      height: 5px;
+      width: 40px;
+    }
+    &__btn-bottom {
+      margin-top: 6px;
+      width: 60px;
+      height: 7px;
+    }
+    &__btn::after,
+    &__btn:before {
+      min-width: 40px;
+      height: 4px;
+    }
+    &__btn:before {
+      transform: rotate(-75deg);
+      margin-right: 35px;
+    }
+    &__btn:after {
+      transform: rotate(75deg);
+      margin-left: 35px;
+    }
   }
-  .homeLink {
-    width: 60%;
-  }
-  .homeLink a {
-    font-size: 2em;
+  .navList {
+    top: 8em;
   }
   .logoBrand {
     letter-spacing: 3px;
@@ -170,10 +336,16 @@
 }
 
 @media (min-width: 1000px) {
-.missionLink {
-    right: 4.5em;
+  .navMenu {
+    top: 2em;
+    left: 2em;
   }
-  .mailLink {
-    left: 4em;
+  .navList {
+    top: 8.5em;
+  }
+}
+@media (min-width: 1200px) {
+  .navList {
+    top: 9em;
   }
 }

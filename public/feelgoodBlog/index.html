@@ -10,22 +10,40 @@
 <link rel="shortcut icon" type="image/png" href="/assets/icons/icons8-locomotive-48.png" />
   <title>The HOBO HUB</title>
   <link rel="stylesheet" href="/style.css">
+ 
 </head>
 <body>
-  <div id="google_translate_element"></div>
+  
   <header class="page-header">
+  <!--
   <div class="mailLink">
     <a href="mailto:freighttrainfreddie@gmail.com?subject=Hobo Hub Mail" title="Email Freddie"><img src="/assets/icons/icons8-mail-48.png" />
     </a>
   </div>
+  -->
+  <div class="navMenu">
+    <div class="navMenu__btn-top"></div>
+    <div class="navMenu__btn"></div>
+    <div class="navMenu__btn-bottom"></div>
+  </div>
+  <nav class="navList">
+    <ul>
+      <li><a href="/">The <span>HOBO HUB</span></a></li>
+      <li><a href="">Contact</a></li>
+      <li>
+        <div class="missionLink navLink"><a href="/blog/freddiesblogs/2022-10-23-mission-ftf/" title="Freddie&#39;s Mission" class="missionBtn">Freddie&#39;s Mission</a>
+  </div>
+      </li>
+    </ul>
+  </nav>
   <h1>Dr. Feelgood</h1>
-<div class="homeLink">
-  <a href="/" title="The HOBO HUB">The HOBO HUB</a>
-</div>
+  <div id="google_translate_element"></div>
 </header>
+  
+
   <main>
     
-<div class="missionLink navLink"><a href="/blog/freddiesblogs/2022-05-24-mission-drs/" title="The Dr&#39;s Mission" class="missionBtn"><img src="/assets/icons/icons8-document-60.png" /></a>
+<div class="missionLink navLink"><a href="/blog/freddiesblogs/2022-05-24-mission-drs/" title="The Dr&#39;s Mission" class="missionBtn">The Dr&#39;s Mission</a>
   </div>
 <section class="welcome">
   <p class="lead">
@@ -46,6 +64,20 @@
 </section>
 <section class="chapter">
   <ul><!-- The article-snippet is the short version of the article that also contains the continue reading button -->
+
+<li class="snippet">
+  <div class="snippet__header">
+    <article>
+      <h3 class="snippet__title"> The Source</h3>
+      <p class="snippet__meta">by <span></span> Dec. 12, 2022</p>
+    </article>
+    <img src="/assets/icons/icons8-health-64.png" alt="" class="snippet__image">
+  </div>
+  <article>
+    <p class="snippet__body"></p>
+    <a href="/blog/drsblogs/2022-12-13-drs-source./" class="hubBtn">Continue Reading</a>
+  </article>
+</li><!-- The article-snippet is the short version of the article that also contains the continue reading button -->
 
 <li class="snippet">
   <div class="snippet__header">
@@ -172,5 +204,6 @@ function googleTranslateElementInit() {
 }
 </script>
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+ <script type="module" src="/js/main.js"></script>
 </body>
 </html>
