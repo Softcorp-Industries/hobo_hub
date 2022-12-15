@@ -10,7 +10,7 @@ snippeticon: /assets/icons/icons8-health-64.png
 description: The Wellness Centre assists clients in identifying health needs, removing barriers, and supporting clients in achieving and maintaining health.
 ---
 
-# Mustard Seed Wellness Center
+<p class="subHeader">Mustard Seed Wellness Center</p>
 <br>
 <blockquote cite="https://theseed.ca/services/wellness-centre" target="_blank" title="Wellness Center Web Site">
 The Mustard Seed Wellness Centre provides hope and wellbeing to adults experiencing homelessness or poverty by providing an easily accessible, client-centered program with the goal of improving health. The Wellness Centre assists clients in identifying health needs, removing barriers, and supporting clients in achieving and maintaining health.
