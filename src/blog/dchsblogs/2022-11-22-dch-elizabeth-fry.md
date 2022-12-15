@@ -2,7 +2,7 @@
 title: Elizabeth Fry Society
 author: Duey, Cheatem & Howe
 date: 2022-11-22
-tags: ["post"]
+tags: ["post", "sallyspost"]
 image: /assets/DchsPics/EFRY-programs-cycle-of-pverty.png
 imageAlt:
 figcaption: 1731 – 10 Avenue SW | Calgary, Alberta | T3C 0K1

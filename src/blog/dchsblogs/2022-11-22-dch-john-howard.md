@@ -2,7 +2,7 @@
 title: John Howard Society
 author: Duey, Cheatem & Howe
 date: 2022-11-22
-tags: ["post"]
+tags: ["post", "sallyspost"]
 image: /assets/DchsPics/CJHS-logo.png
 imageAlt: DCH's Image
 figcaption:

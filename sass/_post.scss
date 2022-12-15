@@ -1,9 +1,8 @@
 .post-header {
-  padding: .5em 0;
+  padding: 0.5em 0;
   color: white;
   background-color: rgb(30, 30, 30);
   box-shadow: 0 0 4px 1px black;
-  margin-bottom: 1em;
   h1 {
     width: 75%;
     margin: auto;
@@ -26,6 +25,40 @@
 }
 .post {
   letter-spacing: 1px;
+  .blogHeader {
+    margin: auto;
+    max-width: 750px;
+    text-align: center;
+    margin-bottom: 1.5em;
+    p {
+      font-size: .85em;
+    }
+    p:nth-child(3) {
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-size: 1.15em;
+    }
+    &__title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      p:first-child {
+        width: 100%;
+        font-family: "The Nautigal";
+        font-size: 2.5em;
+        color: steelblue;
+        margin: 0px auto;
+      }
+      p:nth-child(2) {
+        width: 100%;
+        font-family: "Titan One";
+        font-size: 1.5em;
+        color: red;
+        letter-spacing: 2px;
+        margin: 0px auto;
+      }
+    }
+  }
   a {
     color: steelblue;
   }
@@ -99,7 +132,6 @@
 }
 @media (min-width: 600px) {
   .post-header {
-    
     h1 {
       font-size: 2em;
     }
@@ -108,13 +140,23 @@
       width: 50px;
     }
   }
+  .post {
+    .blogHeader {
+      &__title {
+        flex-direction: row;
+        justify-content: center;
+        p:first-child {
+          font-size: 2.25em;
+        }
+      }
+    }
+  }
 }
 
 @media (min-width: 700px) {
   .post-header {
     #righticon,
     #lefticon {
-      
       width: 60px;
     }
     #lefticon {
@@ -122,6 +164,18 @@
     }
     #righticon {
       right: 2em;
+    }
+  }
+  .post {
+    .blogHeader {
+      &__title {
+        p:first-child {
+          font-size: 3em;
+        }
+        p:nth-child(2) {
+          font-size: 2.5em;
+        }
+      }
     }
   }
 }
