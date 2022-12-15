@@ -1,8 +1,8 @@
 ---
 title: Mustard Seed Wellness Center
-author: Tent City Tina
+author: Dr. Feelgood
 date: 2022-10-25
-tags: ["post", "tinaspost", "drspost"]
+tags: ["post", "tinaspost", "drspost","sallyspost"]
 image: /assets/TinasPics/Mustard Seed 1010.jpg
 imageAlt: Wellness Center
 figcaption: Wellness Center | 1010 Center St SE Calgary, AB
