@@ -1,7 +1,7 @@
 ---
 title: Calgary Legal Guidance
 author: Duey Cheatem & Howe
-date: 2022-11-08
+date: 2022-12-01
 tags: ["post", "dchspost"]
 image: /assets/DchsPics/Calgary Legal Guidance.png
 imageAlt: 
@@ -48,6 +48,6 @@ Call <a href="tel:403-234-9266">(403) 234-9266</a> to book appointments.
 
 <div class="post__link">
 Visit the CLG web site
-<img src="/assets/DchsPics/Calgary-Legal-Guidance-logo.svg" />
-<a href="https://clg.ab.ca/" target="_blank">Calgary Legal Guidance</a> 
+
+<a href="https://clg.ab.ca/" target="_blank"><img src="/assets/DchsPics/Calgary-Legal-Guidance-logo.svg" /></a> 
 </div>

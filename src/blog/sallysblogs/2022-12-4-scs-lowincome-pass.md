@@ -3,7 +3,7 @@ title: Low-Income Transit Pass
 author: Shopping Cart Sally
 date: 2022-12-04
 tags: ["post"]
-image: /assets/SallysPics/Calgary-Transit-Logo.svg
+image: /assets/SallysPics/coc-logo-simplify.svg
 imageAlt: Wellness Center
 figcaption: 800 Macleod Trail SE | Calgary Municipal Building | 3rd Floor
 snippeticon: /assets/icons/icons8-bus-64.png

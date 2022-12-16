@@ -18,8 +18,6 @@ Contact:
 
 Email: <a href="mailto:lawlibrary@just.gov.ab.ca" target="_blank">lawlibrary@just.gov.ab.ca</a>
 
-Website: <a href="https://lawlibrary.ab.ca">Alberta Law Libraries</a>
-
 <p class="subHeader">
 Calgary:
 </p>
@@ -33,3 +31,12 @@ Phone: <a href="tel:780-422-2342">780-422-2342</a>
 (toll free) <a href="tel:866-230-8068">866-230-8068</a>
 
 
+<pre>
+
+
+</pre>
+<div class="post__link">
+Please visit the Alberta Law Libraries website
+  
+  <a href="https://lawlibrary.ab.ca/" target="_blank"><img src="/assets/DchsPics/Alberta-Law-Libraries-750px.png" /></a>
+</div>

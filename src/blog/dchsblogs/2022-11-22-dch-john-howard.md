@@ -24,22 +24,40 @@ Toll Free: <a href="tel:1-855-451-6947">1-855-451-6947</a>
 
 Email: <a href="mailto:info@cjhs.ca">info@cjhs.ca</a>
 
+<br>
 
+
+<blockquote>
 The Calgary John Howard Society (CJHS) is a charity that has been reducing crime and making Calgary communities safer since 1949 by helping youth and adults make positive changes and move away from criminal behaviour.
 
 We address the root causes of crime by providing education, employment programs, housing and support so they have alternatives to breaking the law.
 
 Justice is best served through measures that resolve conflict, embrace diversity and repair harm, while holding the individual accountable for their actions. We believe in understanding the context of why a crime was committed or harm was caused. Our goal is to restore relationships and support people in order to prevent future harm, making the Calgary community safer for all.
 
-<blockquote>
-NOTICE: The Gordon Sand Building is open to clients Mondays to Friday from 8:30 AM to 4:30 PM.
-
-Our focus is on the health and safety of our clients, volunteers and staff, while continuing to prevent crime in Calgary communities. We recommend that all clients book an appointment by calling 403-266-4566. Please read our reopening guidelines before coming to the office.
+CJHS offers unique programs for youth and adults from all walks of life, most of whom have experienced trauma that has contributed to their involvement in the justice system. We work to remove the barriers to housing, education and employment that these individuals face, so they can make positive changes and move forward with their lives.
 </blockquote>
 
+<p class="subHeader">Services</p>
+
+Housing
+
+Reintegration
+
+Advocacy and Support
+
+Indigenous Programs
+
+Youth Programs
+
+Restorative Justice Services
+
+<pre>
+
+
+</pre>
 
 <div class="post__link">
 Please visit the Calgary John Howard Society website
-  <img src="/assets/DchsPics/CJHS-logo.png" />
-  <a href="https://www.cjhs.ca/" target="_blank">Calgary John Howard Society</a>
+  
+  <a href="https://www.cjhs.ca/" target="_blank"><img src="/assets/DchsPics/CJHS-logo.png" /></a>
 </div>
