@@ -209,12 +209,12 @@
   height: 4px;
   width: 30px;
   border-radius: 25%;
-  background-color: brown;
+  background-color: #996633;
 }
 .navMenu__btn-top, .navMenu__btn-bottom {
   content: "";
   border-radius: 25%;
-  background-color: brown;
+  background-color: #996633;
 }
 .navMenu__btn-top {
   width: 25px;
