@@ -4,11 +4,6 @@
   montra: Tina's Mission
 ---
 
-<div class="missionLink navLink">
-  {%- for mission in collections.tinasmission -%}
-    {% include "missionLink.njk" %}
-  {%- endfor -%}
-</div>
 <section class="welcome">
   <p class="lead">Hello I'm Tent City Tina.</p>
   <p>
@@ -18,6 +13,7 @@
     Do you need shelter for the night or are looking for more permanent housing? Scroll through my post to see if there is an organization that fits your needs.
   </p>
 </section>
+
 <section class="chapter">
   <ul>
     {%- for post in collections.tinaspost | reverse -%}
