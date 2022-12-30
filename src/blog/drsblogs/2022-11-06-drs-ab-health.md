@@ -1,6 +1,6 @@
 ---
 title: Alberta Adult Health Benefit
-author: Tin Can Tim
+author: Dr. Feelgood
 date: 2022-11-06
 tags: ["post", "drspost"]
 image: /assets/TimsPics/alberta-logo.jpeg
