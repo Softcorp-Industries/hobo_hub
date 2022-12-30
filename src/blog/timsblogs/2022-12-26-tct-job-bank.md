@@ -1,7 +1,7 @@
 ---
 title: Canada Job Bank
 author: Tin Can Tim
-date: 2022-11-26
+date: 2022-12-26
 tags: ["post", "timspost"]
 image: /assets/blogImages/canada-logo.jpeg
 snippeticon: /assets/icons/icons8-banknotes-48.png

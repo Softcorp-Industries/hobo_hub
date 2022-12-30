@@ -1,7 +1,7 @@
 ---
 title: Mustard Seed Wellness Center
 author: Dr. Feelgood
-date: 2022-10-25
+date: 2022-11-07
 tags: ["post", "tinaspost", "drspost","sallyspost"]
 image: /assets/TinasPics/Mustard Seed 1010.jpg
 imageAlt: Wellness Center
