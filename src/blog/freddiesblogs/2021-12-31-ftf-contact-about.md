@@ -2,7 +2,7 @@
 title: CONTACT
 author: Freight Train Freddie
 date: 2021-12-31
-tags: ["post", "contact", "mission"]
+tags: ["post", "contact"]
 image: 
 imageAlt:
 figcaption:
