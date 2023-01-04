@@ -8,13 +8,15 @@ snippeticon: /assets/icons/icons8-hamper-48.png
 
 <br>
 
-### Mustard Seed
+<p class="post__lead">Mustard Seed - Downtown Neighbour Center</p>
 
-Downtown Calgary Neighbour Center | 102 11 Ave SE | Calgary, AB
+102 11 Ave SE | Calgary, AB
+
+<br>
 
 Street Level:
 
-Hot Lunches | 12:00pm time subject to change
+Hot Lunches | 12:00pm | Time and availability subject to change
 
 Bag Lunches | While supplies last
 

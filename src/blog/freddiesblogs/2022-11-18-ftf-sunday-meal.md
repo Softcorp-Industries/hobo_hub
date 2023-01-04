@@ -8,9 +8,11 @@ snippeticon: /assets/icons/icons8-hamper-48.png
 
 <br>
 
-### St. Mary's Catholic Church
+<p class="post__lead">St. Mary's Catholic Church - St. Mary's Hall</p>
 
-St. Mary's Hall | 221 18 ave SW | Calgary, AB
+221 18 ave SW | Calgary, AB
+
+<br>
 
 Hot Lunch/Supper:
 

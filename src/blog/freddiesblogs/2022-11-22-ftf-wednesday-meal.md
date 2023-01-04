@@ -8,29 +8,46 @@ snippeticon: /assets/icons/icons8-hamper-48.png
 
 <br>
 
-### The Salvation Army
+<p class="post__lead">The Alex - Community Food Center</p>
 
-Center of Hope | 420 9th Ave SE | Calgary, AB
+4920 17ave SE | Calgary, AB
 
-Bread Window:
+<br>
 
-Wednesday 1:30pm to 3:30pm | Bread and Snack-bag for Homeless only
+Drop-In Community Lunch:
+
+Nutritious Lunch | 12:00pm - 1:00pm
+
+<br>
+
+Drop-In and join us for a free, nutritious lunch. Adults and supervised children are welcome. 
 
 <br>
 <hr>
 <br>
 
+<p class="post__lead">Mustard Seed - Downtown Neighbour Center</p>
 
-### Mustard Seed
+102 11 Ave SE | Calgary, AB
 
-Downtown Calgary Neighbour Center | 102 11 Ave SE | Calgary, AB
+<br>
 
 Street Level:
 
-Hot Lunches | 12:00pm time subject to change
+Hot Lunches | 12:00pm | Time and availability subject to change
 
 Bag Lunches | While supplies last
 
 <br>
 <hr>
 <br>
+
+<p class="post__lead">The Salvation Army - Center of Hope</p>
+
+420 9th Ave SE | Calgary, AB
+
+<br>
+
+Bread Window:
+
+Wednesday 1:30pm to 3:30pm | Bread and Snack-bag for Homeless only

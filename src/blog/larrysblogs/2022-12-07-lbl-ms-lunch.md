@@ -1,5 +1,5 @@
 ---
-title: Mustard Seed
+title: Mustard Seed - Downtown Neighbour Center
 author: Lunch Box Larry
 date: 2022-12-07
 tags: ["post", "larryspost", "highlight"]
@@ -7,7 +7,7 @@ image: /assets/LarrysPics/Mustard Seed 102.jpeg
 imageAlt:
 figcaption: 102 11 Ave SE, Calgary,AB T2G 0X8 | Downtown Calgary Neighbour Center
 snippeticon: /assets/icons/icons8-hamper-48.png
-description: Dowtown Calgary Neighbour Center | Bag Lunches, Hot Breakfast & Hot Lunches | When Available
+description: Bag Lunches, Hot Breakfast & Hot Lunches, Access to the Internet 
 ---
 
 <p class="subHeader">Downtown Calgary Neighbour Center</p>
