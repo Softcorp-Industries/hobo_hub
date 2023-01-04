@@ -614,7 +614,7 @@
 .quickLinks .quickLink ul li a {
   cursor: pointer;
   display: block;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.6em;
   color: white;
   text-decoration: none;
 }
