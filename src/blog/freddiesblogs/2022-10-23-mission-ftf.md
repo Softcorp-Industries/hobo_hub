@@ -14,7 +14,7 @@ snippeticon: /assets/icons/icons8-locomotive-48.png
 description: This is my Mission Statement
 ---
 <p>
-I walked away from society many years ago. I'm the guy you see with the backpack and hoodie pulled up over his head so he can't be noticed. We haven't talked or understood each other for a long time. So why I'm writing a blog now is just as baffling to me as it is to you. 
+I walked away from society many years ago. I'm the guy you see with the backpack and hoodie pulled up. We haven't talked or understood each other for a long time. So why I'm writing a blog now is just as baffling to me as it is to you. 
 </p>
 <p>
 I guess we should start with an introduction, my name is Freight Train Freddie.
@@ -41,10 +41,10 @@ The Programming and Sofware tutors kept saying that you use IT to solve problems
 <br>
 
 <p>
-I had a real world problem that I manged to fumble my way through over a long period of time. The problem was who, what, where and how in an unkown world. I'm hoping to help solve that problem with a Blog site called The HOBO HUB. I hope the site can save someone a lot of time in their life by connecting them with services they need in the unkown world they're now in. I put together a site using a static site generator called 11ty to bulid 6 different Blog pages. They're used to connect the homeless, low-income and needy with the right people or organizations for their individual needs and concerns.
+I had a real world problem that I manged to fumble my way through over a long period of time. The problem was who, what, where and how in an unkown world. I'm hoping to help solve that problem with a Blog site called The HOBO HUB. I hope the site can save someone a lot of time in their life by connecting them with services they need in the unkown world they're now in. I put together 6 different Blog pages in area's I felt important. They're used to connect the homeless, low-income with the right people or organizations for their individual needs and concerns.
 </p>
 <p>
-The HOBO HUB has three top concerns for the homeless, low-income and the needy. Food, Clothing and Shelter. The HOBO HUB also has three underlying area's of concern which usually in my opinion lead to homelessness, stressfull life situations and or Mental Health issuies. They are Legal issuies, Health problems and or Income concerns.
+The HOBO HUB has three top concerns for the homeless, low-income. Food, Clothing and Shelter. The HOBO HUB also has three underlying area's of concern which usually in my opinion lead to homelessness, stressfull life situations and or Mental Health issuies. They are Legal issuies, Health problems and or Income concerns.
 </p>
 
 <br>
@@ -87,7 +87,7 @@ Shopping Cart Sally
 </p>
 <img src="/assets/icons/icons8-jacket-48.png" width="50px" />
 <p>
-Sally is one of most generous people you will ever meet. Sally can help you find Clothing, Furniture, Household items, Transportation or finding the latest thrift items.
+Sally is one of most generous people you will ever meet. Sally can help you find Clothing, Furniture, Household items or Transportation.
 </p>
 <br>
 <p class="subHeader">
@@ -111,7 +111,7 @@ Tin Can Tim
 </p>
 <img src="/assets/icons/icons8-banknotes-48.png" width="50px" />
 <p>
-Tim will do almost anything for money, he can give you some direction on where to look for employment or income support.
+Tim has done almost anything for money, he can give you some direction on where to look for employment or income support.
 </p>
 <br>
 <p class="subHeader">

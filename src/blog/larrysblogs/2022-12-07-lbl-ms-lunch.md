@@ -10,7 +10,7 @@ snippeticon: /assets/icons/icons8-hamper-48.png
 description: Bag Lunches, Hot Breakfast & Hot Lunches, Access to the Internet 
 ---
 
-<p class="subHeader">Downtown Calgary Neighbour Center</p>
+<p class="subHeader">Downtown Neighbour Center</p>
 
 Phone: <a href="1-833-448-4673">1-833-448-4673</a>
 
@@ -18,7 +18,7 @@ Email: <a href="mailto:info@theseed.ca">info@theseed.ca</a>
 
 Every day from 9 a.m. – 5 p.m. 
 <p class="subHeader">Winter Hours:</p>
-The Mustard Seed is currently providing expanded day-use and warming room services from 7:00 AM to 6:30 PM to homeless clients in the downtown core. We have expanded our services to offer our neighbours in need some reprieve during the winter – these programs and services include:
+The Mustard Seed is currently providing expanded day-use and warming room services from 7:00 AM to 6:30 PM to homeless clients in the downtown core. We have expanded our services to offer our neighbours in need some reprieve during the winter.
 
 <p class="subHeader">Other Services:</p>
 
@@ -49,6 +49,7 @@ Street level supports and light casework management
 Housing and shelter referral and busing available
 
 <br>
+
 <p>Please contact the Center for availability of services
 
 <a href="1-833-448-4673">1-833-448-4673</a>
