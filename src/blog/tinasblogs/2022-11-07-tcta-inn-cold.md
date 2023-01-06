@@ -2,7 +2,7 @@
 title: Inn From The Cold
 author: Tent City Tina
 date: 2022-11-07
-tags: ["post", "dchspost"]
+tags: ["post"]
 image: /assets/TinasPics/IFTC-logo.png
 imageAlt: 
 figcaption: 110 - 706 7 ave SW | Calgary, Ab

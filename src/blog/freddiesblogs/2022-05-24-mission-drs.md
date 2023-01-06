@@ -10,7 +10,7 @@ hubLink: /feelgoodBlog
 visit: See the Dr.
 montra: Health Concerns
 snippeticon: /assets/icons/icons8-health-64.png
-hubDescription: Where to go? Who to see? What does it cost? There are so many challenges with-in our care system for the low-income and homeless, the best help I can give are some posts for people and organizations who can maybe help you. We can't offer any Medical advice only assistance to find the professionals you need.
+hubDescription: Where to go? Who to see? What does it cost? There are so many challenges with-in our health care system for the low-income and homeless, the best help I can give are some posts for people and organizations who can maybe help you. We can't offer any Medical advice only assistance to find the professionals you need.
 description: I hope to be as helpful as possible connecting people to the right resources.
 ---
 
