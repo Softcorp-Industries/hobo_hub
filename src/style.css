@@ -816,10 +816,12 @@
   font-size: 1.25em;
 }
 .post .subHeader {
+  display: block;
   padding-top: 1em;
   font-weight: 700;
   font-size: 1.75em;
   color: steelblue;
+  margin-bottom: 0.25em;
 }
 .post__link {
   margin: 2em auto;

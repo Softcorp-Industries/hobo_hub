@@ -95,10 +95,12 @@
     font-size: 1.25em;
   }
   .subHeader {
+    display: block;
     padding-top: 1em;
     font-weight: 700;
     font-size: 1.75em;
     color: steelblue;
+    margin-bottom: .25em;
   }
   &__link {
     margin: 2em auto;
