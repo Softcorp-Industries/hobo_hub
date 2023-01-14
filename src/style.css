@@ -559,15 +559,25 @@
   }
   .navMenu__btn::after, .navMenu__btn:before {
     min-width: 47px;
-    height: 4px;
+    height: 4.5px;
   }
   .navMenu__btn:before {
     transform: rotate(-77deg);
-    margin-right: 42px;
+    margin-right: 43px;
   }
   .navMenu__btn:after {
     transform: rotate(77deg);
-    margin-left: 42px;
+    margin-left: 43px;
+  }
+  .navMenu.navOpen .navMenu__btn::before {
+    width: 60px;
+    height: 7px;
+    margin-right: 0;
+  }
+  .navMenu.navOpen .navMenu__btn::after {
+    width: 60px;
+    height: 7px;
+    margin-left: 0;
   }
   .navList {
     top: 8.5em;

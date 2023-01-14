@@ -2,7 +2,7 @@
 title: Sheldon Chumir ID Clinic
 author: Shopping Cart Sally
 date: 2022-11-20
-tags: ["id"]
+tags: ["id", "dchspost"]
 image: /assets/blogImages/Sheldon Chumir 1.jpeg
 imageAlt:
 figcaption: 1213 4st SW, Calgary, AB T2R 0X7
