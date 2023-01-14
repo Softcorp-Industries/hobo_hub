@@ -347,7 +347,34 @@
 @media (min-width: 1000px) {
   .navMenu {
     top: 2em;
-    left: 2em;
+    left: 3em;
+    &__btn {
+      height: 6px;
+      width: 65px;
+    }
+    &__btn-top {
+      margin-bottom: 5px;
+      height: 5px;
+      width: 55px;
+    }
+    &__btn-bottom {
+      margin-top: 6px;
+      width: 75px;
+      height: 8px;
+    }
+    &__btn::after,
+    &__btn:before {
+      min-width: 47px;
+      height: 4px;
+    }
+    &__btn:before {
+      transform: rotate(-77deg);
+      margin-right: 42px;
+    }
+    &__btn:after {
+      transform: rotate(77deg);
+      margin-left: 42px;
+    }
   }
   .navList {
     top: 8.5em;

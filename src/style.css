@@ -541,7 +541,33 @@
 @media (min-width: 1000px) {
   .navMenu {
     top: 2em;
-    left: 2em;
+    left: 3em;
+  }
+  .navMenu__btn {
+    height: 6px;
+    width: 65px;
+  }
+  .navMenu__btn-top {
+    margin-bottom: 5px;
+    height: 5px;
+    width: 55px;
+  }
+  .navMenu__btn-bottom {
+    margin-top: 6px;
+    width: 75px;
+    height: 8px;
+  }
+  .navMenu__btn::after, .navMenu__btn:before {
+    min-width: 47px;
+    height: 4px;
+  }
+  .navMenu__btn:before {
+    transform: rotate(-77deg);
+    margin-right: 42px;
+  }
+  .navMenu__btn:after {
+    transform: rotate(77deg);
+    margin-left: 42px;
   }
   .navList {
     top: 8.5em;
@@ -554,7 +580,7 @@
 }
 #google_translate_element {
   margin: auto;
-  width: 200px;
+  max-width: 200px;
   color: white;
   text-align: center;
 }
@@ -683,6 +709,15 @@
   }
 }
 @media (min-width: 700px) {
+  #google_translate_element {
+    max-width: 300px;
+    font-size: 1em;
+  }
+  #google_translate_element select {
+    width: 100%;
+    padding: 0.5em;
+    font-size: 1.5em;
+  }
   .page-header h1 {
     font-size: 4.25em;
   }
