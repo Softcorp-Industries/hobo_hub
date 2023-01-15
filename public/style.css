@@ -6,6 +6,7 @@
   flex-direction: column;
   color: white;
   background-color: rgb(30, 30, 30);
+  box-shadow: inset -3px -3px 5px rgba(60, 60, 60, 0.6), inset 3px 3px 5px rgba(202, 202, 202, 0.6);
   border-radius: 0.5em;
 }
 .snippet__header {
@@ -41,6 +42,7 @@
 
 .hub-snippet {
   background-color: rgb(30, 30, 30);
+  box-shadow: inset -3px -3px 5px rgba(60, 60, 60, 0.6), inset 3px 3px 5px rgba(202, 202, 202, 0.6);
   margin: 2em auto;
   width: 100%;
   max-width: 750px;
@@ -148,6 +150,7 @@
 }
 @media (min-width: 700px) {
   .snippet {
+    margin: 3em auto;
     padding: 1.25em;
   }
   .snippet__header {
@@ -603,7 +606,7 @@
 
 .welcome {
   margin: 1em auto;
-  max-width: 750px;
+  max-width: 700px;
   letter-spacing: 1px;
   font-size: 1.2em;
   color: white;
@@ -623,6 +626,7 @@
 }
 
 .quickLinks {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: top;
@@ -735,7 +739,7 @@
     font-size: 1em;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   .quickLink {
     position: fixed;
     top: 9em;
@@ -747,19 +751,11 @@
   .quickRight {
     right: 0.5em;
   }
-  .welcome {
-    max-width: 525px;
-  }
-}
-@media (min-width: 1200px) {
   .page-header h1 {
     font-size: 5em;
   }
   .quickLink {
     top: 10em;
-  }
-  .welcome {
-    max-width: 700px;
   }
 }
 .post-header {
@@ -833,9 +829,10 @@
   width: 95%;
   max-width: 750px;
   padding: 1em;
-  background-color: rgb(30, 30, 30);
+  background-color: #1e1e1e;
+  box-shadow: inset -3px -3px 5px rgba(60, 60, 60, 0.6), inset 3px 3px 5px rgba(202, 202, 202, 0.6);
   border-radius: 0.5em;
-  border: 1px solid white;
+  border: 1px solid rgb(199, 199, 199);
 }
 .post__image {
   margin: auto;
@@ -846,8 +843,8 @@
   display: block;
   margin: auto;
   width: 100%;
-  box-shadow: 0 0 3px 1px black;
-  border-radius: 0.25em;
+  box-shadow: 0 0 3px rgb(201, 201, 201);
+  border-radius: 0.5em;
   margin-bottom: 0.5em;
 }
 .post__image__caption {
@@ -875,6 +872,8 @@
   min-height: 200px;
   text-align: center;
   background-color: rgb(60, 60, 60);
+  box-shadow: inset -3px -3px 5px rgba(60, 60, 60, 0.6), inset 3px 3px 5px rgba(202, 202, 202, 0.6);
+  border: 1px solid rgb(199, 199, 199);
   border-radius: 0.5em;
 }
 .post__link img {
@@ -963,6 +962,7 @@ body {
 }
 
 main {
+  position: relative;
   margin: auto;
   padding: 1em;
   min-height: 100vh;

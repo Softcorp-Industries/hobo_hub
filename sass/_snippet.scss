@@ -6,6 +6,8 @@
   flex-direction: column;
   color: white;
   background-color: rgba(30, 30, 30);
+  box-shadow: inset -3px -3px 5px rgba(60, 60, 60, 0.6),
+    inset 3px 3px 5px rgba(202, 202, 202, 0.6);
   border-radius: 0.5em;
   &__header {
     width: 100%;
@@ -39,6 +41,9 @@
 }
 .hub-snippet {
   background-color: rgba(30, 30, 30);
+ 
+ box-shadow: inset -3px -3px 5px rgba(60, 60, 60, 0.6),
+    inset 3px 3px 5px rgba(202, 202, 202, 0.6);
   margin: 2em auto;
   width: 100%;
   max-width: 750px;
@@ -147,6 +152,7 @@
 }
 @media (min-width: 700px) {
   .snippet {
+    margin: 3em auto;
     padding: 1.25em;
     &__header {
       margin-bottom: 1.5em;

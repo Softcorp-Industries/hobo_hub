@@ -12,7 +12,7 @@
 }
 .welcome {
   margin: 1em auto;
-  max-width: 750px;
+  max-width: 700px;
   letter-spacing: 1px;
   font-size: 1.2em;
   color: white;
@@ -31,6 +31,7 @@
   }
 }
 .quickLinks {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: top;
@@ -144,6 +145,9 @@
   }
 }
 @media (min-width: 1000px) {
+
+}
+@media (min-width: 1200px) {
   .quickLink {
     position: fixed;
     top: 9em;
@@ -155,19 +159,11 @@
   .quickRight {
     right: 0.5em;
   }
-  .welcome {
-    max-width: 525px;
-  }
-
-}
-@media (min-width: 1200px) {
   .page-header h1 {
     font-size: 5em;
   }
   .quickLink {
     top: 10em;
   }
-  .welcome {
-    max-width: 700px;
-  }
+
 }
