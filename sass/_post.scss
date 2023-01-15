@@ -1,7 +1,6 @@
 .post-header {
   padding: 0.5em 0;
-  color: white;
-  background-color: rgb(30, 30, 30);
+  background-color: var(--darkModeBg2);
   box-shadow: 0 0 4px 1px black;
   h1 {
     width: 75%;
@@ -67,7 +66,7 @@
     width: 95%;
     max-width: 750px;
     padding: 1em;
-    background-color: #1e1e1e;
+    background-color: var(--darkModeBg2);
     box-shadow: inset -3px -3px 5px rgba(60, 60, 60, 0.6),
     inset 3px 3px 5px rgba(202, 202, 202, 0.6);
     border-radius: 0.5em;
@@ -110,7 +109,7 @@
     max-width: 550px;
     min-height: 200px;
     text-align: center;
-    background-color: rgb(60, 60, 60);
+    background-color: var(--darkModeBg2);
     box-shadow: inset -3px -3px 5px rgba(60, 60, 60, 0.6),
     inset 3px 3px 5px rgba(202, 202, 202, 0.6);
     border: 1px solid rgb(199, 199, 199);

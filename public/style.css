@@ -4,8 +4,7 @@
   padding: 0.75em;
   display: flex;
   flex-direction: column;
-  color: white;
-  background-color: rgb(30, 30, 30);
+  background-color: var(--darkModeBg2);
   box-shadow: inset -3px -3px 5px rgba(60, 60, 60, 0.6), inset 3px 3px 5px rgba(202, 202, 202, 0.6);
   border-radius: 0.5em;
 }
@@ -41,12 +40,11 @@
 }
 
 .hub-snippet {
-  background-color: rgb(30, 30, 30);
+  background-color: var(--darkModeBg2);
   box-shadow: inset -3px -3px 5px rgba(60, 60, 60, 0.6), inset 3px 3px 5px rgba(202, 202, 202, 0.6);
   margin: 2em auto;
   width: 100%;
   max-width: 750px;
-  color: white;
   border-radius: 0.5em;
   margin-bottom: 4em;
 }
@@ -177,14 +175,9 @@
 }
 :root {
   --primaryClr: steelblue;
-}
-
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  --darkModeBg: rgb(0, 0, 0);
+  --darkModeBg2: rgba(150, 150, 150, 0.4);
+  --darkModeTxt: rgb(50, 50, 50);
 }
 
 .navMenu {
@@ -248,7 +241,7 @@
   display: block;
   z-index: 1;
   position: absolute;
-  top: 6em;
+  top: 6.25em;
   left: -250px;
   transition: all 0.5s ease-in-out;
 }
@@ -256,7 +249,7 @@
   padding: 0.5em 1em;
   list-style: none;
   text-align: left;
-  background-color: rgb(30, 30, 30);
+  background-color: rgb(189, 189, 189);
 }
 .navList ul li {
   margin-bottom: 0.75em;
@@ -268,7 +261,7 @@
   font-family: "Roboto";
   padding: 0.5em 0.25em;
   text-decoration: none;
-  color: white;
+  color: var(--darkModeTxt);
 }
 .navList ul li a span {
   font-family: "Titan One";
@@ -491,7 +484,7 @@
     margin-left: 0;
   }
   .navList {
-    top: 7em;
+    top: 7.8em;
   }
   .hubNav {
     margin: 3em auto;
@@ -529,7 +522,7 @@
     margin-left: 35px;
   }
   .navList {
-    top: 8em;
+    top: 9.25em;
   }
   .logoBrand {
     letter-spacing: 3px;
@@ -577,13 +570,10 @@
     height: 7px;
     margin-left: 0;
   }
-  .navList {
-    top: 8.5em;
-  }
 }
 @media (min-width: 1200px) {
   .navList {
-    top: 9em;
+    top: 10.2em;
   }
 }
 #google_translate_element {
@@ -604,7 +594,6 @@
   max-width: 700px;
   letter-spacing: 1px;
   font-size: 1.2em;
-  color: white;
 }
 .welcome .lead {
   font-size: 1em;
@@ -639,7 +628,7 @@
   font-family: "the nautigal";
   font-size: 2.25em;
   letter-spacing: 1px;
-  color: steelblue;
+  color: var(--primaryClr);
   text-align: center;
 }
 .quickLinks .quickLink ul {
@@ -650,11 +639,11 @@
   cursor: pointer;
   display: block;
   margin-bottom: 0.6em;
-  color: white;
+  color: var(--darkModeTxt);
   text-decoration: none;
 }
 .quickLinks .quickLink ul li a:hover {
-  color: steelblue;
+  color: var(--primaryClr);
 }
 
 .chapter {
@@ -687,10 +676,11 @@
   padding: 0.5em 0;
   text-align: center;
   letter-spacing: 1px;
-  color: steelblue;
+  color: var(--primaryClr);
   font-weight: 700;
   font-family: "the Nautigal";
-  background-color: rgb(30, 30, 30);
+  background-color: var(--darkModeBg2);
+  box-shadow: 0 0 4px 1px black;
 }
 
 .page-header h1 {
@@ -755,8 +745,7 @@
 }
 .post-header {
   padding: 0.5em 0;
-  color: white;
-  background-color: rgb(30, 30, 30);
+  background-color: var(--darkModeBg2);
   box-shadow: 0 0 4px 1px black;
 }
 .post-header h1 {
@@ -824,7 +813,7 @@
   width: 95%;
   max-width: 750px;
   padding: 1em;
-  background-color: #1e1e1e;
+  background-color: var(--darkModeBg2);
   box-shadow: inset -3px -3px 5px rgba(60, 60, 60, 0.6), inset 3px 3px 5px rgba(202, 202, 202, 0.6);
   border-radius: 0.5em;
   border: 1px solid rgb(199, 199, 199);
@@ -866,7 +855,7 @@
   max-width: 550px;
   min-height: 200px;
   text-align: center;
-  background-color: rgb(60, 60, 60);
+  background-color: var(--darkModeBg2);
   box-shadow: inset -3px -3px 5px rgba(60, 60, 60, 0.6), inset 3px 3px 5px rgba(202, 202, 202, 0.6);
   border: 1px solid rgb(199, 199, 199);
   border-radius: 0.5em;
@@ -947,34 +936,43 @@
     font-size: 2.5em;
   }
 }
-body {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
   font-family: "Roboto";
   font-weight: 900;
-  background-color: black;
+  background-color: var(--darkModeBg);
+  background-image: url("/assets/blogImages/clouds_72634.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 main {
   position: relative;
   margin: auto;
   padding: 1em;
+  color: var(--darkModeTxt);
   min-height: 100vh;
   max-width: 1000px;
-  color: whitesmoke;
 }
 
 footer {
   width: 100%;
-  background-color: rgb(30, 30, 30);
+  background-color: var(--darkModeBg2);
   box-shadow: 0 0 4px 1px black;
 }
 
 footer p {
   padding: 1em 0;
   text-align: center;
-  color: white;
 }
 
 @media (min-width: 400px) {

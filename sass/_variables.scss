@@ -1,10 +1,8 @@
 :root {
   --primaryClr: steelblue;
+
+  --darkModeBg: rgb(0, 0, 0);
+  --darkModeBg2: rgba(150, 150, 150, 0.4);
+
+  --darkModeTxt: rgb(50, 50, 50);
 }
-*,
- *::after,
- *::before {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
- }
