@@ -170,11 +170,6 @@
     height: 50px;
   }
 }
-@media (min-width: 1000px) {
-  .hub-snippet {
-    max-width: 500px;
-  }
-}
 @media (min-width: 1200px) {
   .hub-snippet {
     max-width: 700px;
