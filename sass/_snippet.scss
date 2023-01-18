@@ -5,12 +5,11 @@
   padding: 0.75em;
   display: flex;
   flex-direction: column;
-    backdrop-filter: blur(.5em);
-  //background-color: var(--darkModeBg2);
-  box-shadow: inset -3px -3px 5px rgba(60, 60, 60, 0.6),
-    inset 3px 3px 5px rgba(202, 202, 202, 0.6);
+  backdrop-filter: blur(0.5em);
+  box-shadow: -4px -4px 7px rgba(110, 110, 110, 0.4),
+    4px 4px 7px rgba(0, 0, 0, 0.4);
   border-radius: 0.5em;
-  z-index: -10;
+  
   &__header {
     width: 100%;
     display: flex;
@@ -42,9 +41,10 @@
   color: red;
 }
 .hub-snippet {
-    backdrop-filter: blur(.5em);
+  backdrop-filter: blur(0.5em);
   //background-color: var(--darkModeBg2);
- box-shadow: inset -3px -3px 5px rgba(60, 60, 60, 0.6), inset 3px 3px 5px rgba(202, 202, 202, 0.6);
+  box-shadow: inset -3px -3px 5px rgba(60, 60, 60, 0.6),
+    inset 3px 3px 5px rgba(202, 202, 202, 0.6);
   margin: 2em auto;
   width: 100%;
   max-width: 750px;
@@ -172,12 +172,18 @@
       height: 50px;
     }
   }
+  .hub-snippet {
+  margin-bottom: 5em;
+  }
 }
 @media (min-width: 1000px) {
- 
+  .snippet {
+    margin: 5em auto;
+  }
 }
 @media (min-width: 1200px) {
   .hub-snippet {
     max-width: 700px;
+  margin-bottom: 6.5em;
   }
 }

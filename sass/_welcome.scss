@@ -31,6 +31,7 @@
 }
 .quickLinks {
   position: relative;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   align-items: top;
@@ -90,7 +91,8 @@
   font-family: "Titan One";
 }
 .page-header {
-  
+  position: relative;
+  z-index: 5;
   width: 100%;
   padding: 0.5em 0;
   text-align: center;
@@ -98,9 +100,7 @@
   color: var(--primaryClr);
   font-weight: 700;
   font-family: "the Nautigal";
-  z-index: -1;
     backdrop-filter: blur(.5em);
-
  // background-color: var(--darkModeBg2);
   box-shadow: 0 0 3px 1px rgb(90, 90, 90);
 }
@@ -138,7 +138,7 @@
     select {
       width: 100%;
       padding: .5em;
-      font-size: 1.5em;
+      font-size: 1.25em;
     }
   }
   .page-header h1 {
@@ -151,12 +151,16 @@
   }
 }
 @media (min-width: 1000px) {
-
+#google_translate_element {
+    position: absolute;
+    top: 2em;
+    right: 2em;
+  }
 }
 @media (min-width: 1200px) {
   .quickLink {
     position: fixed;
-    top: 9em;
+    top: 10em;
     height: 400px;
   }
   .quickLeft {
@@ -168,8 +172,4 @@
   .page-header h1 {
     font-size: 5em;
   }
-  .quickLink {
-    top: 10em;
-  }
-
 }

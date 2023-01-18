@@ -48,28 +48,26 @@
     transition: all 0.5s ease-in-out;
   }
   &__btn::before {
-      margin-left: -8px;
-      transform: rotate(-80deg);
-    }
-    &__btn::after {
-      margin-left: 13px;
-      transform: rotate(80deg);
-    }
+    margin-left: -8px;
+    transform: rotate(-80deg);
+  }
+  &__btn::after {
+    margin-left: 13px;
+    transform: rotate(80deg);
+  }
 }
 .navList {
-  z-index: 50;
-  display: block;
   position: absolute;
+  z-index: 5;
   top: 6.25em;
   left: -250px;
   transition: all 0.5s ease-in-out;
+  background-color: rgb(189, 189, 189);
   ul {
     padding: 0.5em 1em;
     list-style: none;
     text-align: left;
-    backdrop-filter: blur(.5em);
-    //background-color: rgb(189, 189, 189);
-  box-shadow: 0 0 3px 1px rgb(90, 90, 90);
+    box-shadow: 0 0 3px 1px rgb(90, 90, 90);
     li {
       margin-bottom: 0.75em;
       a {
@@ -98,6 +96,7 @@
   margin: 2.5em auto;
   height: 325px;
   position: relative;
+  z-index: 1;
   max-width: 500px;
   margin-bottom: 5em;
 }
@@ -129,6 +128,7 @@
 }
 .hubLink {
   position: absolute;
+  z-index: 3;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -161,7 +161,6 @@
   padding: 0.25em;
   text-decoration: none;
 }
-
 
 //  This makes the middle line dissapear
 .navMenu.navOpen .navMenu__btn,
@@ -237,11 +236,9 @@
     }
   }
   .navMenu.navOpen .navMenu__btn::before {
-    
     margin-right: 0;
   }
   .navMenu.navOpen .navMenu__btn::after {
-    
     margin-left: 0;
   }
 }
@@ -298,7 +295,7 @@
     margin-left: 0;
   }
   .navList {
-    top: 7.8em;
+    top: 7.9em;
   }
   .hubNav {
     margin: 3em auto;
@@ -326,7 +323,6 @@
     &__btn::after,
     &__btn:before {
       min-width: 40px;
-      
     }
     &__btn:before {
       transform: rotate(-75deg);
@@ -338,7 +334,9 @@
     }
   }
   .navList {
-    top: 9.25em;
+    top: 9.45em;
+  z-index: 50;
+
   }
   .logoBrand {
     letter-spacing: 3px;
@@ -371,11 +369,11 @@
     }
     &__btn:before {
       transform: rotate(-77deg);
-      margin-right: 43px;
+      margin-right: 38px;
     }
     &__btn:after {
       transform: rotate(77deg);
-      margin-left: 45px;
+      margin-left: 42px;
     }
   }
   .navMenu.navOpen .navMenu__btn::before {
@@ -388,9 +386,12 @@
     height: 7px;
     margin-left: 0;
   }
+  .navList {
+    top: 6.25em;
+  }
 }
 @media (min-width: 1200px) {
   .navList {
-    top: 10.2em;
+    top: 7.15em;
   }
 }
