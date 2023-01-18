@@ -90,6 +90,7 @@
   font-family: "Titan One";
 }
 .page-header {
+  
   width: 100%;
   padding: 0.5em 0;
   text-align: center;
@@ -97,8 +98,11 @@
   color: var(--primaryClr);
   font-weight: 700;
   font-family: "the Nautigal";
-  background-color: var(--darkModeBg2);
-  box-shadow: 0 0 4px 1px black;
+  z-index: -1;
+    backdrop-filter: blur(.5em);
+
+ // background-color: var(--darkModeBg2);
+  box-shadow: 0 0 3px 1px rgb(90, 90, 90);
 }
 .page-header h1 {
   font-size: 2.25em;

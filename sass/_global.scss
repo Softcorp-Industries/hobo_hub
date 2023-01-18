@@ -18,7 +18,7 @@
   }
   
   main {
-    position: relative;
+    
     margin: auto;
     padding: 1em;
     color: var(--darkModeTxt);
@@ -28,8 +28,9 @@
  }
  footer {
   width: 100%;
-  background-color: var(--darkModeBg2);
-  box-shadow: 0 0 4px 1px black;
+    backdrop-filter: blur(.5em);
+  //background-color: var(--darkModeBg2);
+  box-shadow: 0 0 3px 1px rgb(90, 90, 90);
 }
 
 footer p {
