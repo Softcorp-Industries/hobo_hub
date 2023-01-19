@@ -1,7 +1,8 @@
 .post-header {
   min-height: 6em;
   padding: 0.5em 0;
-  background-color: var(--darkModeBg2);
+  backdrop-filter: blur(0.5em);
+  //background-color: var(--darkModeBg2);
   box-shadow: 0 0 4px 1px black;
   h1 {
     width: 75%;
@@ -108,8 +109,8 @@
     max-width: 550px;
     min-height: 200px;
     text-align: center;
-    //background-color: var(--darkModeBg2);
-  backdrop-filter: blur(0.5em);
+    background-color: var(--darkModeBg2);
+    backdrop-filter: blur(0.5em);
     box-shadow: inset -3px -3px 5px rgba(60, 60, 60, 0.6),
     inset 3px 3px 5px rgba(202, 202, 202, 0.6);
     border: 1px solid rgb(199, 199, 199);

@@ -1,14 +1,14 @@
 ---
 title: Find a Doctor
 author: Dr. Feelgood
-date: 2022-11-20
+date: 2023-01-10
 tags: ["post", "drspost"]
-image: /assets/DrsPics/ahs-logo.png
+image: /assets/DrsPics/ahs.png
 snippeticon: /assets/icons/icons8-health-64.png
 description: Use the Alberta Find a Doctor search tool provided by the Primary Care Networks to find a provider accepting new patients near you.
 ---
 
-<p class="subHeader"><a href="">Find a Doctor</a></p>
+<p class="subHeader">Find a Doctor</p>
 
 
 Use the Alberta Find a Doctor search tool provided by the Primary Care Networks to find a provider accepting new patients near you.
