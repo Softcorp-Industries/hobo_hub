@@ -857,6 +857,7 @@
   display: block;
   margin: auto;
   max-width: 100%;
+  min-height: 150px;
   max-height: 500px;
   border-radius: 0.5em;
   margin-bottom: 0.5em;
