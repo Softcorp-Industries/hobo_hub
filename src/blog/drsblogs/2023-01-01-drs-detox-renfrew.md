@@ -19,7 +19,7 @@ Provides a structured environment to support people withdrawing from alcohol and
 
 A 24 / 7 service that helps people detoxifying from alcohol and other drugs in a safe, controlled setting.
 
-<p class="subHeader">Services</p>
+<p class="subHeader">Services:</p>
 
 - stabilizing health
 
@@ -34,6 +34,11 @@ A 24 / 7 service that helps people detoxifying from alcohol and other drugs in a
 - discharge planning
 
 - referral to other programs/services
+
+<br>
+
+<em>ADMISSIONS ONLY BETWEEN: 7:00 AM to 8:00 AM daily.
+Clients are advised to arrive between 7:00 AM - 7:15 AM to have their name taken by security for admission consideration. Entry into the building will not be granted prior to 7:00 AM. Clients should be especially mindful of this during inclement weather days, if planning on arriving to the site prior to 7:00 AM.</em>
 
 <pre>
 
