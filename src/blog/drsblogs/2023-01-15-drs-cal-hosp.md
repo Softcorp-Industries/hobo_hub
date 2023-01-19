@@ -3,7 +3,7 @@ title: Calgary Hospitals
 author: Dr. Feelgood
 date: 2023-01-15
 tags: ["post", "Drspost"]
-image: /assets/DrsPics/ahs-logo.png
+image: /assets/DrsPics/ahs.png
 imageAlt:
 figcaption: Calgary Hospital Locations & Contact
 snippeticon: /assets/icons/icons8-health-64.png

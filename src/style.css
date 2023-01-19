@@ -845,6 +845,9 @@
   border-radius: 0.5em;
   border: 2px solid rgb(155, 155, 155);
 }
+.post ul li {
+  margin-left: 1em;
+}
 .post__image {
   margin: auto;
   max-width: 700px;

@@ -8,4 +8,4 @@ snippeticon: /assets/icons/icons8-health-64.png
 description:
 ---
 
-<a href="https://www.albertahealthservices.ca/services/renfrewrecoverycentre.aspx">Renfew</a>
+<a href="https://www.albertahealthservices.ca/services/renfrewrecoverycentre.aspx" target="_blank">Renfew Detox</a>

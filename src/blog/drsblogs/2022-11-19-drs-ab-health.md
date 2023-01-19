@@ -3,7 +3,7 @@ title: Alberta Adult Health Benefit
 author: Dr. Feelgood
 date: 2022-11-19
 tags: ["post", "drspost"]
-image: /assets/TimsPics/alberta-logo.jpeg
+image: /assets/DrsPics/ahs.png
 snippeticon: /assets/icons/icons8-health-64.png
 description: Benefits are available to low-income Albertans through the Adult Health Benefit.
 ---

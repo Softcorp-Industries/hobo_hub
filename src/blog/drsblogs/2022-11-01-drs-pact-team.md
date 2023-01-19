@@ -3,7 +3,7 @@ title: PACT Team 403-955-6380
 author: Dr. Feelgood
 date: 2022-11-01
 tags: ["post", "Drspost", "emergencyLink"]
-image: /assets/DrsPics/ahs-logo.png
+image: /assets/DrsPics/ahs.png
 imageAlt:
 figcaption: 
 snippeticon: /assets/icons/icons8-health-64.png
@@ -35,6 +35,6 @@ PACT (Police and Crisis Team) offers mental health assessment, support, and / or
 
 <div class="post__link">
 <p>Please visit the PACT website</p>
-<img src="/assets/DrsPics/ahs-logo.png" />
-<a href="https://www.albertahealthservices.ca/findhealth/service.aspx?Id=1050105" target="_blank">PACT Team
+
+<a href="https://www.albertahealthservices.ca/findhealth/service.aspx?Id=1050105" target="_blank"><img src="/assets/DrsPics/ahs.png" /></a>
 </div>
