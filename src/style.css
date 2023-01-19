@@ -859,7 +859,10 @@
   max-width: 100%;
   min-height: 150px;
   max-height: 500px;
+  -webkit-backdrop-filter: blur(0.5em);
+          backdrop-filter: blur(0.5em);
   border-radius: 0.5em;
+  box-shadow: 0 3px 5px 0 black;
   margin-bottom: 0.5em;
 }
 .post__image__caption {
