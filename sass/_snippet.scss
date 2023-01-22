@@ -5,9 +5,10 @@
   padding: 0.75em;
   display: flex;
   flex-direction: column;
+  background-color: var(--darkModeHeader);
   backdrop-filter: blur(0.5em);
-  box-shadow: -4px -4px 7px rgba(110, 110, 110, 0.4),
-    4px 4px 7px rgba(0, 0, 0, 0.4);
+  box-shadow: inset -3px -3px 5px rgba(60, 60, 60, 0.6),
+    inset 3px 3px 5px rgba(202, 202, 202, 0.6);
   border-radius: 0.5em;
   
   &__header {
@@ -42,7 +43,7 @@
 }
 .hub-snippet {
   backdrop-filter: blur(0.5em);
-  //background-color: var(--darkModeBg2);
+  background-color: var(--darkModeHeader);
   box-shadow: inset -3px -3px 5px rgba(60, 60, 60, 0.6),
     inset 3px 3px 5px rgba(202, 202, 202, 0.6);
   margin: 2em auto;

@@ -5,9 +5,10 @@
   padding: 0.75em;
   display: flex;
   flex-direction: column;
+  background-color: var(--darkModeHeader);
   -webkit-backdrop-filter: blur(0.5em);
           backdrop-filter: blur(0.5em);
-  box-shadow: -4px -4px 7px rgba(110, 110, 110, 0.4), 4px 4px 7px rgba(0, 0, 0, 0.4);
+  box-shadow: inset -3px -3px 5px rgba(60, 60, 60, 0.6), inset 3px 3px 5px rgba(202, 202, 202, 0.6);
   border-radius: 0.5em;
 }
 .snippet__header {
@@ -44,6 +45,7 @@
 .hub-snippet {
   -webkit-backdrop-filter: blur(0.5em);
           backdrop-filter: blur(0.5em);
+  background-color: var(--darkModeHeader);
   box-shadow: inset -3px -3px 5px rgba(60, 60, 60, 0.6), inset 3px 3px 5px rgba(202, 202, 202, 0.6);
   margin: 2em auto;
   width: 100%;
@@ -190,6 +192,7 @@
   --primaryClr: steelblue;
   --darkModeBg: rgb(0, 0, 0);
   --darkModeBg2: rgb(189, 189, 189);
+  --darkModeHeader: rgba(255, 255, 255, 0);
   --darkModeTxt: rgb(50, 50, 50);
 }
 
@@ -810,6 +813,7 @@
   font-family: "the Nautigal";
   -webkit-backdrop-filter: blur(0.5em);
           backdrop-filter: blur(0.5em);
+  background-color: var(--darkModeHeader);
   box-shadow: 0 0 3px 1px rgb(90, 90, 90);
 }
 
@@ -882,6 +886,7 @@
   padding: 0.5em 0;
   -webkit-backdrop-filter: blur(0.5em);
           backdrop-filter: blur(0.5em);
+  background-color: var(--darkModeHeader);
   box-shadow: 0 0 4px 1px black;
 }
 .post-header h1 {
@@ -1110,6 +1115,7 @@ body {
 body[data-darkMode=darkMode] {
   --darkModeTxt: rgb(255, 255, 255);
   --darkModeBg2: rgb(40, 40, 40);
+  --darkModeHeader: rgb(40, 40, 40);
 }
 
 main {
@@ -1125,6 +1131,7 @@ footer {
   -webkit-backdrop-filter: blur(0.5em);
           backdrop-filter: blur(0.5em);
   color: var(--darkModeTxt);
+  background-color: var(--darkModeHeader);
   box-shadow: 0 0 3px 1px rgb(90, 90, 90);
 }
 
