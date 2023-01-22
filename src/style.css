@@ -191,8 +191,8 @@
 :root {
   --primaryClr: steelblue;
   --darkModeBg: rgb(0, 0, 0);
-  --darkModeBg2: rgb(189, 189, 189);
-  --darkModeHeader: rgba(255, 255, 255, 0);
+  --darkModeBg2: rgb(164, 175, 185);
+  --darkModeHeader: rgba(0, 0, 0, 0.1);
   --darkModeTxt: rgb(50, 50, 50);
 }
 
@@ -866,6 +866,9 @@
   }
 }
 @media (min-width: 1200px) {
+  #google_translate_element {
+    top: 2.25em;
+  }
   .quickLink {
     position: fixed;
     top: 10em;
@@ -1096,20 +1099,27 @@
   box-sizing: border-box;
 }
 
+body.transition,
+body.transition *,
+body.transition *:before,
+body.transition *:after {
+  transition: all 750ms;
+}
+
 body {
   font-family: "Roboto";
   font-weight: 900;
-  background-color: var(--darkModeBg);
   background-image: url("/assets/blogImages/clouds_72634.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  transition: all 750ms;
 }
 
 .darkModeBg {
-  background-color: var(--darkModeBg);
   transition: all 750ms;
+  background-color: var(--darkModeBg);
 }
 
 body[data-darkMode=darkMode] {

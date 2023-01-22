@@ -5,20 +5,26 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body.transition,
+body.transition *,
+body.transition *:before,
+body.transition *:after {
+  transition: all 750ms;
+}
 body {
   font-family: "Roboto";
   font-weight: 900;
-  background-color: var(--darkModeBg);
+  //background-color: var(--darkModeBg);
   background-image: url("/assets/blogImages/clouds_72634.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  transition: all 750ms;
 }
 .darkModeBg {
-  background-color: var(--darkModeBg);
   transition: all 750ms;
+  background-color: var(--darkModeBg);
 }
 body[data-darkMode="darkMode"] {
   --darkModeTxt: rgb(255, 255, 255);
