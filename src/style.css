@@ -1094,6 +1094,7 @@
 body {
   font-family: "Roboto";
   font-weight: 900;
+  background-color: var(--darkModeBg);
   background-image: url("/assets/blogImages/clouds_72634.jpg");
   background-repeat: no-repeat;
   background-position: center;
