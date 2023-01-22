@@ -5,32 +5,31 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto:ital,wght@0,500;1,900&family=The+Nautigal:wght@400;700&family=Titan+One&display=swap" rel="stylesheet">
-<link rel="shortcut icon" type="image/png" href="/assets/icons/icons8-locomotive-48.png" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto:ital,wght@0,500;1,900&family=The+Nautigal:wght@400;700&family=Titan+One&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="/assets/icons/icons8-locomotive-48.png" />
   <title>The HOBO HUB</title>
   <link rel="stylesheet" href="/style.css">
- 
+  <script type="module" src="/js/main.js"></script>
 </head>
-<body>
+
+<body id="darkModeBg" data-darkMode="light">
   
   <header class="page-header">
-  <!--
-  <div class="mailLink">
-    <a href="mailto:freighttrainfreddie@gmail.com?subject=Hobo Hub Mail" title="Email Freddie"><img src="/assets/icons/icons8-mail-48.png" />
-    </a>
-  </div>
-  -->
+
   <div class="navMenu">
     <div class="navMenu__btn-top"></div>
     <div class="navMenu__btn"></div>
     <div class="navMenu__btn-bottom"></div>
   </div>
+
   <nav class="navList">
     <ul>
       <li><a href="/">The <span>HOBO HUB</span></a></li>
       <li>
-        <div><a href="/blog/freddiesblogs/2022-10-23-mission-ftf/" title="Freddie&#39;s Mission" class="missionBtn">Freddie&#39;s Mission</a>
+        <div><!--  Use for future Mission List -->
+
+<a href="/blog/freddiesblogs/2022-10-23-mission-ftf/" title="Freddie&#39;s Mission" class="missionBtn">Freddie&#39;s Mission</a>
   </div>
       </li>
       <li><a href="/larrysBlog" title="Lunch Box Larry">FOOD</a></li>
@@ -40,15 +39,25 @@
       <li><a href="/feelgoodBlog" title="Dr. Feelgood">HEALTH</a></li>
       <li><a href="/dchBlog" title="Duey, Cheatem & Howe">LEGAL</a></li>
       <li>
-        <div><a href="/blog/freddiesblogs/2021-12-31-ftf-contact-about/" title="CONTACT" class="missionBtn">CONTACT</a>
+        <div><!--  Use for future Mission List -->
+
+<a href="/blog/freddiesblogs/2021-12-31-ftf-contact-about/" title="CONTACT" class="missionBtn">CONTACT</a>
   </li>
     </ul>
   </nav>
+  <div id="darkMode">
+    <div class="darkMode">
+      <span id="darkMode-btn" class="darkMode__btn"></span>
+    </div>
+    <p>Dark Mode</p>
+  </div>
+
   <h1>Freight Train Freddie&#39;s</h1>
+
   <div id="google_translate_element"></div>
+
 </header>
   
-
   <main>
     
 
@@ -251,18 +260,21 @@
 </section></section>
 
   </main>
+
   <footer>
   <p>
     &copy 2022-2023 Freight Train Freddie's HOBO HUB
   </p>
 </footer>
 
-<script type="text/javascript">
-function googleTranslateElementInit() {
+  <script type="text/javascript">
+  function googleTranslateElementInit() {
   new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
-}
-</script>
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
- <script type="module" src="/js/main.js"></script>
+  }
+  </script>
+
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
 </body>
 </html>

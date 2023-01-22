@@ -59,10 +59,10 @@
 .navList {
   position: absolute;
   z-index: 5;
-  top: 6.25em;
+  top: 6.6em;
   left: -250px;
   transition: all 0.5s ease-in-out;
-  background-color: rgb(189, 189, 189);
+  background-color: var(--darkModeBg2);
   ul {
     padding: 0.5em 1em;
     list-style: none;
@@ -89,6 +89,73 @@
         transform: scale(1.1);
       }
     }
+  }
+}
+#darkMode {
+  opacity: 0;
+  transform: scale(0);
+  position: absolute;
+  top: 7.25em;
+  right: 1em;
+  z-index: 10;
+  transition: all 750ms;
+  p {
+    color: var(--darkModeTxt);
+    padding-top: 5px;
+    font-family: "Roboto";
+    font-size: .7em;
+  }
+}
+#darkMode.darkModeShow {
+  opacity: 1;
+  transform: scale(1);
+}
+.darkMode {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 70px;
+  height: 35px;
+  background-color: var(--darkModeBg2);
+  border-radius: 1.2rem;
+  box-shadow: inset -4px -4px 7px #fff, inset 4px 4px 7px rgba(#000, 0.4);
+  &__btn {
+    display: block;
+    cursor: pointer;
+    content: "";
+    min-width: 28px;
+    min-height: 28px;
+    margin-left: 3px;
+    border-radius: 50%;
+    border: none;
+    background-color: whitesmoke;
+    background-image: url("/assets/icons/darkMode-icon.png");
+    background-size: contain;
+    background-position: center;
+  }
+}
+.darkMode__btn.darkModeAnim {
+  animation: dmAnim 500ms ease-in-out forwards;
+}
+.darkMode__btn.darkModeAnimRev {
+  animation: dmAnimRev 500ms ease-in-out forwards;
+}
+
+@keyframes dmAnim {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(35px);
+  }
+}
+@keyframes dmAnimRev {
+  0% {
+    transform: translateX(35px);
+  }
+  100% {
+    transform: translateX(0px);
   }
 }
 
@@ -241,6 +308,12 @@
   .navMenu.navOpen .navMenu__btn::after {
     margin-left: 0;
   }
+  .navList {
+    top: 6.4em;
+  }
+  #darkMode {
+    top: 3em;
+  }
 }
 
 @media (min-width: 600px) {
@@ -294,11 +367,15 @@
     height: 6px;
     margin-left: 0;
   }
+  
+  .hubNav {
+    margin: 3em auto;
+  }
   .navList {
     top: 7.9em;
   }
-  .hubNav {
-    margin: 3em auto;
+  #darkMode {
+    top: 4.25em;
   }
 }
 
@@ -334,9 +411,10 @@
     }
   }
   .navList {
-    top: 9.45em;
-  z-index: 50;
-
+    top: 9.2em;
+  }
+  #darkMode {
+    top: 5.25em;
   }
   .logoBrand {
     letter-spacing: 3px;
@@ -389,9 +467,16 @@
   .navList {
     top: 6.25em;
   }
+  #darkMode {
+    top: 7em;
+    right: 5em;
+  }
 }
 @media (min-width: 1200px) {
   .navList {
     top: 7.15em;
+  }
+  #darkMode {
+    top: 8em;
   }
 }

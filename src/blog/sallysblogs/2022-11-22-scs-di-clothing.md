@@ -3,7 +3,7 @@ title: Drop-in Center
 author: Shopping Cart Sally
 date: 2022-11-22
 tags: ["sallyspost"]
-image: /assets/TinasPics/Drop-in.jpg
+image: /assets/TinasPics/Drop-in-750px.jpg
 imageAlt: Drop-in center
 figcaption: 1 Dermot Baldwin Way SE | Calgary, AB | T2G 0P8
 snippeticon: /assets/icons/icons8-jacket-48.png
