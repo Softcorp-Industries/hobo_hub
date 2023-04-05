@@ -20,32 +20,40 @@ Evening Check-in: 4:00 pm
 
 <div class="post__body">
 
-<p class="atten">
-"In days" at the Mustard Seed shelter will be ending on Monday April 3 2023
-</p>
-
 <p class="subHeader">
 Shelter Bussing:
 </p>
-
 <p>
-Mon - Sun including Holiday | Leaving the Shelter: 
+Leaving Shelter
 </p>
 <p>
-7:20am, 8:40am
+Weekdays 
 </p>
-<p class="atten">
-as of April 3 2023 there will be 3 busses in the morning leaving the shelter 7:00am, 8:00am and 9:00am
+<p>
+7:00am, 8:00am, 9:00am
+</p>
+<p>
+Weekends - including Holidays 
+</p>
+<p>
+7:30am, 9:00am
 </p>
 <p>
 Stops at 39 ave C-Train Station and the Mustard Seed 102 Building Downtown.
 </p>
 <br>
 <p>
-Mon - Sun including Holiday | Returning to Shelter from 102 11 Ave SE Downtown Calgary Neighbour Center:
+Returning to Shelter
 </p>
 <p>
-4:30pm, 5:30pm, 6:30pm
+from 102 11 Ave SE Downtown Calgary Neighbour Center:
+</p>
+
+<p>
+Weekdays & Weekends - including Holidays
+</p>
+<p>
+5:00pm, 6:00pm
 </p>
 
 <br>
