@@ -37,17 +37,3 @@ Street Level:
 Hot Lunches | 12:00pm | Time and availability subject to change
 
 Bag Lunches | While supplies last
-
-<br>
-<hr>
-<br>
-
-<p class="post__lead">The Salvation Army - Center of Hope</p>
-
-420 9th Ave SE | Calgary, AB
-
-<br>
-
-Bread Window:
-
-Wednesday 1:30pm to 3:30pm | Bread and Snack-bag for Homeless only

@@ -8,20 +8,6 @@ snippeticon: /assets/icons/icons8-hamper-48.png
 
 <br>
 
-<p class="post__lead">The Salvation Army - Center of Hope</p>
-
-420 9th Ave SE | Calgary, AB
-
-<br>
-
-Bread Window:
-
-Fri 3:00pm to 5:00pm | Bread for everyone
-
-<br>
-<hr>
-<br>
-
 <p class="post__lead">Mustard Seed - Downtown Neighbour Center</p>
 
 102 11 Ave SE | Calgary, AB
